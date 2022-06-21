@@ -1366,7 +1366,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 0,14.659874,-0.509000003
+			position = 0,14.4708185,-0.509000003
 			isPressure = False
 			calcSelect = True
 			getMass = False
@@ -1390,7 +1390,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 0,14.659874,0.509000003
+			position = 0,14.4708185,0.509000003
 			isPressure = False
 			calcSelect = True
 			getMass = False
@@ -1496,7 +1496,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 7.64428473
+	modCost = 21.8212395
 	modMass = -0.993623018
 	modSize = 0,0,0
 	attN = top,Null_0_0|1|0_0|1|0_0|1|0_0|1|0
@@ -1806,7 +1806,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 0
+		addedCost = 14.1769543
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2449,7 +2449,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 4.72259808
+	modCost = 74.8701096
 	modMass = -0.899729848
 	modSize = 0,0,0
 	link = ROE-Aerobee_4290096606
@@ -2730,7 +2730,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 0
+		addedCost = 70.1475067
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3051,7 +3051,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2000
 		initialFlightData = 4000
-		missionStartTime = 39034535.508568265
+		missionStartTime = 34447303.928659089
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3828,7 +3828,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2108.15503
 		initialFlightData = 2661.11523
-		missionStartTime = 39034535.508568265
+		missionStartTime = 34447303.928659089
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5407,7 +5407,7 @@ PART
 		lastMET = 0
 		currentFlightData = 691.200073
 		initialFlightData = 2377.72412
-		missionStartTime = 39034535.508568265
+		missionStartTime = 34447303.928659089
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
