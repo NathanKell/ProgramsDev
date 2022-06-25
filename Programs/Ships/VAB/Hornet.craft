@@ -2,7 +2,7 @@ ship = Hornet
 version = 1.12.3
 description = 
 type = VAB
-size = 2.77761078,15.5878639,2.77761078
+size = 5.42182302,15.5878639,2.77761078
 steamPublishedFileId = 0
 persistentId = 806011409
 rot = 0,0,0,0
@@ -1643,8 +1643,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1731,7 +1731,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 0
+	sidx = 1
 	sqor = 0
 	sepI = -1
 	attm = 0
@@ -1864,7 +1864,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 1.23315829E-06,16.021368,3.22810905E-07
+			position = 1.23315829E-06,16.2869415,3.22810905E-07
 			isPressure = False
 			calcSelect = True
 			getMass = False
@@ -5135,7 +5135,7 @@ PART
 		lastMET = 0
 		currentFlightData = 5946.83496
 		initialFlightData = 5946.83496
-		missionStartTime = 56461098.961083718
+		missionStartTime = 63556536.779903114
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6859,7 +6859,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 2
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -7124,7 +7124,7 @@ PART
 		lastMET = 0
 		currentFlightData = 29.0133209
 		initialFlightData = 29.0133209
-		missionStartTime = 56461098.961083718
+		missionStartTime = 63556536.779903114
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7285,7 +7285,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 2
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = 0
 	attm = 1
@@ -7542,7 +7542,7 @@ PART
 		lastMET = 0
 		currentFlightData = 29.0133209
 		initialFlightData = 29.0133209
-		missionStartTime = 56461098.961083718
+		missionStartTime = 63556536.779903114
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
