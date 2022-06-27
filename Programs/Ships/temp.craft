@@ -1,12 +1,12 @@
-ship = Skyrocket
+ship = Skyrocket B
 version = 1.12.3
 description = 
-type = None
-size = 6.14839125,3.57468414,12.5832052
+type = SPH
+size = 6.14832687,3.60634804,12.5831757
 steamPublishedFileId = 0
-persistentId = 2020496177
+persistentId = 765244024
 rot = 0,0,0,0
-missionFlag = 
+missionFlag = Squad/Flags/satellite
 vesselType = Debris
 OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
@@ -16,11 +16,11 @@ PART
 {
 	part = RO-X1Cockpit_4289721662
 	partName = Part
-	persistentId = 1996835721
-	pos = 0,5.57468414,0
+	persistentId = 4128255991
+	pos = 0,5,3.30500364
 	attPos = 0,0,0
 	attPos0 = 0,5,0
-	rot = 0.707106769,0,0,0.707106769
+	rot = 0.707106829,0,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0.707106769,0,0,0.707106769
 	mir = 1,1,1
@@ -36,7 +36,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 9.30000019
-	modMass = 0.00927200075
+	modMass = 0.00659999996
 	modSize = 0,0,0
 	link = SmallGearBay_4287304402
 	link = RO-RFTank-Seperate_4289721066
@@ -115,7 +115,7 @@ PART
 		type = Structural
 		utilization = 86
 		volume = 100
-		mass = 0.349999994
+		mass = 0.456623763
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -699,7 +699,6 @@ PART
 				minifiedGUI = False
 				selectedSlot = 0
 				selectedMemorySlotType = 0
-				vesselSaveName = Skyrocket
 				activeSavepoint = -1
 				unlockParts = 
 				unlockTechs = 
@@ -898,17 +897,17 @@ PART
 			}
 			MechJebModuleFlightRecorder
 			{
-				markUT = 62605903.804924928
-				deltaVExpended = 1865.9658738055421
-				dragLosses = 3082.8316587882391
-				gravityLosses = 344.6667522777667
-				steeringLosses = 273.28745896556978
-				markLAN = 18.521236501733881
-				markLatitude = 31.261029555167418
-				markLongitude = -82.500014551964767
-				markAltitude = 9099.3091085463766
+				markUT = 0
+				deltaVExpended = 0
+				dragLosses = 0
+				gravityLosses = 0
+				steeringLosses = 0
+				markLAN = 0
+				markLatitude = 0
+				markLongitude = 0
+				markAltitude = 0
 				markBodyIndex = 1
-				maxDragGees = 1.8350200775828212
+				maxDragGees = 0
 				unlockParts = 
 				unlockTechs = 
 			}
@@ -1003,8 +1002,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Issue
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1036,8 +1035,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Issue
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1070,7 +1069,7 @@ PART
 		firstStart = True
 		prodFactor = 0
 		expState = Running
-		status = Issue
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1134,9 +1133,9 @@ PART
 		remainingSampleMass = 0
 		privateHdId = 0
 		firstStart = True
-		prodFactor = 1
+		prodFactor = 0
 		expState = Running
-		status = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1256,8 +1255,6 @@ PART
 		name = ModuleUnpressurizedCockpit
 		isEnabled = True
 		stagingEnabled = True
-		name__ = X2CockpitUpgrade
-		crewDeathAltitude = 75000
 		EVENTS
 		{
 		}
@@ -1283,7 +1280,6 @@ PART
 		RFBand = UHF
 		xmitIncomplete = False
 		stagingEnabled = True
-		canComm = True
 		EVENTS
 		{
 		}
@@ -1327,8 +1323,7 @@ PART
 		}
 		Log
 		{
-			0 = Land,Earth
-			0 = Flight,Earth
+			flight = 0
 		}
 		UPGRADESAPPLIED
 		{
@@ -1405,11 +1400,11 @@ PART
 {
 	part = SmallGearBay_4287304402
 	partName = Part
-	persistentId = 107909585
-	pos = 0,5.31717682,0.825439453
+	persistentId = 1831654590
+	pos = 0,4.74248743,4.13050842
 	attPos = 0,0.825504601,-0.245220363
 	attPos0 = 0,-4.17232513E-07,0.502732813
-	rot = 0,0,0,1
+	rot = 0,0,0,1.00000012
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = -0.707106829,0,0,0.707106829
 	mir = 1,1,1
@@ -1809,7 +1804,7 @@ PART
 	{
 		name = KSPWheelDeployment
 		isEnabled = True
-		oneShotTriggered = True
+		oneShotTriggered = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1878,11 +1873,11 @@ PART
 {
 	part = RO-RFTank-Seperate_4289721066
 	partName = Part
-	persistentId = 2550252583
-	pos = 0,5.57468367,-3.25
+	persistentId = 1419473924
+	pos = 0,5,0.0549590588
 	attPos = 0,0,0
 	attPos0 = 0,-3.25,4.76837158E-07
-	rot = 0.707106769,0,0,0.707106769
+	rot = 0.707106829,0,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -1897,8 +1892,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 46.7472992
-	modMass = 0.886725187
+	modCost = 49.280304
+	modMass = -0.220587313
 	modSize = 0,0,0
 	link = RO-B9ProcWing-Early_4289548504
 	link = RO-B9ProcWing-Early_4289523900
@@ -1940,7 +1935,7 @@ PART
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Smooth Cone
-		moduleCost = 0.414721489
+		moduleCost = 0.605582952
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2198,10 +2193,10 @@ PART
 	{
 		name = ModuleFuelTanks
 		isEnabled = True
-		type = Tank-Sep-Steel-HP
-		utilization = 75
-		volume = 4879.4618
-		mass = 1.88672519
+		type = Tank-Sep-Steel
+		utilization = 83
+		volume = 5399.9377000000004
+		mass = 0.779412687
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -2215,7 +2210,7 @@ PART
 			name = LqdOxygen
 			note = 
 			utilization = 1
-			mass = 0.000159999996
+			mass = 5.99999985E-05
 			cost = 0.00249999994
 			loss_rate = 0
 			wallThickness = 0.0025000000000000001
@@ -2223,37 +2218,18 @@ PART
 			insulationThickness = 0.01
 			insulationConduction = 0.02
 			isDewar = False
-			temperature = 119.620003
+			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 43.429342599145578
-			maxAmount = 2378.6366390522771
+			amount = 2511.7729775272001
+			maxAmount = 2511.7729775272001
 		}
 		TANK
 		{
-			name = Ethanol75
+			name = HTP
 			note = 
 			utilization = 1
-			mass = 0.000159999996
-			cost = 0.00249999994
-			loss_rate = 0
-			wallThickness = 0.10000000000000001
-			wallConduction = 205
-			insulationThickness = 0
-			insulationConduction = 1
-			isDewar = False
-			temperature = 351.649994
-			fillable = True
-			techRequired = 
-			amount = 31.271810429146878
-			maxAmount = 2240.9721730132592
-		}
-		TANK
-		{
-			name = Nitrogen
-			note = 
-			utilization = 200
-			mass = 0.000159999996
+			mass = 5.99999985E-05
 			cost = 0.00249999994
 			loss_rate = 0
 			wallThickness = 0.10000000000000001
@@ -2264,8 +2240,27 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 908.01552594554096
-			maxAmount = 51970.597586892778
+			amount = 53.464728519772443
+			maxAmount = 53.464728519772443
+		}
+		TANK
+		{
+			name = Ethanol75
+			note = 
+			utilization = 1
+			mass = 5.99999985E-05
+			cost = 0.00249999994
+			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
+			temperature = 351.649994
+			fillable = True
+			techRequired = 
+			amount = 2834.6999939530283
+			maxAmount = 2834.6999939530283
 		}
 		UPGRADESAPPLIED
 		{
@@ -2305,8 +2300,8 @@ PART
 	RESOURCE
 	{
 		name = Ethanol75
-		amount = 2240.9721730132592
-		maxAmount = 2240.9721730132592
+		amount = 2834.6999939530283
+		maxAmount = 2834.6999939530283
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2316,8 +2311,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 2378.6366390522771
-		maxAmount = 2378.6366390522771
+		amount = 2511.7729775272001
+		maxAmount = 2511.7729775272001
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2326,9 +2321,9 @@ PART
 	}
 	RESOURCE
 	{
-		name = Nitrogen
-		amount = 51970.597586892778
-		maxAmount = 51970.597586892778
+		name = HTP
+		amount = 53.464728519772443
+		maxAmount = 53.464728519772443
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2340,11 +2335,11 @@ PART
 {
 	part = RO-B9ProcWing-Early_4289548504
 	partName = Part
-	persistentId = 1824526791
-	pos = -0.424194336,5.5294261,-2.12646484
+	persistentId = 2181869883
+	pos = -0.424162686,4.95474768,1.17866516
 	attPos = -0.271807432,2.62369728,0.0452517085
 	attPos0 = -0.152355254,-1.49999893,3.57627385E-07
-	rot = 0,-0.707106769,-0.707106769,0
+	rot = 0,-0.707106829,-0.707106829,0
 	attRot = 0.49999994,-0.49999994,0.49999994,0.49999994
 	attRot0 = 0,-1,0,0
 	mir = 1,1,1
@@ -2588,7 +2583,7 @@ PART
 		type = Structural
 		utilization = 1
 		volume = 4.9585999999999997
-		mass = 9.99999975E-06
+		mass = 0.0929831937
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -2621,11 +2616,11 @@ PART
 {
 	part = RO-B9ProcCS-Early_4289419516
 	partName = Part
-	persistentId = 259745432
-	pos = -2.5201416,5.5294261,-4.42114258
+	persistentId = 564241771
+	pos = -2.520154,4.95474815,-1.1161232
 	attPos = 0,0,0
 	attPos0 = 2.09598684,-2.29477143,2.38418252E-07
-	rot = 0.707098961,-0.0033307604,0.00333980075,0.707098842
+	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
 	attRot = 0.707106709,0,0.707106709,0
 	attRot0 = 0.00471679866,0.999988854,-1.19209275E-07,-6.39259724E-06
 	mir = 1,1,1
@@ -2886,11 +2881,11 @@ PART
 {
 	part = RO-B9ProcCS-Early_4289073868
 	partName = Part
-	persistentId = 454075991
-	pos = -1.24560547,5.5294261,-4.40917969
+	persistentId = 3235069143
+	pos = -1.2455883,4.95474815,-1.1040988
 	attPos = 0,0,0
 	attPos0 = 0.821423888,-2.28274703,2.38418252E-07
-	rot = 0.707098961,-0.0033307604,0.00333980075,0.707098842
+	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
 	attRot = 0.707106709,0,0.707106709,0
 	attRot0 = 0.00471679866,0.999988854,-1.19209275E-07,-6.39259724E-06
 	mir = 1,1,1
@@ -3149,543 +3144,13 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4286033170
-	partName = Part
-	persistentId = 2948144959
-	pos = -1.5144043,5.5664134,-3.72119141
-	attPos = 2.38418579E-07,-9.53674316E-07,-0.0264038965
-	attPos0 = 1.09020066,-1.59482956,0.0634014383
-	rot = -0.707072198,-0.0070033581,-0.00700335717,-0.70707196
-	attRot = 0,0.707106709,0.707106709,0
-	attRot0 = 1.39698386E-09,-0.999951005,2.08616257E-07,0.00990424305
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 5
-	modMass = 0.038424667
-	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4285994656
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 2.02999997
-		sharedBaseWidthRoot = 0.194999993
-		sharedBaseWidthTip = 0.194999993
-		sharedBaseOffsetRoot = 0
-		sharedBaseOffsetTip = 0
-		sharedBaseThicknessRoot = 0.0649999976
-		sharedBaseThicknessTip = 0.0649999976
-		sharedEdgeTypeLeading = 1
-		sharedEdgeWidthLeadingRoot = 0.239999995
-		sharedEdgeWidthLeadingTip = 0.239999995
-		sharedEdgeTypeTrailing = 2
-		sharedEdgeWidthTrailingRoot = 0.514999986
-		sharedEdgeWidthTrailingTip = 0.514999986
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.70999997854232788
-		aeroStatSemispan = 2.0299999713897705
-		aeroStatMidChordSweep = 0
-		aeroStatTaperRatio = 1
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARControllableSurface
-		isEnabled = True
-		pitchaxis = 0
-		yawaxis = 0
-		rollaxis = 0
-		pitchaxisDueToAoA = 0
-		brakeRudder = 0
-		maxdeflect = 0
-		isFlap = False
-		isSpoiler = True
-		flapDeflectionLevel = 0
-		maxdeflectFlap = 27.5
-		isDynamicDeflection = False
-		dynamicControlStartSpeed = 200
-		exponent = 2
-		minControl = 0.100000001
-		massMultiplier = 0.800000012
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateSpoiler
-			{
-				actionGroup = Brakes
-			}
-			IncreaseDeflect
-			{
-				actionGroup = Custom04
-			}
-			DecreaseDeflect
-			{
-				actionGroup = Custom03
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-flag_4288199122
-	partName = Part
-	persistentId = 2267450943
-	pos = -1.38024879,5.69550276,-2.83496094
-	attPos = 0,0,0
-	attPos0 = 0.956103206,-0.70853442,0.166078016
-	rot = -0.643784761,0.292474568,-0.305168867,-0.637865067
-	attRot = 0,0,0.422618359,0.906307876
-	attRot0 = -0.422597587,-0.906263351,0.00418588519,0.00897620618
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalFlag
-		isEnabled = True
-		flagUrl = PapFlags/Flags/Decal-US-USAF
-		useCustomFlag = True
-		scale = 0.579999983
-		depth = 0.409999996
-		opacity = 1
-		cutoff = 0
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-generic_4288136326
-	partName = Part
-	persistentId = 1504455891
-	pos = -0.908447146,5.65485382,-0.896728754
-	attPos = 0,0,0
-	attPos0 = 0.484296173,1.22964048,0.125414923
-	rot = 0.347471058,0.61584425,-0.608840704,0.35960108
-	attRot = 0,0,0.866025388,-0.5
-	attRot0 = -0.865983009,0.499975502,0.00857721269,-0.00495228171
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-generic_4288102698
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalDecal
-		isEnabled = True
-		scale = 0.460000008
-		depth = 0.100000001
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = 
-		currentSubtype = no-steppy
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = RO-B9ProcWing-Early_4289523900
 	partName = Part
-	persistentId = 4180331383
-	pos = 0.424194336,5.5294261,-2.12646484
+	persistentId = 4125132396
+	pos = 0.424162686,4.95474768,1.17866468
 	attPos = 0.271807432,2.6236968,0.0452517085
 	attPos0 = 0.152355254,-1.49999917,3.57627385E-07
-	rot = -0.707106888,-3.09086161E-08,-3.09086161E-08,-0.70710665
+	rot = -0.707106948,-3.09086197E-08,-3.09086197E-08,-0.707106709
 	attRot = 0.49999994,-0.49999994,0.49999994,0.49999994
 	attRot0 = -1.78813934E-07,-4.37113883E-08,1.77635684E-15,-1
 	mir = 1,1,1
@@ -3929,7 +3394,7 @@ PART
 		type = Structural
 		utilization = 1
 		volume = 4.9585999999999997
-		mass = 9.99999975E-06
+		mass = 0.0929831937
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -3962,11 +3427,11 @@ PART
 {
 	part = RO-B9ProcCS-Early_4289217398
 	partName = Part
-	persistentId = 3360874326
-	pos = 2.5201416,5.5294261,-4.42114258
+	persistentId = 1175323111
+	pos = 2.520154,4.95474815,-1.11612463
 	attPos = 0,0,0
 	attPos0 = 2.09598827,-2.29477262,7.65493724E-07
-	rot = 0.707098961,0.0033307604,-0.00333979935,0.707098842
+	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
 	attRot = 0.707106709,0,0.707106709,0
 	attRot0 = 1.19001122E-07,6.43668591E-06,0.00471679773,-0.999988854
 	mir = 1,1,1
@@ -4227,11 +3692,11 @@ PART
 {
 	part = RO-B9ProcCS-Early_4289002336
 	partName = Part
-	persistentId = 897684815
-	pos = 1.24560547,5.5294261,-4.40917969
+	persistentId = 3653403405
+	pos = 1.2455883,4.95474815,-1.10409975
 	attPos = 0,0,0
 	attPos0 = 0.821424484,-2.28274822,6.49767344E-07
-	rot = 0.707098961,0.0033307604,-0.00333979935,0.707098842
+	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
 	attRot = 0.707106709,0,0.707106709,0
 	attRot0 = 1.19001122E-07,6.43668591E-06,0.00471679773,-0.999988854
 	mir = 1,1,1
@@ -4490,552 +3955,13 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4285994656
-	partName = Part
-	persistentId = 2787343219
-	pos = 1.51434326,5.5664134,-3.72119141
-	attPos = 4.76837158E-07,-1.90734863E-06,0.0264039002
-	attPos0 = 1.09020138,-1.59482884,-0.0634006783
-	rot = 0.707072258,-0.00700335344,-0.00700335251,0.7070719
-	attRot = 0,0.707106709,0.707106709,0
-	attRot0 = -5.96148908E-08,0.00990428496,-3.46318108E-09,-0.999951005
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 5
-	modMass = 0.038424667
-	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4286033170
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 2.02999997
-		sharedBaseWidthRoot = 0.194999993
-		sharedBaseWidthTip = 0.194999993
-		sharedBaseOffsetRoot = 0
-		sharedBaseOffsetTip = 0
-		sharedBaseThicknessRoot = 0.0649999976
-		sharedBaseThicknessTip = 0.0649999976
-		sharedEdgeTypeLeading = 1
-		sharedEdgeWidthLeadingRoot = 0.239999995
-		sharedEdgeWidthLeadingTip = 0.239999995
-		sharedEdgeTypeTrailing = 2
-		sharedEdgeWidthTrailingRoot = 0.514999986
-		sharedEdgeWidthTrailingTip = 0.514999986
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.70999997854232788
-		aeroStatSemispan = 2.0299999713897705
-		aeroStatMidChordSweep = 0
-		aeroStatTaperRatio = 1
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARControllableSurface
-		isEnabled = True
-		pitchaxis = 0
-		yawaxis = 0
-		rollaxis = 0
-		pitchaxisDueToAoA = 0
-		brakeRudder = 0
-		maxdeflect = 0
-		isFlap = False
-		isSpoiler = True
-		flapDeflectionLevel = 0
-		maxdeflectFlap = 27.5
-		isDynamicDeflection = False
-		dynamicControlStartSpeed = 200
-		exponent = 2
-		minControl = 0.100000001
-		massMultiplier = 0.800000012
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateSpoiler
-			{
-				actionGroup = Brakes
-			}
-			IncreaseDeflect
-			{
-				actionGroup = Custom04
-			}
-			DecreaseDeflect
-			{
-				actionGroup = Custom03
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4288193296
-	partName = Part
-	persistentId = 1412433634
-	pos = 1.45483398,5.69403791,-2.91162109
-	attPos = 0,0,0
-	attPos0 = 1.0306375,-0.785262287,-0.164601356
-	rot = -0.643784702,-0.292474717,0.305168808,-0.637864947
-	attRot = 0,0,-0.422618359,0.906307876
-	attRot0 = 0.0041857115,-0.00897621643,-0.422597557,0.906263292
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.360000014
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NAVY
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-generic_4288102698
-	partName = Part
-	persistentId = 3260503916
-	pos = 0.908447266,5.65485334,-0.896728754
-	attPos = 0,0,0
-	attPos0 = 0.484296501,1.22964096,-0.125415325
-	rot = -0.347471088,0.61584425,-0.608840585,-0.359601051
-	attRot = 0,0,0.866025388,-0.5
-	attRot0 = -0.00857731048,-0.00495223794,0.86598295,0.499975502
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-generic_4288136326
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalDecal
-		isEnabled = True
-		scale = 0.460000008
-		depth = 0.100000001
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = 
-		currentSubtype = no-steppy
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = RO-B9ProcWing-Early_4288704188
 	partName = Part
-	persistentId = 2627965611
-	pos = 0,5.87940121,-6.81665039
+	persistentId = 2727526278
+	pos = -1.33198714E-08,5.30472374,-3.51157999
 	attPos = 2.06583106E-08,-0.316525221,0.0839415193
 	attPos0 = -3.3978182E-08,-3.24999762,-0.388664663
-	rot = -0.5,-0.5,-0.5,-0.5
+	rot = -0.50000006,-0.50000006,-0.50000006,-0.50000006
 	attRot = 0.707106709,-0.707106709,0,0
 	attRot0 = 0,-0.707106829,0,-0.707106829
 	mir = 1,1,1
@@ -5279,7 +4205,7 @@ PART
 		type = Structural
 		utilization = 1
 		volume = 0.92610000000000003
-		mass = 9.99999975E-06
+		mass = 0.0385643095
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -5312,11 +4238,11 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288486818
 	partName = Part
-	persistentId = 3016298696
-	pos = 0,6.47864389,-7.14355469
+	persistentId = 159245830
+	pos = 4.62847893E-08,5.90395355,-3.83861876
 	attPos = 0.0239028335,0.0847417712,0
 	attPos0 = 0.57532692,-0.411780417,1.19209275E-07
-	rot = 0.5,0.5,0.5,0.5
+	rot = 0.50000006,0.50000006,0.50000006,0.50000006
 	attRot = -4.21468407E-08,1.19209261E-07,-8.42936814E-08,1
 	attRot0 = 0,0,0,-1
 	mir = 1,1,1
@@ -5558,1322 +4484,8 @@ PART
 		type = Structural
 		utilization = 1
 		volume = 0.16669999999999999
-		mass = 9.99999975E-06
+		mass = 0.00510704657
 		_numberOfAddedMLILayers = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RO-B9ProcWing-Early_4289404094
-	partName = Part
-	persistentId = 3833273486
-	pos = 0,6.800879,-7.38232422
-	attPos = 0.0163383484,0.29635632,0
-	attPos0 = 0.305901587,-0.534966648,5.96046306E-08
-	rot = 0.499999881,0.50000006,0.500000179,0.499999881
-	attRot = -4.21468407E-08,1.19209261E-07,-8.42936814E-08,1
-	attRot0 = -4.21468407E-08,1.78813892E-07,4.21468407E-08,1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0.00545377284
-	modSize = 0,0,0
-	link = RO-B9ProcCS-Early_4288543040
-	link = conformaldecals-text_4290010882
-	link = conformaldecals-text_4288216166
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,-1|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 0.999990523
-		sharedBaseWidthRoot = 0.324995011
-		sharedBaseWidthTip = 0
-		sharedBaseOffsetRoot = -0.450000286
-		sharedBaseOffsetTip = 0.613115609
-		sharedBaseThicknessRoot = 0.120000005
-		sharedBaseThicknessTip = 0.0499999784
-		sharedEdgeTypeLeading = 2
-		sharedEdgeWidthLeadingRoot = 0.47249949
-		sharedEdgeWidthLeadingTip = 0.164999992
-		sharedEdgeTypeTrailing = 1
-		sharedEdgeWidthTrailingRoot = 0.479999989
-		sharedEdgeWidthTrailingTip = 0.479999989
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.48124726116657257
-		aeroStatSemispan = 0.99999052286148071
-		aeroStatMidChordSweep = 31.513353954593992
-		aeroStatTaperRatio = 0.20689796018427267
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARWingAerodynamicModel
-		isEnabled = True
-		massMultiplier = 0.25
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-trailing-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-leading-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleFuelTanks
-		isEnabled = True
-		type = Structural
-		utilization = 1
-		volume = 0.096699999999999994
-		mass = 9.99999975E-06
-		_numberOfAddedMLILayers = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RO-B9ProcCS-Early_4288543040
-	partName = Part
-	persistentId = 180966600
-	pos = 0,7.30280161,-7.99438477
-	attPos = 0.00546550751,-0.0136026144,4.92956787E-09
-	attPos0 = 0.496457398,-0.598433495,6.74981635E-08
-	rot = 0.5,-0.5,-0.5,0.5
-	attRot = -0.0100159347,-0.707031906,-0.0100159347,-0.707039714
-	attRot0 = -6.32202699E-08,-1,-6.32202699E-08,-2.08616228E-07
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0.00871050265
-	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 0.996628881
-		sharedBaseWidthRoot = 0.0799999982
-		sharedBaseWidthTip = 0.0799999982
-		sharedBaseOffsetRoot = 0
-		sharedBaseOffsetTip = 0
-		sharedBaseThicknessRoot = 0.120000012
-		sharedBaseThicknessTip = 0.0499999933
-		sharedEdgeTypeLeading = 1
-		sharedEdgeWidthLeadingRoot = 0.239999995
-		sharedEdgeWidthLeadingTip = 0.239999995
-		sharedEdgeTypeTrailing = 2
-		sharedEdgeWidthTrailingRoot = 0.444999993
-		sharedEdgeWidthTrailingTip = 0.444999993
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.52499997615814209
-		aeroStatSemispan = 0.99662888050079346
-		aeroStatMidChordSweep = 0
-		aeroStatTaperRatio = 1
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARControllableSurface
-		isEnabled = True
-		pitchaxis = 0
-		yawaxis = 100
-		rollaxis = 0
-		pitchaxisDueToAoA = 0
-		brakeRudder = 0
-		maxdeflect = 20
-		isFlap = False
-		isSpoiler = False
-		flapDeflectionLevel = 0
-		maxdeflectFlap = 15
-		isDynamicDeflection = True
-		dynamicControlStartSpeed = 200
-		exponent = 2
-		minControl = 0.100000001
-		massMultiplier = 0.5
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateSpoiler
-			{
-				actionGroup = Brakes
-			}
-			IncreaseDeflect
-			{
-				actionGroup = None
-			}
-			DecreaseDeflect
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4290010882
-	partName = Part
-	persistentId = 1764325619
-	pos = -0.139770493,7.11255503,-7.73388672
-	attPos = -0.267995924,0.178541213,-2.08616257E-07
-	attPos0 = 0.5796628,-0.53011328,-0.139772058
-	rot = -0.0123685896,-0.706998646,0.0123685412,-0.706998587
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.0123687731,0.0123686558,0.706998527,-0.706998706
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4288216166
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.150000006
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NAVY
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4288216166
-	partName = Part
-	persistentId = 1433436467
-	pos = 0.139770523,7.11255503,-7.73388672
-	attPos = -0.26799497,0.178539306,-3.27825546E-07
-	attPos0 = 0.579662681,-0.53011328,0.139772743
-	rot = 0.0123685719,-0.706998587,0.0123685598,0.706998467
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.706998467,-0.706998646,0.0123684295,0.0123685207
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4290010882
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.150000006
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NAVY
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RO-B9ProcCS-Early_4288674548
-	partName = Part
-	persistentId = 1801785774
-	pos = 0,6.63846445,-7.99389648
-	attPos = 0.0511141419,8.86917114E-05,5.96046306E-08
-	attPos0 = 0.108707368,-0.850427985,0
-	rot = 0.499991477,0.500008523,0.499991715,0.500008345
-	attRot = 0.707118988,-0.00145913824,-0.707091093,0.0014591862
-	attRot0 = 0,1.78813892E-07,-1.68587376E-05,1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0.00289652962
-	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 0.332174838
-		sharedBaseWidthRoot = 0.0799999982
-		sharedBaseWidthTip = 0.0799999982
-		sharedBaseOffsetRoot = 0
-		sharedBaseOffsetTip = 0
-		sharedBaseThicknessRoot = 0.140000001
-		sharedBaseThicknessTip = 0.120332025
-		sharedEdgeTypeLeading = 1
-		sharedEdgeWidthLeadingRoot = 0.239999995
-		sharedEdgeWidthLeadingTip = 0.239999995
-		sharedEdgeTypeTrailing = 2
-		sharedEdgeWidthTrailingRoot = 0.444999993
-		sharedEdgeWidthTrailingTip = 0.444999993
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.52499997615814209
-		aeroStatSemispan = 0.33217483758926392
-		aeroStatMidChordSweep = 0
-		aeroStatTaperRatio = 1
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARControllableSurface
-		isEnabled = True
-		pitchaxis = 0
-		yawaxis = 100
-		rollaxis = 0
-		pitchaxisDueToAoA = 0
-		brakeRudder = 0
-		maxdeflect = 20
-		isFlap = False
-		isSpoiler = False
-		flapDeflectionLevel = 0
-		maxdeflectFlap = 15
-		isDynamicDeflection = True
-		dynamicControlStartSpeed = 200
-		exponent = 2
-		minControl = 0.349999994
-		massMultiplier = 0.5
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateSpoiler
-			{
-				actionGroup = Brakes
-			}
-			IncreaseDeflect
-			{
-				actionGroup = None
-			}
-			DecreaseDeflect
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-metal
-		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4289908304
-	partName = Part
-	persistentId = 3870393264
-	pos = -0.165405273,6.6368165,-7.56445313
-	attPos = 0.00699615479,0.0127573609,-5.96046448E-08
-	attPos0 = 0.151196957,-0.433529079,-0.165402099
-	rot = -0.0108570457,-0.707023561,0.0108575355,-0.707023323
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.0108574321,0.0108573427,0.707023442,-0.707023501
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4288267908
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 11.5384636
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.230000004
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NACA
-		fontName = Helvetica SDF
-		style = 1
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4288267908
-	partName = Part
-	persistentId = 1497509617
-	pos = 0.165405273,6.6368165,-7.56445313
-	attPos = 0.00699663162,0.0127554536,5.96046448E-08
-	attPos0 = 0.151196957,-0.433529079,0.165402219
-	rot = 0.0108569991,-0.707023561,0.0108574629,0.707023323
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.707023442,-0.707023501,0.0108574321,0.0108573427
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4289908304
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 11.5384636
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.230000004
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NACA
-		fontName = Helvetica SDF
-		style = 1
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6905,11 +4517,11 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4287736352
 	partName = Part
-	persistentId = 2434510710
-	pos = -0.22845459,5.25702524,-7.5637207
+	persistentId = 590589574
+	pos = -0.228474274,4.68235207,-4.25868559
 	attPos = -0.841260314,-0.0813959241,-0.158473581
 	attPos0 = 0.21888876,-0.665709674,-0.0699997768
-	rot = -3.09086232E-08,-0.707106829,-0.707106829,3.09086232E-08
+	rot = -3.09086268E-08,-0.707106888,-0.707106888,3.09086268E-08
 	attRot = -2.08616271E-07,9.11890768E-15,4.56955718E-08,-1.00000012
 	attRot0 = 3.09086232E-08,0.707106829,3.09086232E-08,0.707106829
 	mir = 1,1,1
@@ -7187,11 +4799,11 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4287730720
 	partName = Part
-	persistentId = 2580868441
-	pos = 0.22845459,5.25702524,-7.5637207
+	persistentId = 1391997614
+	pos = 0.228474334,4.68235207,-4.2586875
 	attPos = -0.841260433,-0.0813978314,0.158473492
 	attPos0 = 0.21888876,-0.665709674,0.0699998364
-	rot = -0.707107127,-5.3385115E-08,-1.15202255E-07,-0.707106411
+	rot = -0.707107246,-5.33850759E-08,-1.15202326E-07,-0.707106531
 	attRot = -2.08616271E-07,9.11890768E-15,4.56955718E-08,-1.00000012
 	attRot0 = 1.68587391E-07,-0.707106769,2.95027945E-07,0.707106888
 	mir = 1,1,1
@@ -7467,531 +5079,13 @@ PART
 }
 PART
 {
-	part = conformaldecals-text_4290071278
-	partName = Part
-	persistentId = 1230805363
-	pos = -0.16998291,6.08267879,-7.64599609
-	attPos = 0,0,0
-	attPos0 = 0.203267068,-0.829360068,-0.17000027
-	rot = -1.1920929E-07,-0.707106948,-2.38418536E-07,-0.70710659
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = 8.94069672E-08,5.96046448E-08,-0.707106709,0.707106948
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4290040464
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.0799999982
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = 1046930
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4290040464
-	partName = Part
-	persistentId = 4001150845
-	pos = 0.16998291,6.08267879,-7.64599609
-	attPos = 0,0,0
-	attPos0 = 0.203267038,-0.829360068,0.170000315
-	rot = 1.34110479E-07,-0.707106948,-2.08616257E-07,0.70710659
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = 0.707106709,0.707106948,-8.94069672E-08,5.96046448E-08
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4290071278
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.0799999982
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = 1046930
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = RO-B9ProcCS-Early_4289074134
-	partName = Part
-	persistentId = 3907752115
-	pos = 0,6.13278818,-7.99267578
-	attPos = -0.0142502785,-2.86102295E-06,0
-	attPos0 = 0.253398865,-1.17604756,5.96046377E-08
-	rot = 0.5,0.5,0.5,0.5
-	attRot = 0.707118988,-0.00145913824,-0.707091093,0.0014591862
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0.0059686047
-	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = WingProcedural
-		isEnabled = True
-		isAttached = True
-		isSetToDefaultValues = True
-		sharedBaseLength = 0.683269143
-		sharedBaseWidthRoot = 0.0799999982
-		sharedBaseWidthTip = 0.0799999982
-		sharedBaseOffsetRoot = 0
-		sharedBaseOffsetTip = 0
-		sharedBaseThicknessRoot = 0.140000001
-		sharedBaseThicknessTip = 0.149050653
-		sharedEdgeTypeLeading = 1
-		sharedEdgeWidthLeadingRoot = 0.239999995
-		sharedEdgeWidthLeadingTip = 0.239999995
-		sharedEdgeTypeTrailing = 2
-		sharedEdgeWidthTrailingRoot = 0.444999993
-		sharedEdgeWidthTrailingTip = 0.444999993
-		sharedMaterialST = 1
-		sharedColorSTOpacity = 0
-		sharedColorSTHue = 0.100000001
-		sharedColorSTSaturation = 0.75
-		sharedColorSTBrightness = 0.600000024
-		sharedMaterialSB = 4
-		sharedColorSBOpacity = 0
-		sharedColorSBHue = 0.100000001
-		sharedColorSBSaturation = 0.75
-		sharedColorSBBrightness = 0.600000024
-		sharedMaterialET = 4
-		sharedColorETOpacity = 0
-		sharedColorETHue = 0.100000001
-		sharedColorETSaturation = 0.75
-		sharedColorETBrightness = 0.600000024
-		sharedMaterialEL = 4
-		sharedColorELOpacity = 0
-		sharedColorELHue = 0.100000001
-		sharedColorELSaturation = 0.75
-		sharedColorELBrightness = 0.600000024
-		sharedSweptAngleFront = 90
-		sharedSweptAngleBack = 90
-		sharedArmorRatio = 0
-		aeroUIMass = 0
-		stockLiftCoefficient = 0
-		aeroStatMeanAerodynamicChord = 0.52499997615814209
-		aeroStatSemispan = 0.68326914310455322
-		aeroStatMidChordSweep = 0
-		aeroStatTaperRatio = 1
-		fuelSelectedTankSetup = 0
-		stagingEnabled = True
-		mirrorTexturing = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARControllableSurface
-		isEnabled = True
-		pitchaxis = 0
-		yawaxis = 100
-		rollaxis = 0
-		pitchaxisDueToAoA = 0
-		brakeRudder = 0
-		maxdeflect = 20
-		isFlap = False
-		isSpoiler = False
-		flapDeflectionLevel = 0
-		maxdeflectFlap = 15
-		isDynamicDeflection = True
-		dynamicControlStartSpeed = 200
-		exponent = 2
-		minControl = 0.100000001
-		massMultiplier = 0.5
-		massOverride = -3.40282347E+38
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateSpoiler
-			{
-				actionGroup = Brakes
-			}
-			IncreaseDeflect
-			{
-				actionGroup = None
-			}
-			DecreaseDeflect
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = Smooth-Metal-Solid
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPTextureSwitch
-		isEnabled = True
-		currentTextureSet = B9PWings-edge-metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = SmallGearBay_4287277958
 	partName = Part
-	persistentId = 3952198108
-	pos = -1.1875,5.42917585,-4.61572266
+	persistentId = 1452822024
+	pos = -1.18753731,4.85449553,-1.31073475
 	attPos = -0.87548548,1.88430202,-0.0657864064
 	attPos0 = -0.312051833,-3.24999428,0.211290821
-	rot = 0,1,0,-4.37113883E-08
+	rot = 0,1.00000012,0,-4.37113918E-08
 	attRot = 3.09086161E-08,0.707106769,-0.707106769,-3.09086161E-08
 	attRot0 = 3.09086197E-08,0.707106829,-0.707106829,-3.09086197E-08
 	mir = 1,1,1
@@ -8380,7 +5474,7 @@ PART
 	{
 		name = KSPWheelDeployment
 		isEnabled = True
-		oneShotTriggered = True
+		oneShotTriggered = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8449,11 +5543,11 @@ PART
 {
 	part = SmallGearBay_4287271306
 	partName = Part
-	persistentId = 1538321357
-	pos = 1.1875,5.42917585,-4.61572266
+	persistentId = 1565897102
+	pos = 1.18753731,4.85449553,-1.3107357
 	attPos = 0.87548548,1.88430107,-0.0657864064
 	attPos0 = 0.312051833,-3.24999428,0.211290821
-	rot = 0,1,0,4.37113634E-08
+	rot = 0,1.00000012,0,4.3711367E-08
 	attRot = 3.09086161E-08,0.707106769,-0.707106769,-3.09086161E-08
 	attRot0 = 0,0.707106829,-0.707106829,0
 	mir = 1,1,1
@@ -8842,7 +5936,7 @@ PART
 	{
 		name = KSPWheelDeployment
 		isEnabled = True
-		oneShotTriggered = True
+		oneShotTriggered = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8911,11 +6005,11 @@ PART
 {
 	part = RO-RFTank-Seperate_4289643526
 	partName = Part
-	persistentId = 2696502497
-	pos = 0,5.57468319,-7
+	persistentId = 3571358937
+	pos = 0,5.00000048,-3.69507551
 	attPos = 0,0,0
 	attPos0 = 0,-3.75000072,0
-	rot = 0.707106769,0,0,0.707106769
+	rot = 0.707106829,0,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -9277,11 +6371,11 @@ PART
 {
 	part = SSTUHollowRing.Boattail_4289637162
 	partName = Part
-	persistentId = 4144204388
-	pos = 0,5.57468319,-7.50268555
+	persistentId = 480471303
+	pos = -9.52766754E-11,5,-4.19769907
 	attPos = 0,0,0
 	attPos0 = 0,-1.5000025,0
-	rot = 0,-0.707106769,0.707106769,0
+	rot = 0,-0.707106829,0.707106829,0
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0,0,1,0
 	mir = 1,1,1
@@ -9307,6 +6401,12 @@ PART
 	attN = bottom,RO-RFTank-Seperate_4289643526_0|0|0_0|-1|0_0|0|0_0|-1|0
 	attN = connect01,KzProcFairingSide2.TU_4290783262_1|0.0216000006|0_0|1|0_0.400000006|0.0216000006|0_0|1|0
 	attN = connect02,KzProcFairingSide2.TU_4288713590_-1|0.0216000006|-8.74227766E-08_0|1|0_-0.400000006|0.0216000006|-3.49691121E-08_0|1|0
+	attN = connect03,Null_0_-0.499999911|0.0216000006|-0.866025448_0|1|0_10000|0.0216000006|-0.866025448_0|1|0
+	attN = connect04,Null_0_1.19248806E-08|0.0216000006|-1_0|1|0_10000|0.0216000006|-1_0|1|0
+	attN = connect05,Null_0_0.5|0.0299999993|0_0|1|0_10000|0.0216000006|0_0|1|0
+	attN = connect06,Null_0_0.5|0.0299999993|0_0|1|0_10000|0.0216000006|0_0|1|0
+	attN = connect07,Null_0_0.5|0.0299999993|0_0|1|0_10000|0.0216000006|0_0|1|0
+	attN = connect08,Null_0_0.5|0.0299999993|0_0|1|0_10000|0.0216000006|0_0|1|0
 	EVENTS
 	{
 	}
@@ -9470,11 +6570,11 @@ PART
 {
 	part = ROE-XLR11_4289698734
 	partName = Part
-	persistentId = 2872233034
-	pos = 0,5.57468271,-7.86108398
+	persistentId = 1311666075
+	pos = 2.20738396E-08,4.99999952,-4.55614328
 	attPos = -2.2169111E-08,0.0502353907,4.76837158E-07
 	attPos0 = 0,0.308201194,0
-	rot = 0.5,0.49999994,0.50000006,0.5
+	rot = 0.50000006,0.5,0.500000119,0.50000006
 	attRot = 0,0.707106829,5.96046448E-08,0.707106829
 	attRot0 = 0.707106829,0,-0.707106829,5.96046448E-08
 	mir = 1,1,1
@@ -9489,11 +6589,11 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
+	modCost = 100
+	modMass = 0.0621159971
 	modSize = 0,0,0
 	attN = top,SSTUHollowRing.Boattail_4289637162_0|0.264999986|0_0|1|0_0|0.264999986|0_0|1|0
-	attN = bottom,Null_0_0|-0.36500001|0_0|-1|0_0|-0.36500001|0_0|-1|0
+	attN = bottom,Null_0_0|-0.36500001|0_0|-1|0_0|-0.621999979|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -9525,7 +6625,7 @@ PART
 		enableYaw = True
 		enablePitch = True
 		enableRoll = True
-		gimbalActive = True
+		gimbalActive = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9566,10 +6666,10 @@ PART
 		name = ModuleEnginesRF
 		isEnabled = True
 		autoCutoff = True
-		ignited = True
-		ignitions = 3
-		partSeed = 1692315437
-		calculatedResiduals = 0.014
+		ignited = False
+		ignitions = 4
+		partSeed = -1
+		calculatedResiduals = 0.0070000000000000001
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -9630,14 +6730,6 @@ PART
 		}
 		Ullage
 		{
-			UllageSim
-			{
-				ullageHeightMin = 0
-				ullageHeightMax = 0
-				ullageRadialMin = 0
-				ullageRadialMax = 0
-				UT = -1.7976931348623157E+308
-			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -9664,7 +6756,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = model
-		currentSubtype = rm3
+		currentSubtype = rm5
 		EVENTS
 		{
 		}
@@ -9759,8 +6851,8 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = XLR11-RM-3
-		configurationDisplay = XLR11-RM-3
+		configuration = XLR11-RM-5
+		configurationDisplay = XLR11-RM-5
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -9811,7 +6903,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = rm3
+		currentSubtype = rm5
 		EVENTS
 		{
 		}
@@ -9842,10 +6934,10 @@ PART
 		name = TestFlightCore
 		isEnabled = True
 		operatingTime = 0
-		lastMET = 1088.8173985108733
-		currentFlightData = 4089.4292
-		initialFlightData = 3424.4939
-		missionStartTime = 62605904.764925085
+		lastMET = 0
+		currentFlightData = 0
+		initialFlightData = 1226.82874
+		missionStartTime = 74174749.09375985
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9862,7 +6954,7 @@ PART
 	{
 		name = FlightDataRecorder_Engine
 		isEnabled = True
-		lastRecordedMet = 373.863007
+		lastRecordedMet = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9878,8 +6970,8 @@ PART
 	{
 		name = TestFlightReliability
 		isEnabled = True
-		lastCheck = 483.209106
-		lastReliability = 0.979120731
+		lastCheck = 0
+		lastReliability = 1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9895,9 +6987,9 @@ PART
 	{
 		name = TestFlightReliability_EngineCycle
 		isEnabled = True
-		engineOperatingTime = 2301.1063544228673
+		engineOperatingTime = 0
 		currentRunTime = 0
-		previousOperatingTime = 62606993.102323517
+		previousOperatingTime = 0
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -9931,8 +7023,8 @@ PART
 	{
 		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		numIgnitions = 6
-		previousTime = 62606993.582323596
+		numIgnitions = 0
+		previousTime = 0
 		failed = False
 		stagingEnabled = True
 		EVENTS
@@ -9940,12 +7032,6 @@ PART
 		}
 		ACTIONS
 		{
-		}
-		ENGINE_RUN_DATA
-		{
-			id = 0
-			hasBeenRun = True
-			timeSinceLastShutdown = 714.908508
 		}
 		UPGRADESAPPLIED
 		{
@@ -10032,13 +7118,543 @@ PART
 }
 PART
 {
+	part = RO-B9ProcCS-Early_4286033170
+	partName = Part
+	persistentId = 1035558209
+	pos = -1.51436734,4.99174547,-0.416176319
+	attPos = 2.38418579E-07,-9.53674316E-07,-0.0264038965
+	attPos0 = 1.09020066,-1.59482956,0.0634014383
+	rot = -0.707072258,-0.0070033581,-0.00700335624,-0.70707202
+	attRot = 0,0.707106709,0.707106709,0
+	attRot0 = 1.39698386E-09,-0.999951005,2.08616257E-07,0.00990424305
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 5
+	modMass = 0.038424667
+	modSize = 0,0,0
+	sym = RO-B9ProcCS-Early_4285994656
+	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 2.02999997
+		sharedBaseWidthRoot = 0.194999993
+		sharedBaseWidthTip = 0.194999993
+		sharedBaseOffsetRoot = 0
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.0649999976
+		sharedBaseThicknessTip = 0.0649999976
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.239999995
+		sharedEdgeWidthLeadingTip = 0.239999995
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.514999986
+		sharedEdgeWidthTrailingTip = 0.514999986
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.70999997854232788
+		aeroStatSemispan = 2.0299999713897705
+		aeroStatMidChordSweep = 0
+		aeroStatTaperRatio = 1
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 0
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 0
+		isFlap = False
+		isSpoiler = True
+		flapDeflectionLevel = 0
+		maxdeflectFlap = 27.5
+		isDynamicDeflection = False
+		dynamicControlStartSpeed = 200
+		exponent = 2
+		minControl = 0.100000001
+		massMultiplier = 0.800000012
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = Custom04
+			}
+			DecreaseDeflect
+			{
+				actionGroup = Custom03
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-B9ProcCS-Early_4285994656
+	partName = Part
+	persistentId = 446172233
+	pos = 1.51436591,4.99174547,-0.416177511
+	attPos = 4.76837158E-07,-1.90734863E-06,0.0264039002
+	attPos0 = 1.09020138,-1.59482884,-0.0634006783
+	rot = 0.707072318,-0.00700335484,-0.00700335391,0.70707196
+	attRot = 0,0.707106709,0.707106709,0
+	attRot0 = -5.96148908E-08,0.00990428496,-3.46318108E-09,-0.999951005
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 5
+	modMass = 0.038424667
+	modSize = 0,0,0
+	sym = RO-B9ProcCS-Early_4286033170
+	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 2.02999997
+		sharedBaseWidthRoot = 0.194999993
+		sharedBaseWidthTip = 0.194999993
+		sharedBaseOffsetRoot = 0
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.0649999976
+		sharedBaseThicknessTip = 0.0649999976
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.239999995
+		sharedEdgeWidthLeadingTip = 0.239999995
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.514999986
+		sharedEdgeWidthTrailingTip = 0.514999986
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.70999997854232788
+		aeroStatSemispan = 2.0299999713897705
+		aeroStatMidChordSweep = 0
+		aeroStatTaperRatio = 1
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 0
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 0
+		isFlap = False
+		isSpoiler = True
+		flapDeflectionLevel = 0
+		maxdeflectFlap = 27.5
+		isDynamicDeflection = False
+		dynamicControlStartSpeed = 200
+		exponent = 2
+		minControl = 0.100000001
+		massMultiplier = 0.800000012
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = Custom04
+			}
+			DecreaseDeflect
+			{
+				actionGroup = Custom03
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.7176471,0.7176471,0.7176471,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
 	part = KzProcFairingSide2.TU_4288713590
 	partName = Part
-	persistentId = 793734064
-	pos = 0.399993896,5.57468319,-7.02429199
+	persistentId = 2862817902
+	pos = 0.400000095,5,-3.71930122
 	attPos = 0,0,0
 	attPos0 = -0.400000036,-0.478398323,0
-	rot = -0.707106709,-5.04076425E-08,5.04076354E-08,0.707106829
+	rot = -0.707106769,-5.04075928E-08,5.04075857E-08,0.707106888
 	attRot = -0.99999994,0,0,0
 	attRot0 = 0,1,0,0
 	mir = 1,1,1
@@ -10321,11 +7937,11 @@ PART
 {
 	part = KzProcFairingSide2.TU_4290783262
 	partName = Part
-	persistentId = 3990909215
-	pos = -0.399993896,5.57468319,-7.02429199
+	persistentId = 3769440881
+	pos = -0.400000095,5,-3.71930122
 	attPos = 0,0,0
 	attPos0 = 0.400000036,-0.478398323,0
-	rot = 5.04076354E-08,0.707106829,-0.707106709,-5.04076425E-08
+	rot = 5.04075857E-08,0.707106888,-0.707106769,-5.04075928E-08
 	attRot = -0.99999994,0,0,0
 	attRot0 = 0,1,-8.94069672E-08,0
 	mir = 1,1,1
@@ -10606,267 +8222,13 @@ PART
 }
 PART
 {
-	part = conformaldecals-text_4290248434
-	partName = Part
-	persistentId = 438301249
-	pos = -0.549926758,5.57468319,-6.98950195
-	attPos = 0,0,0
-	attPos0 = -0.549944758,0.0105051994,0
-	rot = 0,0.671319246,1.78813934E-07,0.741168261
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.524085104,0.47469455,-0.474694371,0.524085104
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4290167116
-	srfN = srfAttach,RO-RFTank-Seperate_4289643526,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.25999999
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NAVY
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4290167116
-	partName = Part
-	persistentId = 3443482686
-	pos = 0.549926758,5.57468319,-6.98950195
-	attPos = 0,0,0
-	attPos0 = 0.549944758,0.0105051994,0
-	rot = 0,-0.671319246,-1.1920929E-07,0.741168261
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.524085104,-0.47469449,0.474694312,0.524085104
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4290248434
-	srfN = srfAttach,RO-RFTank-Seperate_4289643526,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = False
-		lineSpacing = 0
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = False
-		outlineWidth = 0.100000001
-		scale = 0.25999999
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = NAVY
-		fontName = Waukegan LDO Extended SDF
-		style = 0
-		fillColor = #000000ff
-		outlineColor = #ffffffff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = conformaldecals-generic_4290346536
 	partName = Part
-	persistentId = 1196970095
-	pos = 0,6.2435379,-0.376465321
+	persistentId = 4004912843
+	pos = 5.85717999E-08,5.66884613,2.92863297
 	attPos = 0,0,0
 	attPos0 = 5.85717999E-08,2.87365794,-0.668846309
-	rot = -0.497873008,0.497872978,-0.502117872,-0.502118051
+	rot = -0.497873038,0.497873068,-0.502118051,-0.502118111
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 0.00300171925,-0.00300165964,-0.707100451,-0.707100451
 	mir = 1,1,1
@@ -11007,15 +8369,15 @@ PART
 }
 PART
 {
-	part = conformaldecals-flag_4290682750
+	part = conformaldecals-text_4290248434
 	partName = Part
-	persistentId = 105881572
-	pos = -0.60925293,5.57468367,-5.8730464
+	persistentId = 3670438606
+	pos = -0.549944758,5.00000048,-3.68457031
 	attPos = 0,0,0
-	attPos0 = -0.609252632,-2.62287712,-4.76836959E-07
-	rot = 0,0.698059916,5.96046448E-08,0.7160393
+	attPos0 = -0.549944758,0.0105051994,0
+	rot = 0,0.671319366,1.49011612E-07,0.74116832
 	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.506316245,0.493602931,-0.493602872,0.506316245
+	attRot0 = -0.524085104,0.47469455,-0.474694371,0.524085104
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -11031,8 +8393,2219 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = conformaldecals-flag_4287740568
-	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	sym = conformaldecals-text_4290167116
+	srfN = srfAttach,RO-RFTank-Seperate_4289643526,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.25999999
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NAVY
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4290167116
+	partName = Part
+	persistentId = 74366240
+	pos = 0.549944758,5.00000048,-3.68457031
+	attPos = 0,0,0
+	attPos0 = 0.549944758,0.0105051994,0
+	rot = 0,-0.671319306,-1.1920929E-07,0.74116832
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.524085104,-0.47469449,0.474694312,0.524085104
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4290248434
+	srfN = srfAttach,RO-RFTank-Seperate_4289643526,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.25999999
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NAVY
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4290071278
+	partName = Part
+	persistentId = 959115338
+	pos = -0.170000792,5.50799084,-4.34094
+	attPos = 0,0,0
+	attPos0 = 0.203267068,-0.829360068,-0.17000027
+	rot = -1.49011612E-07,-0.707107067,-1.78813934E-07,-0.707106709
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = 8.94069672E-08,5.96046448E-08,-0.707106709,0.707106948
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4290040464
+	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.0799999982
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = 1046930
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4290040464
+	partName = Part
+	persistentId = 4079233131
+	pos = 0.170000747,5.50799084,-4.34094
+	attPos = 0,0,0
+	attPos0 = 0.203267038,-0.829360068,0.170000315
+	rot = 1.49011612E-07,-0.707107067,-1.78813934E-07,0.707106709
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = 0.707106709,0.707106948,-8.94069672E-08,5.96046448E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4290071278
+	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.0799999982
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = 1046930
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-B9ProcWing-Early_4289404094
+	partName = Part
+	persistentId = 124673313
+	pos = 4.62848035E-08,6.2261982,-4.07722902
+	attPos = 0.0163383484,0.29635632,0
+	attPos0 = 0.305901587,-0.534966648,5.96046306E-08
+	rot = 0.49999997,0.500000119,0.500000238,0.49999997
+	attRot = -4.21468407E-08,1.19209261E-07,-8.42936814E-08,1
+	attRot0 = -4.21468407E-08,1.78813892E-07,4.21468407E-08,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0.00545377284
+	modSize = 0,0,0
+	link = RO-B9ProcCS-Early_4288543040
+	link = conformaldecals-text_4290010882
+	link = conformaldecals-text_4288216166
+	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,-1|0|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 0.999990523
+		sharedBaseWidthRoot = 0.324995011
+		sharedBaseWidthTip = 0
+		sharedBaseOffsetRoot = -0.450000286
+		sharedBaseOffsetTip = 0.613115609
+		sharedBaseThicknessRoot = 0.120000005
+		sharedBaseThicknessTip = 0.0499999784
+		sharedEdgeTypeLeading = 2
+		sharedEdgeWidthLeadingRoot = 0.47249949
+		sharedEdgeWidthLeadingTip = 0.164999992
+		sharedEdgeTypeTrailing = 1
+		sharedEdgeWidthTrailingRoot = 0.479999989
+		sharedEdgeWidthTrailingTip = 0.479999989
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.48124726116657257
+		aeroStatSemispan = 0.99999052286148071
+		aeroStatMidChordSweep = 31.513353954593992
+		aeroStatTaperRatio = 0.20689796018427267
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARWingAerodynamicModel
+		isEnabled = True
+		massMultiplier = 0.25
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-trailing-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-leading-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Structural
+		utilization = 1
+		volume = 0.096699999999999994
+		mass = 0.00546377292
+		_numberOfAddedMLILayers = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-B9ProcCS-Early_4289074134
+	partName = Part
+	persistentId = 2356629892
+	pos = 1.64824581E-08,5.55812263,-4.68763685
+	attPos = -0.0142502785,-2.86102295E-06,0
+	attPos0 = 0.253398865,-1.17604756,5.96046377E-08
+	rot = 0.50000006,0.50000006,0.50000006,0.50000006
+	attRot = 0.707118988,-0.00145913824,-0.707091093,0.0014591862
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0.0059686047
+	modSize = 0,0,0
+	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 0.683269143
+		sharedBaseWidthRoot = 0.0799999982
+		sharedBaseWidthTip = 0.0799999982
+		sharedBaseOffsetRoot = 0
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.140000001
+		sharedBaseThicknessTip = 0.149050653
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.239999995
+		sharedEdgeWidthLeadingTip = 0.239999995
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.444999993
+		sharedEdgeWidthTrailingTip = 0.444999993
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.52499997615814209
+		aeroStatSemispan = 0.68326914310455322
+		aeroStatMidChordSweep = 0
+		aeroStatTaperRatio = 1
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 100
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 20
+		isFlap = False
+		isSpoiler = False
+		flapDeflectionLevel = 0
+		maxdeflectFlap = 15
+		isDynamicDeflection = True
+		dynamicControlStartSpeed = 200
+		exponent = 2
+		minControl = 0.100000001
+		massMultiplier = 0.5
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = None
+			}
+			DecreaseDeflect
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-B9ProcCS-Early_4288674548
+	partName = Part
+	persistentId = 2812534468
+	pos = 4.62848035E-08,6.06377506,-4.68896246
+	attPos = 0.0511141419,8.86917114E-05,5.96046306E-08
+	attPos0 = 0.108707368,-0.850427985,0
+	rot = 0.499991536,0.500008583,0.499991775,0.500008404
+	attRot = 0.707118988,-0.00145913824,-0.707091093,0.0014591862
+	attRot0 = 0,1.78813892E-07,-1.68587376E-05,1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0.00289652962
+	modSize = 0,0,0
+	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 0.332174838
+		sharedBaseWidthRoot = 0.0799999982
+		sharedBaseWidthTip = 0.0799999982
+		sharedBaseOffsetRoot = 0
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.140000001
+		sharedBaseThicknessTip = 0.120332025
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.239999995
+		sharedEdgeWidthLeadingTip = 0.239999995
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.444999993
+		sharedEdgeWidthTrailingTip = 0.444999993
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.52499997615814209
+		aeroStatSemispan = 0.33217483758926392
+		aeroStatMidChordSweep = 0
+		aeroStatTaperRatio = 1
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 100
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 20
+		isFlap = False
+		isSpoiler = False
+		flapDeflectionLevel = 0
+		maxdeflectFlap = 15
+		isDynamicDeflection = True
+		dynamicControlStartSpeed = 200
+		exponent = 2
+		minControl = 0.349999994
+		massMultiplier = 0.5
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = None
+			}
+			DecreaseDeflect
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-metal
+		persistentData = 1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1;1,0.7607843,0,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-B9ProcCS-Early_4288543040
+	partName = Part
+	persistentId = 2002972938
+	pos = -1.33198785E-08,6.72812843,-4.68926954
+	attPos = 0.00546550751,-0.0136026144,4.92956787E-09
+	attPos0 = 0.496457398,-0.598433495,6.74981635E-08
+	rot = 0.50000006,-0.50000006,-0.50000006,0.50000006
+	attRot = -0.0100159347,-0.707031906,-0.0100159347,-0.707039714
+	attRot0 = -6.32202699E-08,-1,-6.32202699E-08,-2.08616228E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0.00871050265
+	modSize = 0,0,0
+	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 0.996628881
+		sharedBaseWidthRoot = 0.0799999982
+		sharedBaseWidthTip = 0.0799999982
+		sharedBaseOffsetRoot = 0
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.120000012
+		sharedBaseThicknessTip = 0.0499999933
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.239999995
+		sharedEdgeWidthLeadingTip = 0.239999995
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.444999993
+		sharedEdgeWidthTrailingTip = 0.444999993
+		sharedMaterialST = 1
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.100000001
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.600000024
+		sharedMaterialSB = 4
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.100000001
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.600000024
+		sharedMaterialET = 4
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.100000001
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.600000024
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.100000001
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.600000024
+		sharedSweptAngleFront = 90
+		sharedSweptAngleBack = 90
+		sharedArmorRatio = 0
+		aeroUIMass = 0
+		stockLiftCoefficient = 0
+		aeroStatMeanAerodynamicChord = 0.52499997615814209
+		aeroStatSemispan = 0.99662888050079346
+		aeroStatMidChordSweep = 0
+		aeroStatTaperRatio = 1
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 100
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 20
+		isFlap = False
+		isSpoiler = False
+		flapDeflectionLevel = 0
+		maxdeflectFlap = 15
+		isDynamicDeflection = True
+		dynamicControlStartSpeed = 200
+		exponent = 2
+		minControl = 0.100000001
+		massMultiplier = 0.5
+		massOverride = -3.40282347E+38
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = None
+			}
+			DecreaseDeflect
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = Smooth-Metal-Solid
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPTextureSwitch
+		isEnabled = True
+		currentTextureSet = B9PWings-edge-metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1;0.9254902,0.9254902,0.9254902,0.1254902,0.2509804,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4289908304
+	partName = Part
+	persistentId = 2910313402
+	pos = -0.165402204,6.06214714,-4.25939035
+	attPos = 0.00699615479,0.0127573609,-5.96046448E-08
+	attPos0 = 0.151196957,-0.433529079,-0.165402099
+	rot = -0.0108574033,-0.707023621,0.0108574033,-0.707023501
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.0108574321,0.0108573427,0.707023442,-0.707023501
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4288267908
+	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 11.5384636
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.230000004
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NACA
+		fontName = Helvetica SDF
+		style = 1
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4288267908
+	partName = Part
+	persistentId = 745347579
+	pos = 0.165402293,6.06214714,-4.25939226
+	attPos = 0.00699663162,0.0127554536,5.96046448E-08
+	attPos0 = 0.151196957,-0.433529079,0.165402219
+	rot = 0.0108573437,-0.70702374,0.0108573437,0.707023382
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.707023442,-0.707023501,0.0108574321,0.0108573427
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4289908304
+	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 11.5384636
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.230000004
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NACA
+		fontName = Helvetica SDF
+		style = 1
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4290010882
+	partName = Part
+	persistentId = 3684569444
+	pos = -0.139772326,6.53787327,-4.42880106
+	attPos = -0.267995924,0.178541213,-2.08616257E-07
+	attPos0 = 0.5796628,-0.53011328,-0.139772058
+	rot = -0.0123686492,-0.706998765,0.0123685002,-0.706998706
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.0123687731,0.0123686558,0.706998527,-0.706998706
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4288216166
+	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.150000006
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NAVY
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4288216166
+	partName = Part
+	persistentId = 3583366711
+	pos = 0.139772415,6.53787518,-4.42880297
+	attPos = -0.26799497,0.178539306,-3.27825546E-07
+	attPos0 = 0.579662681,-0.53011328,0.139772743
+	rot = 0.0123686492,-0.706998706,0.01236853,0.706998587
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.706998467,-0.706998646,0.0123684295,0.0123685207
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4290010882
+	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.150000006
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NAVY
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4288193296
+	partName = Part
+	persistentId = 2159583189
+	pos = 1.45480013,5.11934948,0.3934021
+	attPos = 0,0,0
+	attPos0 = 1.0306375,-0.785262287,-0.164601356
+	rot = -0.643784821,-0.292474568,0.305168688,-0.637865126
+	attRot = 0,0,-0.422618359,0.906307876
+	attRot0 = 0.0041857115,-0.00897621643,-0.422597557,0.906263292
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = False
+		lineSpacing = 0
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = False
+		outlineWidth = 0.100000001
+		scale = 0.360000014
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = NAVY
+		fontName = Waukegan LDO Extended SDF
+		style = 0
+		fillColor = #000000ff
+		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-flag_4288199122
+	partName = Part
+	persistentId = 2441444367
+	pos = -1.38026655,5.12082577,0.470130444
+	attPos = 0,0,0
+	attPos0 = 0.956103206,-0.70853442,0.166078016
+	rot = -0.643784821,0.292474449,-0.305168748,-0.637865126
+	attRot = 0,0,0.422618359,0.906307876
+	attRot0 = -0.422597587,-0.906263351,0.00418588519,0.00897620618
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -11125,15 +10698,15 @@ PART
 }
 PART
 {
-	part = conformaldecals-flag_4287740568
+	part = conformaldecals-generic_4288136326
 	partName = Part
-	persistentId = 1871056990
-	pos = 0.60925293,5.57468367,-5.8730464
+	persistentId = 2458977153
+	pos = -0.908459187,5.08016253,2.40830946
 	attPos = 0,0,0
-	attPos0 = 0.609252632,-2.62287712,-4.76836959E-07
-	rot = 0,-0.698059916,-5.96046448E-08,0.7160393
-	attRot = 0,0,-0.707106709,0.707106709
-	attRot0 = -0.506316245,-0.493602931,0.493602872,0.506316245
+	attPos0 = 0.484296173,1.22964048,0.125414923
+	rot = 0.347471088,0.61584425,-0.608840704,0.35960111
+	attRot = 0,0,0.866025388,-0.5
+	attRot0 = -0.865983009,0.499975502,0.00857721269,-0.00495228171
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -11149,8 +10722,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = conformaldecals-flag_4290682750
-	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	sym = conformaldecals-generic_4288102698
+	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
 	EVENTS
 	{
 	}
@@ -11174,17 +10747,32 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleConformalFlag
+		name = ModuleConformalDecal
 		isEnabled = True
-		flagUrl = PapFlags/Flags/Decal-US-USAF
-		useCustomFlag = True
-		scale = 0.579999983
-		depth = 0.409999996
+		scale = 0.460000008
+		depth = 0.100000001
 		opacity = 1
-		cutoff = 0
+		cutoff = 0.5
 		wear = 100
 		projectMultiple = False
 		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = 
+		currentSubtype = no-steppy
 		EVENTS
 		{
 		}
@@ -11214,6 +10802,169 @@ PART
 	{
 		name = FARPartModule
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-generic_4288102698
+	partName = Part
+	persistentId = 4260377965
+	pos = 0.908459187,5.08016253,2.40830946
+	attPos = 0,0,0
+	attPos0 = 0.484296501,1.22964096,-0.125415325
+	rot = -0.347471118,0.61584425,-0.608840585,-0.35960108
+	attRot = 0,0,0.866025388,-0.5
+	attRot0 = -0.00857731048,-0.00495223794,0.86598295,0.499975502
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-generic_4288136326
+	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalDecal
+		isEnabled = True
+		scale = 0.460000008
+		depth = 0.100000001
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = 
+		currentSubtype = no-steppy
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11245,11 +10996,11 @@ PART
 {
 	part = conformaldecals-text_4290076886
 	partName = Part
-	persistentId = 659140519
-	pos = 0.515014648,5.60108185,1.1857909
+	persistentId = 2598577909
+	pos = 0.514978468,5.02640057,4.49086761
 	attPos = 0,0,0
 	attPos0 = 0.514978468,1.18586409,-0.0264006853
-	rot = -0.0519330204,0.792344093,-0.039755851,-0.606558561
+	rot = -0.0519330204,0.792344213,-0.039755851,-0.606558561
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 0.392179489,0.532160282,-0.588383555,-0.465623856
 	mir = 1,1,1
@@ -11372,11 +11123,11 @@ PART
 {
 	part = conformaldecals-text_4287751808
 	partName = Part
-	persistentId = 3284299206
-	pos = -0.515014648,5.60108185,1.1857909
+	persistentId = 3914178529
+	pos = -0.514978468,5.02640057,4.49086761
 	attPos = 0,0,0
 	attPos0 = -0.514978468,1.18586409,-0.0264006853
-	rot = 0.0519330204,0.792344093,-0.039755851,0.606558561
+	rot = 0.0519330204,0.792344213,-0.039755851,0.606558561
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = -0.39217943,0.532160282,-0.588383555,0.465623796
 	mir = 1,1,1
@@ -11439,6 +11190,242 @@ PART
 		style = 0
 		fillColor = #000000ff
 		outlineColor = #ffffffff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-flag_4290682750
+	partName = Part
+	persistentId = 3275988427
+	pos = -0.609252632,5.00000048,-2.56791925
+	attPos = 0,0,0
+	attPos0 = -0.609252632,-2.62287712,-4.76836959E-07
+	rot = 0,0.698059976,5.96046448E-08,0.71603936
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.506316245,0.493602931,-0.493602872,0.506316245
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-flag_4287740568
+	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalFlag
+		isEnabled = True
+		flagUrl = PapFlags/Flags/Decal-US-USAF
+		useCustomFlag = True
+		scale = 0.579999983
+		depth = 0.409999996
+		opacity = 1
+		cutoff = 0
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-flag_4287740568
+	partName = Part
+	persistentId = 3916844859
+	pos = 0.609252632,5.00000048,-2.56791925
+	attPos = 0,0,0
+	attPos0 = 0.609252632,-2.62287712,-4.76836959E-07
+	rot = 0,-0.698059976,-5.96046448E-08,0.71603936
+	attRot = 0,0,-0.707106709,0.707106709
+	attRot0 = -0.506316245,-0.493602931,0.493602872,0.506316245
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-flag_4290682750
+	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalFlag
+		isEnabled = True
+		flagUrl = PapFlags/Flags/Decal-US-USAF
+		useCustomFlag = True
+		scale = 0.579999983
+		depth = 0.409999996
+		opacity = 1
+		cutoff = 0
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
 		EVENTS
 		{
 		}
