@@ -356,8 +356,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1832.5999999999992
-			maxAmount = 1832.5999999999992
+			amount = 1832.5999999999995
+			maxAmount = 1832.5999999999995
 		}
 		UPGRADESAPPLIED
 		{
@@ -2037,8 +2037,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 1832.5999999999992
-		maxAmount = 1832.5999999999992
+		amount = 1832.5999999999995
+		maxAmount = 1832.5999999999995
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2382,7 +2382,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3001,7 +3001,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3617,7 +3617,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6989,7 +6989,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7237,8 +7237,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.38506413
-		height = 3.5299778
+		scaleFactor = 4.38506651
+		height = 3.52997971
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -7591,7 +7591,7 @@ PART
 	pos = 9.96142808E-06,5.51989746,-0.875233293
 	attPos = -0.122359097,-2.42137909,7.29323801E-09
 	attPos0 = -2.98023259E-08,-5.12618065,-0.875234783
-	rot = -3.37174811E-07,0.707106829,-3.37174782E-07,0.707106769
+	rot = -3.37174754E-07,0.707106829,-3.37174725E-07,0.707106769
 	attRot = 0,0,0,1
 	attRot0 = -3.37174583E-07,0.707106829,-3.37174612E-07,0.707106769
 	mir = 1,1,1
@@ -8980,7 +8980,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9400,7 +9400,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9820,7 +9820,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10240,7 +10240,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775266.64303331
+		missionStartTime = 102775518.2046956
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
