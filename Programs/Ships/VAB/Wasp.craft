@@ -2,7 +2,7 @@ ship = Wasp
 version = 1.12.3
 description = 
 type = VAB
-size = 3.47072721,16.7867489,3.47072792
+size = 3.47072744,16.7867489,3.47072792
 steamPublishedFileId = 0
 persistentId = 470249762
 rot = 0,0,0,0
@@ -17,9 +17,9 @@ PART
 	part = proceduralAvionics_4292818470
 	partName = Part
 	persistentId = 2832355650
-	pos = 9.9912304E-06,19.8084259,1.39256269E-06
+	pos = -3.17767262E-06,17.8084145,3.93390656E-06
 	attPos = 0,0,0
-	attPos0 = 9.9912304E-06,20.2584343,1.39256269E-06
+	attPos0 = -3.17767262E-06,17.8084145,3.93390656E-06
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -55,6 +55,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -356,8 +372,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1832.5999999999995
-			maxAmount = 1832.5999999999995
+			amount = 1832.5999999999992
+			maxAmount = 1832.5999999999992
 		}
 		UPGRADESAPPLIED
 		{
@@ -2037,8 +2053,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 1832.5999999999995
-		maxAmount = 1832.5999999999995
+		amount = 1832.5999999999992
+		maxAmount = 1832.5999999999992
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2051,7 +2067,7 @@ PART
 	part = ROE-BabySergeant_4293001194
 	partName = Part
 	persistentId = 4056221004
-	pos = 9.9912304E-06,18.9063625,1.39256269E-06
+	pos = -3.17767262E-06,16.9063511,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.638067245,0
 	rot = 0,0,0,1
@@ -2089,6 +2105,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -2382,7 +2414,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -2530,7 +2562,7 @@ PART
 	part = ROE-BabySergeantX3Dec_4292766536
 	partName = Part
 	persistentId = 3447059839
-	pos = 9.9912304E-06,18.2153912,1.39256269E-06
+	pos = -3.17767262E-06,16.2153797,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.690971375,0
 	rot = 0,0,0,1
@@ -2568,6 +2600,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -2690,7 +2738,7 @@ PART
 	part = ROE-BabySergeantX3_4292765844
 	partName = Part
 	persistentId = 2239206036
-	pos = 9.9912304E-06,17.630579,1.39256269E-06
+	pos = -3.17767262E-06,15.6305676,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.584812164,0
 	rot = 0,0,0,1
@@ -2730,6 +2778,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -3001,7 +3065,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3149,7 +3213,7 @@ PART
 	part = ROE-BabySergeantX11Dec_4292764898
 	partName = Part
 	persistentId = 2891363615
-	pos = 9.9912304E-06,18.1078777,1.39256269E-06
+	pos = -3.17767262E-06,16.1078663,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,0.477298737,0
 	rot = 0,0,0,1
@@ -3187,6 +3251,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -3309,7 +3389,7 @@ PART
 	part = ROE-BabySergeantX11_4292763690
 	partName = Part
 	persistentId = 1011488164
-	pos = 9.9912304E-06,17.5164471,1.39256269E-06
+	pos = -3.17767262E-06,15.5164356,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.591430664,0
 	rot = 0,0,0,1
@@ -3346,6 +3426,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -3437,6 +3533,28 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		activejettisonName = Fairing
+		isJettisoned = True
+		shroudHideOverride = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -3617,7 +3735,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3765,7 +3883,7 @@ PART
 	part = ROT-OpenInterstage_4292725398
 	partName = Part
 	persistentId = 1067981536
-	pos = 9.9912304E-06,17.3157368,1.39256269E-06
+	pos = -3.17767262E-06,15.3157253,3.93390656E-06
 	attPos = 0,1.14732289,0
 	attPos0 = 0,-1.46216261,0
 	rot = 0,0,0,1
@@ -3803,6 +3921,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -4011,7 +4145,7 @@ PART
 	part = proceduralAvionics_4291071396
 	partName = Part
 	persistentId = 1752146037
-	pos = 9.9912304E-06,16.3608551,1.39256269E-06
+	pos = -3.17767262E-06,14.3608437,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.954881668,0
 	rot = 0,0,0,1
@@ -4055,6 +4189,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -5477,7 +5627,7 @@ PART
 	part = SSTUHollowRing.Interstage_4290343764
 	partName = Part
 	persistentId = 611749175
-	pos = 9.9912304E-06,15.0290785,1.39256269E-06
+	pos = -3.17767262E-06,13.029067,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0,-2.77077675,0
 	rot = 0,0.195090309,0,-0.98078531
@@ -5526,6 +5676,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -5694,7 +5860,7 @@ PART
 	part = KzProcFairingSide1.TU_4289394894
 	partName = Part
 	persistentId = 1685808306
-	pos = 0.831501722,14.5776787,0.344416529
+	pos = 0.83148855,12.5776672,0.344419062
 	attPos = 0,0,0
 	attPos0 = 0.900000095,-0.451399803,3.72528985E-09
 	rot = 0,-0.195090294,0,0.98078531
@@ -5731,6 +5897,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -5982,7 +6164,7 @@ PART
 	part = KzProcFairingSide1.TU_4288710870
 	partName = Part
 	persistentId = 1354381423
-	pos = -0.831481636,14.5776787,-0.344413817
+	pos = -0.831494808,12.5776672,-0.344411284
 	attPos = 0,0,0
 	attPos0 = -0.900000095,-0.451399803,-1.15483985E-07
 	rot = 0,0.98078531,0,0.195090398
@@ -6019,6 +6201,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -6270,9 +6468,9 @@ PART
 	part = ROT-GenericTank-Separate_4291039382
 	partName = Part
 	persistentId = 2576607499
-	pos = 9.9912304E-06,10.6460781,1.39256269E-06
+	pos = -3.17767262E-06,8.64606667,3.93390656E-06
 	attPos = 0,0,0
-	attPos0 = 0,-4.38300037,0
+	attPos0 = 0,-4.3829999,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.195090309,0,-0.98078531
@@ -6288,8 +6486,8 @@ PART
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
-	modCost = 1170.74951
-	modMass = 0.226438046
+	modCost = 1170.74939
+	modMass = 0.226437807
 	modSize = 0,0,0
 	link = ROE-A7_4290371078
 	link = RO-B9ProcWing-Supersonic_4289347212
@@ -6300,9 +6498,9 @@ PART
 	link = ROSmallSpinMotor_4292252308
 	link = ROSmallSpinMotor_4292252206
 	link = ROSmallSpinMotor_4292252104
-	attN = top,Null_0_0|4.79700041|0_0|1|0_0|4.79700041|0_0|1|0
-	attN = bottom,ROE-A7_4290371078_0|-4.79700041|0_0|-1|0_0|-4.79700041|0_0|-1|0
-	attN = noseinterstage,SSTUHollowRing.Interstage_4290343764_0|4.38300037|0_0|1|0_0|4.38300037|0_0|1|0
+	attN = top,Null_0_0|4.79699993|0_0|1|0_0|4.79699993|0_0|1|0
+	attN = bottom,ROE-A7_4290371078_0|-4.79699993|0_0|-1|0_0|-4.79699993|0_0|-1|0
+	attN = noseinterstage,SSTUHollowRing.Interstage_4290343764_0|4.3829999|0_0|1|0_0|4.3829999|0_0|1|0
 	EVENTS
 	{
 	}
@@ -6320,6 +6518,22 @@ PART
 		{
 			actionGroup = None
 		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
 	}
 	PARTDATA
 	{
@@ -6329,9 +6543,9 @@ PART
 		name = ModuleROTank
 		isEnabled = True
 		currentDiameter = 1.80000007
-		currentLength = 9.00000095
-		currentVScale = 9.53674331E-08
-		totalTankLength = 9.59400082
+		currentLength = 9
+		currentVScale = 0
+		totalTankLength = 9.59399986
 		largestDiameter = 1.80000007
 		currentNoseRotation = 0
 		currentMountRotation = 0
@@ -6500,8 +6714,8 @@ PART
 		isEnabled = True
 		type = Tank-Sep-Al2
 		utilization = 92
-		volume = 21765.489399999999
-		mass = 1.22643805
+		volume = 21765.485799999999
+		mass = 1.22643781
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -6526,8 +6740,8 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 10689.155052759341
-			maxAmount = 10689.155052759341
+			amount = 10689.153284778962
+			maxAmount = 10689.153284778962
 		}
 		TANK
 		{
@@ -6545,8 +6759,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 374.34502810197984
-			maxAmount = 374.34502810197984
+			amount = 374.34496618551765
+			maxAmount = 374.34496618551765
 		}
 		TANK
 		{
@@ -6564,11 +6778,13 @@ PART
 			temperature = 351.649994
 			fillable = True
 			techRequired = 
-			amount = 10701.989319138675
-			maxAmount = 10701.989319138675
+			amount = 10701.987549035515
+			maxAmount = 10701.987549035515
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
@@ -6605,8 +6821,8 @@ PART
 	RESOURCE
 	{
 		name = Ethanol75
-		amount = 10701.989319138675
-		maxAmount = 10701.989319138675
+		amount = 10701.987549035515
+		maxAmount = 10701.987549035515
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -6616,8 +6832,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 10689.155052759341
-		maxAmount = 10689.155052759341
+		amount = 10689.153284778962
+		maxAmount = 10689.153284778962
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -6627,8 +6843,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 374.34502810197984
-		maxAmount = 374.34502810197984
+		amount = 374.34496618551765
+		maxAmount = 374.34496618551765
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -6641,9 +6857,9 @@ PART
 	part = ROE-A7_4290371078
 	partName = Part
 	persistentId = 3441128294
-	pos = 9.9912304E-06,4.65408039,1.39256269E-06
+	pos = -3.17767262E-06,2.6540699,3.93390656E-06
 	attPos = 0,0,0
-	attPos0 = 0,-5.99200058,0
+	attPos0 = 0,-5.9920001,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -6679,6 +6895,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -6989,7 +7221,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7173,7 +7405,7 @@ PART
 	part = AM.MLP.RedstoneLaunchStand_4288362330
 	partName = Part
 	persistentId = 2640889281
-	pos = 9.9912304E-06,2.72497749,1.39256269E-06
+	pos = -3.17767262E-06,0.724966049,3.93390656E-06
 	attPos = 0,0.749898911,0
 	attPos0 = 0,-2.67900085,0
 	rot = 0,0,0,1
@@ -7229,6 +7461,22 @@ PART
 		{
 			actionGroup = None
 		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
 	}
 	PARTDATA
 	{
@@ -7237,8 +7485,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 4.38506651
-		height = 3.52997971
+		scaleFactor = 1.900581
+		height = 1.52996826
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -7588,10 +7836,10 @@ PART
 	part = RO-B9ProcWing-Supersonic_4289347212
 	partName = Part
 	persistentId = 186416711
-	pos = 9.96142808E-06,5.51989746,-0.875233293
+	pos = -3.20747495E-06,3.51988602,-0.87523073
 	attPos = -0.122359097,-2.42137909,7.29323801E-09
 	attPos0 = -2.98023259E-08,-5.12618065,-0.875234783
-	rot = -3.37174754E-07,0.707106829,-3.37174725E-07,0.707106769
+	rot = -3.37174811E-07,0.707106829,-3.37174782E-07,0.707106769
 	attRot = 0,0,0,1
 	attRot0 = -3.37174583E-07,0.707106829,-3.37174612E-07,0.707106769
 	mir = 1,1,1
@@ -7627,6 +7875,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -7866,7 +8130,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4293142920
 	partName = Part
 	persistentId = 499973501
-	pos = -0.875224352,5.51989746,1.50990934E-06
+	pos = -0.875237525,3.51988602,4.0512532E-06
 	attPos = -0.122359097,-2.42137909,7.29323801E-09
 	attPos0 = -0.875234485,-5.12618065,1.17346659E-07
 	rot = -4.76836902E-07,1,0,0
@@ -7905,6 +8169,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -8144,7 +8424,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4293142786
 	partName = Part
 	persistentId = 2964519871
-	pos = 1.00210327E-05,5.51989746,0.875236094
+	pos = -3.1478703E-06,3.51988602,0.875238657
 	attPos = -0.122359097,-2.42137909,7.29323801E-09
 	attPos0 = 2.98023259E-08,-5.12618065,0.875234842
 	rot = -3.37174583E-07,0.707106829,3.37174669E-07,-0.707106948
@@ -8183,6 +8463,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -8422,7 +8718,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4293142652
 	partName = Part
 	persistentId = 765174089
-	pos = 0.875244439,5.51989746,1.19139702E-06
+	pos = 0.875231266,3.51988602,3.73274088E-06
 	attPos = -0.122359097,-2.42137909,7.29323801E-09
 	attPos0 = 0.875234544,-5.12618065,-2.01165705E-07
 	rot = 0,0,4.76836902E-07,-1
@@ -8461,6 +8757,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -8700,7 +9012,7 @@ PART
 	part = ROSmallSpinMotor_4292254496
 	partName = Part
 	persistentId = 484864381
-	pos = 1.00210327E-05,6.46604919,-0.831317306
+	pos = -3.1478703E-06,4.46603775,-0.831314743
 	attPos = 5.9604659E-08,-0.299803734,0.0428166986
 	attPos0 = 2.98023259E-08,-4.18002892,-0.831318796
 	rot = -0.997805357,2.23517418E-08,-3.12924385E-07,-0.0662151575
@@ -8739,6 +9051,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -8980,7 +9308,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9128,7 +9456,7 @@ PART
 	part = ROSmallSpinMotor_4292252308
 	partName = Part
 	persistentId = 3739500792
-	pos = -0.831308722,6.46604919,1.17649586E-06
+	pos = -0.831321895,4.46603775,3.71783972E-06
 	attPos = 0.0428165793,-0.299803734,-8.94069885E-08
 	attPos0 = -0.831318855,-4.18002892,-2.16066866E-07
 	rot = -0.705555141,-0.0468211435,0.705554724,-0.0468211733
@@ -9167,6 +9495,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -9400,7 +9744,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9548,7 +9892,7 @@ PART
 	part = ROSmallSpinMotor_4292252206
 	partName = Part
 	persistentId = 1255582149
-	pos = 9.90182343E-06,6.46604919,0.831320226
+	pos = -3.26707959E-06,4.46603775,0.831322789
 	attPos = -1.19209318E-07,-0.299803734,-0.0428165793
 	attPos0 = -8.94069814E-08,-4.18002892,0.831318974
 	rot = -2.68220901E-07,-0.0662151203,0.997805357,-1.11758709E-08
@@ -9587,6 +9931,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -9820,7 +10180,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9968,7 +10328,7 @@ PART
 	part = ROSmallSpinMotor_4292252104
 	partName = Part
 	persistentId = 474582113
-	pos = 0.831328928,6.46604919,1.52853579E-06
+	pos = 0.831315756,4.46603775,4.06987965E-06
 	attPos = -0.0428165793,-0.299803734,9.12696407E-08
 	attPos0 = 0.831319034,-4.18002892,1.3597311E-07
 	rot = 0.705554724,-0.0468211733,0.705555141,0.0468211435
@@ -10007,6 +10367,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -10240,7 +10616,7 @@ PART
 		lastMET = 0
 		currentFlightData = 176.213196
 		initialFlightData = 176.213196
-		missionStartTime = 102775518.2046956
+		missionStartTime = 114191557.18774331
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10388,7 +10764,7 @@ PART
 	part = RO-RFTank-Seperate_4292575046
 	partName = Part
 	persistentId = 302684888
-	pos = 9.97636835E-06,16.0378551,-0.367286563
+	pos = -3.19253468E-06,14.0378437,-0.36728403
 	attPos = 0,0,0
 	attPos0 = 3.6879328E-08,-0.684000015,-0.367288351
 	rot = 0,0.707106829,0.707106829,0
@@ -10427,6 +10803,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -10752,6 +11144,8 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
@@ -10813,7 +11207,7 @@ PART
 	part = RO-RFTank-Seperate_4292571204
 	partName = Part
 	persistentId = 640371952
-	pos = 9.99441818E-06,16.0378551,0.367289722
+	pos = -3.17448485E-06,14.0378437,0.367292255
 	attPos = 0,0,0
 	attPos0 = -4.76995865E-09,-0.684000015,0.367288351
 	rot = 0.707106829,-3.09086197E-08,-3.09086197E-08,-0.707106829
@@ -10852,6 +11246,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -11177,6 +11587,8 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
@@ -11238,7 +11650,7 @@ PART
 	part = RCSBlockSmall.69_4292391706
 	partName = Part
 	persistentId = 1435797466
-	pos = 9.96773906E-06,16.1378536,-0.537420034
+	pos = -3.20116396E-06,14.1378422,-0.537417471
 	attPos = 0,0,0
 	attPos0 = -4.69829047E-08,-0.284000397,-0.537421405
 	rot = 0,0,0.707106829,0.707106829
@@ -11277,6 +11689,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -11511,7 +11939,7 @@ PART
 	part = RCSBlockSmall.69_4292371040
 	partName = Part
 	persistentId = 536040028
-	pos = -0.537411332,16.1378536,2.08020174E-06
+	pos = -0.537424505,14.1378422,4.62154549E-06
 	attPos = 0,0,0
 	attPos0 = -0.537421346,-0.284000397,1.49501034E-08
 	rot = 0.5,0.5,0.5,0.5
@@ -11550,6 +11978,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -11784,7 +12228,7 @@ PART
 	part = RCSBlockSmall.69_4292370520
 	partName = Part
 	persistentId = 2986771441
-	pos = 9.9976387E-06,16.1378536,0.537422776
+	pos = -3.17126432E-06,14.1378422,0.537425339
 	attPos = 0,0,0
 	attPos0 = 9.39657525E-08,-0.284000397,0.537421405
 	rot = 0.707106829,0.707106829,-3.09086197E-08,-3.09086197E-08
@@ -11823,6 +12267,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
@@ -12057,7 +12517,7 @@ PART
 	part = RCSBlockSmall.69_4292370000
 	partName = Part
 	persistentId = 292022600
-	pos = 0.537431359,16.1378536,1.39256269E-06
+	pos = 0.537418187,14.1378422,3.93390656E-06
 	attPos = 0,0,0
 	attPos0 = 0.537421346,-0.284000397,-7.9015706E-08
 	rot = 0.5,0.5,-0.5,-0.5
@@ -12096,6 +12556,22 @@ PART
 			actionGroup = None
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 		}
