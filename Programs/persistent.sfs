@@ -14069,7 +14069,7 @@ GAME
 		DATA
 		{
 			RP0_SoundingSpeedIndex = Double:8
-			RP0_SoundingAltitudeIndex = Double:16
+			RP0_SoundingAltitudeIndex = Double:7
 			RP0_CrewedAltitudeIndex = Double:8
 			RP0_CrewedSpeedIndex = Double:2
 			RocketPlaneDevelopment_Count = Double:4
