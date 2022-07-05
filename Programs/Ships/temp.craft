@@ -4,7 +4,7 @@ description =
 type = VAB
 size = 3.47072721,16.8006325,3.47072768
 steamPublishedFileId = 0
-persistentId = 470249762
+persistentId = 2792949704
 rot = 0,0,0,0
 missionFlag = Squad/Flags/satellite
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = proceduralAvionics_4292818470
 	partName = Part
-	persistentId = 2246852755
+	persistentId = 910527646
 	pos = -6.46413082E-06,18.3190727,6.96949883E-06
 	attPos = 0,0,0
 	attPos0 = -6.46413082E-06,18.3190727,6.96949883E-06
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 72.7793198
-	modMass = -0.985946119
+	modCost = 41.7793236
+	modMass = -0.986246169
 	modSize = 0,0,0
 	link = ROE-BabySergeant_4293001194
 	link = ROS-StaticSolarPanel_4292184018
@@ -376,8 +376,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1832.5999999999999
-			maxAmount = 1832.5999999999999
+			amount = 1832.5999999999995
+			maxAmount = 1832.5999999999995
 		}
 		UPGRADESAPPLIED
 		{
@@ -1254,7 +1254,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = False
+		isEnabled = True
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1287,57 +1287,8 @@ PART
 	MODULE
 	{
 		name = Sensor
-		isEnabled = False
+		isEnabled = True
 		type = pressure
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Sensor
-		isEnabled = False
-		type = temperature
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1361,8 +1312,57 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Waiting
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Sensor
+		isEnabled = True
+		type = temperature
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1608,8 +1608,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1963,8 +1963,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = $4Radiation Detector 1&None 2&None 3&None 4
-		prev_cfg = $4Radiation Detector 1&None 2&None 3&None 4
+		cfg = $+Thermometer)Barometer&None 3&None 4
+		prev_cfg = $+Thermometer)Barometer&None 3&None 4
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2057,8 +2057,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 1832.5999999999999
-		maxAmount = 1832.5999999999999
+		amount = 1832.5999999999995
+		maxAmount = 1832.5999999999995
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2070,7 +2070,7 @@ PART
 {
 	part = ROE-BabySergeant_4293001194
 	partName = Part
-	persistentId = 4108739660
+	persistentId = 3553497992
 	pos = -6.46413082E-06,17.4480038,6.96949883E-06
 	attPos = 0,0,0
 	attPos0 = 0,-1.02656746,0
@@ -2418,7 +2418,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 164996755.78622091
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3068,7 +3068,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 164996755.78622091
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3739,7 +3739,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 164996755.78622091
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7223,9 +7223,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 6612.97021
-		initialFlightData = 6612.97021
-		missionStartTime = 164996755.78622091
+		currentFlightData = 8020.82178
+		initialFlightData = 8020.82178
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9327,9 +9327,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 440.319489
-		initialFlightData = 440.319489
-		missionStartTime = 164996755.78622091
+		currentFlightData = 558.50592
+		initialFlightData = 558.50592
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9763,9 +9763,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 440.319489
-		initialFlightData = 440.319489
-		missionStartTime = 164996755.78622091
+		currentFlightData = 558.50592
+		initialFlightData = 558.50592
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10199,9 +10199,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 440.319489
-		initialFlightData = 440.319489
-		missionStartTime = 164996755.78622091
+		currentFlightData = 558.50592
+		initialFlightData = 558.50592
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10635,9 +10635,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 440.319489
-		initialFlightData = 440.319489
-		missionStartTime = 164996755.78622091
+		currentFlightData = 558.50592
+		initialFlightData = 558.50592
+		missionStartTime = 172456726.4450385
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12826,7 +12826,7 @@ PART
 {
 	part = ROS-StaticSolarPanel_4292184018
 	partName = Part
-	persistentId = 2188070872
+	persistentId = 3060714264
 	pos = -6.46545777E-06,18.6826935,-0.0303507559
 	attPos = 0,0,0
 	attPos0 = -2.65390554E-09,0.504976273,-0.0303577259
@@ -13043,7 +13043,7 @@ PART
 {
 	part = ROS-StaticSolarPanel_4292183224
 	partName = Part
-	persistentId = 3112693399
+	persistentId = 245786279
 	pos = -0.0303641874,18.6826935,7.00834198E-06
 	attPos = 0,0,0
 	attPos0 = -0.0303577241,0.504976273,8.44465831E-10
@@ -13260,7 +13260,7 @@ PART
 {
 	part = ROS-StaticSolarPanel_4292183132
 	partName = Part
-	persistentId = 3666109741
+	persistentId = 1355013789
 	pos = -6.46376884E-06,18.6826935,0.0303646959
 	attPos = 0,0,0
 	attPos0 = 5.30781108E-09,0.504976273,0.0303577259
@@ -13477,7 +13477,7 @@ PART
 {
 	part = ROS-StaticSolarPanel_4292183040
 	partName = Part
-	persistentId = 3671428700
+	persistentId = 2933471431
 	pos = 0.0303512607,18.6826935,6.96949883E-06
 	attPos = 0,0,0
 	attPos0 = 0.0303577241,0.504976273,-4.46334525E-09
