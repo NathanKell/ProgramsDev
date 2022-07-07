@@ -4,7 +4,7 @@ description =
 type = VAB
 size = 3.47072721,16.6477051,3.47072768
 steamPublishedFileId = 0
-persistentId = 2432170633
+persistentId = 2132067120
 rot = 0,0,0,0
 missionFlag = Squad/Flags/satellite
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = proceduralAvionics_4292818470
 	partName = Part
-	persistentId = 1282173726
+	persistentId = 325690174
 	pos = -6.46413082E-06,18.3190727,6.96949883E-06
 	attPos = 0,0,0
 	attPos0 = -6.46413082E-06,18.3190727,6.96949883E-06
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 61.5881233
-	modMass = -0.98564285
+	modCost = 36.3881226
+	modMass = -0.987717807
 	modSize = 0,0,0
 	link = ROE-BabySergeant_4293001194
 	attN = top,Null_0_0|0.405500025|0_0|1|0_0|0.405500025|0_0|1|0
@@ -347,7 +347,7 @@ PART
 		type = SM-I
 		utilization = 50
 		volume = 1.8326
-		mass = 0.00430656318
+		mass = 0.00723156333
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -372,8 +372,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 900
-			maxAmount = 900
+			amount = 1550
+			maxAmount = 1550
 		}
 		UPGRADESAPPLIED
 		{
@@ -1628,7 +1628,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = True
+		isEnabled = False
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1959,8 +1959,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = $/Early TV Camera&None 2&None 3&None 4
-		prev_cfg = $/Early TV Camera&None 2&None 3&None 4
+		cfg = $$None$None&None 3&None 4
+		prev_cfg = $$None$None&None 3&None 4
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2053,8 +2053,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 900
-		maxAmount = 900
+		amount = 1550
+		maxAmount = 1550
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2066,7 +2066,7 @@ PART
 {
 	part = ROE-BabySergeant_4293001194
 	partName = Part
-	persistentId = 1277507621
+	persistentId = 1541049126
 	pos = -6.46413082E-06,17.4480038,6.96949883E-06
 	attPos = 0,0,0
 	attPos0 = 0,-1.02656746,0
@@ -2414,7 +2414,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 176946535.40792826
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3064,7 +3064,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 176946535.40792826
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3735,7 +3735,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 176946535.40792826
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3960,10 +3960,10 @@ PART
 		currentCore = Katniss-SIVB-Interstage
 		currentMount = Model-None
 		currentNoseTexture = default
-		currentCoreTexture = ROT-Katniss-SIVB-Interstage-Recolor
+		currentCoreTexture = ROT-Katniss-SIVB-Interstage
 		currentMountTexture = default
 		noseModulePersistentData = 1,1,1,1,1,1;1,1,1,1,1,1;1,1,1,1,1,1
-		coreModulePersistentData = 0.5019608,0.5019608,0.5019608,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
+		coreModulePersistentData = 0.9254902,0.9254902,0.9254902,0,0,1;0.9254902,0.9254902,0.9254902,0,0,1;0.9254902,0.9254902,0.9254902,0,0,1
 		mountModulePersistentData = 1,1,1,1,1,1;1,1,1,1,1,1;1,1,1,1,1,1
 		stagingEnabled = True
 		EVENTS
@@ -7219,9 +7219,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 8725.35254
-		initialFlightData = 8725.35254
-		missionStartTime = 176946535.40792826
+		currentFlightData = 9429.66113
+		initialFlightData = 9429.66113
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7405,8 +7405,8 @@ PART
 	part = AM.MLP.RedstoneLaunchStand_4288362330
 	partName = Part
 	persistentId = 3217807369
-	pos = -6.46413082E-06,1.37466812,6.96949883E-06
-	attPos = 0,0.749898911,0
+	pos = -6.46413082E-06,1.33182335,6.96949883E-06
+	attPos = 0,0.707053185,0
 	attPos0 = 0,-2.67900085,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
@@ -7485,8 +7485,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.70766163
-		height = 2.17966843
+		scaleFactor = 2.87053871
+		height = 2.04382324
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -7645,9 +7645,9 @@ PART
 		isEnabled = True
 		aniState = CLAMPED
 		animSwitch = True
-		animTime = 0
+		animTime = 0.480000019
 		animSpeed = 0
-		deployPercent = 100
+		deployPercent = 52
 		animationIsDisabled = False
 		stagingEnabled = True
 		EVENTS
@@ -9323,9 +9323,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 616.532471
-		initialFlightData = 616.532471
-		missionStartTime = 176946535.40792826
+		currentFlightData = 676.266724
+		initialFlightData = 676.266724
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9759,9 +9759,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 616.532471
-		initialFlightData = 616.532471
-		missionStartTime = 176946535.40792826
+		currentFlightData = 676.266724
+		initialFlightData = 676.266724
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10195,9 +10195,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 616.532471
-		initialFlightData = 616.532471
-		missionStartTime = 176946535.40792826
+		currentFlightData = 676.266724
+		initialFlightData = 676.266724
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10631,9 +10631,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 616.532471
-		initialFlightData = 616.532471
-		missionStartTime = 176946535.40792826
+		currentFlightData = 676.266724
+		initialFlightData = 676.266724
+		missionStartTime = 181152171.15963861
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
