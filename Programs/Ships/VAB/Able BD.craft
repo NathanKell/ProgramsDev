@@ -1657,7 +1657,7 @@ PART
 	pos = 1.21903431,5.13677406,-9.25003405E-06
 	attPos = 0,0,0
 	attPos0 = -0.900000095,-0.45331341,-8.34468992E-08
-	rot = 1,-7.54951487E-15,1.64904847E-07,5.17033119E-22
+	rot = 1,-7.54951487E-15,1.64904662E-07,5.17031403E-22
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.88415601E-14,0.382683843,-6.81660511E-16,0.923879325
 	mir = 1,1,1
@@ -1961,7 +1961,7 @@ PART
 	pos = -1.21896589,5.13677406,-1.01606784E-05
 	attPos = 0,0,0
 	attPos0 = 0.899999857,-0.45331341,-3.57621772E-08
-	rot = -2.08616171E-07,8.47032341E-22,1,7.54951487E-15
+	rot = -2.08616356E-07,8.47033755E-22,1,7.54951487E-15
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.3255766E-15,0.923879325,2.62123087E-14,-0.382683873
 	mir = 1,1,1
@@ -4156,7 +4156,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 1999.5
-		missionStartTime = 193507621.17032376
+		missionStartTime = 193507756.71217829
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5584,7 +5584,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 193507621.17032376
+		missionStartTime = 193507756.71217829
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6124,7 +6124,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 193507621.17032376
+		missionStartTime = 193507756.71217829
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
