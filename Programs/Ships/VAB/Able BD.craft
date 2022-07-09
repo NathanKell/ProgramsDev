@@ -4,7 +4,7 @@ description =
 type = VAB
 size = 8.03332615,29.3668461,2.76198649
 steamPublishedFileId = 0
-persistentId = 3764366690
+persistentId = 1902815953
 rot = 0,0,0,0
 missionFlag = PapFlags/Flags/Decal-US-FlagBorder
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = RP0probeSounding0-3m_4286750252
 	partName = Part
-	persistentId = 2751737530
+	persistentId = 1259383853
 	pos = 3.41926279E-05,17.9979954,-9.65207164E-06
 	attPos = 0,0,0
 	attPos0 = 3.41926279E-05,17.9979954,-9.65207164E-06
@@ -940,6 +940,7 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = commsTL1
 		}
 	}
 	MODULE
@@ -992,7 +993,7 @@ PART
 {
 	part = RO-RFTank-Integral_4291653922
 	partName = Part
-	persistentId = 4096220371
+	persistentId = 959986117
 	pos = 3.41926279E-05,11.3025951,-9.65207164E-06
 	attPos = 0,0,0
 	attPos0 = 0,-6.69540024,0
@@ -1011,7 +1012,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 5124.9165
+	modCost = 564.496582
 	modMass = 0.486404061
 	modSize = 0,0,0
 	link = SSTUHollowRing.Boattail_4286980468
@@ -1384,7 +1385,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 4560.41992
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1438,7 +1439,7 @@ PART
 {
 	part = SSTUHollowRing.Boattail_4286980468
 	partName = Part
-	persistentId = 42088426
+	persistentId = 2163313495
 	pos = 3.41926279E-05,4.70260048,-9.65207164E-06
 	attPos = 0,0,0
 	attPos0 = 4.23516474E-22,-4.5,-8.47032947E-22
@@ -1653,7 +1654,7 @@ PART
 {
 	part = KzProcFairingSide1.TU_4287081424
 	partName = Part
-	persistentId = 2427501174
+	persistentId = 1033886785
 	pos = 1.21903431,5.13677406,-9.25003405E-06
 	attPos = 0,0,0
 	attPos0 = -0.900000095,-0.45331341,-8.34468992E-08
@@ -1672,7 +1673,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 150.018112
+	modCost = 5.51225805
 	modMass = 0.065122582
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4282702558
@@ -1925,7 +1926,7 @@ PART
 	{
 		name = ModuleToolingPFSide
 		isEnabled = True
-		addedCost = 144.505859
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1957,7 +1958,7 @@ PART
 {
 	part = KzProcFairingSide1.TU_4282702558
 	partName = Part
-	persistentId = 1596844640
+	persistentId = 2426250424
 	pos = -1.21896589,5.13677406,-1.01606784E-05
 	attPos = 0,0,0
 	attPos0 = 0.899999857,-0.45331341,-3.57621772E-08
@@ -1976,7 +1977,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 150.018112
+	modCost = 5.51225805
 	modMass = 0.065122582
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4287081424
@@ -2229,7 +2230,7 @@ PART
 	{
 		name = ModuleToolingPFSide
 		isEnabled = True
-		addedCost = 144.505859
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2261,7 +2262,7 @@ PART
 {
 	part = proceduralAvionics_4291071396
 	partName = Part
-	persistentId = 3051902397
+	persistentId = 2957487548
 	pos = 3.41926279E-05,4.25600529,-9.65207164E-06
 	attPos = 5.7329354E-15,-0.28677845,1.73047205E-14
 	attPos0 = -6.74314755E-15,0.446594805,-2.16329278E-21
@@ -2280,7 +2281,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 2653.77686
+	modCost = 551.565613
 	modMass = -0.52463758
 	modSize = 0,0,0
 	link = ROE-LR79_4287813328
@@ -3685,6 +3686,7 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = commsTL1
 		}
 	}
 	MODULE
@@ -3737,7 +3739,7 @@ PART
 {
 	part = ROE-LR79_4287813328
 	partName = Part
-	persistentId = 3908456310
+	persistentId = 378429889
 	pos = 3.41926279E-05,2.81420708,-9.65207164E-06
 	attPos = -1.69406791E-21,0.295845032,8.07793567E-28
 	attPos0 = -3.38813583E-21,-1.73764336,-8.47042136E-22
@@ -4154,9 +4156,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 1999.5
-		missionStartTime = 193507756.71217829
+		currentFlightData = 636.804504
+		initialFlightData = 2636.30444
+		missionStartTime = 203212349.53357837
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4822,7 +4824,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = umb1TexSwitch
-		currentSubtype = Black
+		currentSubtype = Off
 		EVENTS
 		{
 		}
@@ -4839,7 +4841,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = umb2TexSwitch
-		currentSubtype = White
+		currentSubtype = Off
 		EVENTS
 		{
 		}
@@ -5212,7 +5214,7 @@ PART
 {
 	part = ROE-LR101Inline_4289451308
 	partName = Part
-	persistentId = 2442606141
+	persistentId = 816918998
 	pos = -0.993503392,1.62754059,-8.17685668E-06
 	attPos = 0.206302464,-6.29402447,1.38580799E-06
 	attPos0 = -1.19984007,-3.38103008,8.94069672E-08
@@ -5582,9 +5584,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 193507756.71217829
+		currentFlightData = 578.914612
+		initialFlightData = 578.914612
+		missionStartTime = 203212349.53357837
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5752,7 +5754,7 @@ PART
 {
 	part = ROE-LR101Inline_4289427834
 	partName = Part
-	persistentId = 2184628197
+	persistentId = 275571698
 	pos = 0.993571818,1.62754059,-1.12141443E-05
 	attPos = -0.206302464,-6.29402447,-1.42796216E-06
 	attPos0 = 1.19984007,-3.38103008,-1.34110451E-07
@@ -6122,9 +6124,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 193507756.71217829
+		currentFlightData = 578.914612
+		initialFlightData = 578.914612
+		missionStartTime = 203212349.53357837
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6292,7 +6294,7 @@ PART
 {
 	part = conformaldecals-flag_4279994570
 	partName = Part
-	persistentId = 1058746259
+	persistentId = 1014602515
 	pos = 3.41330233E-05,5.38263512,-1.3011055
 	attPos = 5.96045382E-08,-0.0936059952,-2.38418579E-07
 	attPos0 = -5.96046448E-08,-5.91996002,-1.30109584
@@ -6430,7 +6432,7 @@ PART
 {
 	part = conformaldecals-flag_4287591276
 	partName = Part
-	persistentId = 3952261169
+	persistentId = 2031219347
 	pos = 3.43714419E-05,5.38263512,1.30108607
 	attPos = 5.96045382E-08,-0.0936059952,-2.38418579E-07
 	attPos0 = 1.78813934E-07,-5.91996002,1.30109572
@@ -6568,7 +6570,7 @@ PART
 {
 	part = conformaldecals-text_4292434488
 	partName = Part
-	persistentId = 1944434458
+	persistentId = 2561617703
 	pos = 3.43118372E-05,8.70487213,-1.30129027
 	attPos = 1.1920929E-07,-0.870365143,0
 	attPos0 = 1.1920929E-07,-2.59772301,-1.30128062
@@ -6715,7 +6717,7 @@ PART
 {
 	part = conformaldecals-text_4287568826
 	partName = Part
-	persistentId = 3207329495
+	persistentId = 1899090086
 	pos = 3.41926279E-05,8.70487213,1.30127108
 	attPos = 1.1920929E-07,-0.870365143,0
 	attPos0 = 0,-2.59772301,1.30128074
@@ -6862,7 +6864,7 @@ PART
 {
 	part = proceduralNoseCone_4286736750
 	partName = Part
-	persistentId = 3842061602
+	persistentId = 2342188394
 	pos = 3.41926279E-05,18.2102146,-9.65207164E-06
 	attPos = 0,-0.195680618,0
 	attPos0 = 0,0.407899857,0
@@ -6881,7 +6883,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 10.6561403
+	modCost = 5.8305583
 	modMass = -0.982999563
 	modSize = 0,0,0
 	attN = top,Null_0_0|0.3125|0_0|1|0_0|0.3125|0_0|1|0
@@ -7079,7 +7081,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 4.82558203
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
