@@ -2,7 +2,7 @@ ship = Lunar Orbiter 1
 version = 1.12.3
 description = 
 type = VAB
-size = 10.4398003,28.732914,10.8060932
+size = 10.4398003,28.732914,10.8060942
 steamPublishedFileId = 0
 persistentId = 243367791
 rot = 0,0,0,0
@@ -2445,7 +2445,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 237451453.44178113
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8028,7 +8028,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 5
-	sidx = 1
+	sidx = 2
 	sqor = 2
 	sepI = 1
 	attm = 0
@@ -8386,9 +8386,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1700.86694
-		initialFlightData = 1700.86694
-		missionStartTime = 237451453.44178113
+		currentFlightData = 2205.94312
+		initialFlightData = 2205.94312
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8585,7 +8585,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 5
-	sidx = 2
+	sidx = 3
 	sqor = 2
 	sepI = 2
 	attm = 0
@@ -9129,10 +9129,10 @@ PART
 	part = KzProcFairingSide1.TU_4287147604
 	partName = Part
 	persistentId = 1303552898
-	pos = -0.762015998,16.2885094,-8.24819381E-06
+	pos = -0.762015998,16.2885094,-8.2552051E-06
 	attPos = 0,0,0
 	attPos0 = -1.21900022,-0.434173584,-1.19209275E-07
-	rot = 0,1,0,3.91106596E-08
+	rot = 0,1,0,4.37112462E-08
 	attRot = 0,0,0,1
 	attRot0 = -9.47312543E-16,-0.923879564,-9.47312437E-16,-0.382683516
 	mir = 1,1,1
@@ -9996,7 +9996,7 @@ PART
 		avionicsTechLevel = earlyAvionics
 		currentWatts = 719.919495
 		systemEnabled = True
-		setToDebrisOnStage = False
+		setToDebrisOnStage = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11311,7 +11311,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 6
-	sidx = 3
+	sidx = 0
 	sqor = 2
 	sepI = 2
 	attm = 1
@@ -11609,9 +11609,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 237451453.44178113
+		currentFlightData = 101.5466
+		initialFlightData = 101.5466
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11772,7 +11772,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 6
-	sidx = 3
+	sidx = 0
 	sqor = 2
 	sepI = 2
 	attm = 1
@@ -12070,9 +12070,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 237451453.44178113
+		currentFlightData = 101.5466
+		initialFlightData = 101.5466
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12233,7 +12233,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 6
-	sidx = 3
+	sidx = 0
 	sqor = 2
 	sepI = 2
 	attm = 1
@@ -12531,9 +12531,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 237451453.44178113
+		currentFlightData = 101.5466
+		initialFlightData = 101.5466
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12694,7 +12694,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 6
-	sidx = 3
+	sidx = 0
 	sqor = 2
 	sepI = 2
 	attm = 1
@@ -12992,9 +12992,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 237451453.44178113
+		currentFlightData = 101.5466
+		initialFlightData = 101.5466
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -13512,9 +13512,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 1999.5
-		missionStartTime = 237451453.44178113
+		currentFlightData = 653.362976
+		initialFlightData = 2652.86304
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14260,7 +14260,7 @@ PART
 	part = AM.MLP.AtlasSepClampArm_4284236152
 	partName = Part
 	persistentId = 2777106469
-	pos = -4.88537359,3.39107513,-8.66542632E-06
+	pos = -4.88537455,3.39107513,-8.66542632E-06
 	attPos = 0.404578924,-0.016210556,0
 	attPos0 = -1.20511743E-07,5.10438728,5.01092482
 	rot = 0,0,0.20944263,-0.977821052
@@ -14516,7 +14516,7 @@ PART
 	part = AM.MLP.AtlasSepClampArm_4283988208
 	partName = Part
 	persistentId = 2771261114
-	pos = 4.88534307,3.39107513,-8.18858916E-06
+	pos = 4.88534403,3.39107513,-8.18858916E-06
 	attPos = 0.404578924,-0.016210556,0
 	attPos0 = -3.17557351E-07,5.10438728,-5.01092482
 	rot = 0.209442645,-0.977820992,0,8.94069672E-08
@@ -14768,7 +14768,7 @@ PART
 	part = AM.MLP.AtlasSepSideUmb_4284022998
 	partName = Part
 	persistentId = 3114260193
-	pos = -1.57273735E-05,6.24051857,-2.54641366
+	pos = -1.57273735E-05,6.24051857,-2.54641414
 	attPos = 0.233610392,0,0
 	attPos0 = -2.78001237,7.92693329,0
 	rot = -3.94350893E-13,0.707106829,-3.94350893E-13,-0.707106829
@@ -15007,7 +15007,7 @@ PART
 	part = AM.MLP.AtlasSepSideUmb_4283888316
 	partName = Part
 	persistentId = 3570804077
-	pos = -1.5965792E-05,6.24051857,2.54639792
+	pos = -1.5965792E-05,6.24051857,2.5463984
 	attPos = -0.233609915,0,0
 	attPos0 = 2.78001237,7.92693329,-2.38418579E-07
 	rot = -3.94350866E-13,-0.707106888,3.9435092E-13,-0.707106769
@@ -15242,7 +15242,7 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4283721318
 	partName = Part
 	persistentId = 273499655
-	pos = -1.54889549E-05,3.14358521,-5.63501644
+	pos = -1.54889549E-05,3.14358521,-5.6350174
 	attPos = 0,0,0
 	attPos0 = -5.63500118,4.82999992,0
 	rot = 0,-0.707106829,0,-0.707106829
@@ -15510,7 +15510,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopA_4283354660
 	partName = Part
 	persistentId = 69226956
-	pos = -1.54889549E-05,21.9805851,-3.5517838
+	pos = -1.54889549E-05,21.9805851,-3.55178475
 	attPos = 0,0,0
 	attPos0 = -2.08323288,18.8369999,0
 	rot = 0,0.707106829,0,0.707106829
@@ -15836,7 +15836,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopA_4283335588
 	partName = Part
 	persistentId = 2817401456
-	pos = -1.54889549E-05,20.6426888,-3.55178475
+	pos = -1.54889549E-05,20.6426888,-3.55178571
 	attPos = 9.53674316E-07,0.272104263,0
 	attPos0 = -2.08323288,17.2269993,0
 	rot = 0,0.707106829,0,0.707106829
@@ -16154,7 +16154,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4283298152
 	partName = Part
 	persistentId = 3546976907
-	pos = -1.54889549E-05,15.5405846,-3.5517838
+	pos = -1.54889549E-05,15.5405846,-3.55178475
 	attPos = 0,0,0
 	attPos0 = -2.08323288,12.3969994,0
 	rot = 0,0.707106829,0,0.707106829
@@ -16480,7 +16480,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4283120310
 	partName = Part
 	persistentId = 573269014
-	pos = -1.54889549E-05,10.7105846,-3.5517838
+	pos = -1.54889549E-05,10.7105846,-3.55178475
 	attPos = 0,0,0
 	attPos0 = -2.08323288,7.56699944,0
 	rot = 0,0.707106829,0,0.707106829
@@ -16798,7 +16798,7 @@ PART
 	part = AM.MLP.CrewElevatorSmallTop_4283041526
 	partName = Part
 	persistentId = 985337831
-	pos = -1.54889549E-05,23.5905857,-5.6350174
+	pos = -1.54889549E-05,23.5905857,-5.63501835
 	attPos = 0,0,0
 	attPos0 = 9.5367443E-07,20.4470005,0
 	rot = 0,0,0,1.00000012
@@ -17416,9 +17416,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 3271.18896
-		initialFlightData = 3271.18896
-		missionStartTime = 237451453.44178113
+		currentFlightData = 4348.84619
+		initialFlightData = 4348.84619
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17964,9 +17964,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 3271.18896
-		initialFlightData = 3271.18896
-		missionStartTime = 237451453.44178113
+		currentFlightData = 4348.84619
+		initialFlightData = 4348.84619
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -18641,7 +18641,7 @@ PART
 	pos = -2.54056501,12.750967,-7.5236685E-06
 	attPos = -0.545682907,2.57832909,-3.38444943E-06
 	attPos0 = -0.78417623,-0.00963020325,-8.81000233E-08
-	rot = 6.77595339E-21,0.707106829,1.15196726E-19,0.707106829
+	rot = 6.77595339E-21,0.707106829,1.28749254E-19,0.707106829
 	attRot = -2.87491986E-20,-1.4329928E-06,4.52976317E-20,0.99999994
 	attRot0 = -1.24239039E-13,0.707105696,1.24239432E-13,0.707107842
 	mir = 1,1,1
@@ -19114,7 +19114,7 @@ PART
 	pos = -2.54056501,6.85098839,-7.53293807E-06
 	attPos = 0,0,0
 	attPos0 = 4.23516474E-22,-4.5,-8.47032947E-22
-	rot = -0.707106709,-5.33826845E-15,-0.707106948,-5.3382117E-15
+	rot = -0.707106709,-5.3382549E-15,-0.707106948,-5.3382117E-15
 	attRot = 1.83537978E-07,-7.6262483E-22,-1,-7.54951572E-15
 	attRot0 = 2.08616214E-07,-8.47032745E-22,-1,-7.54951487E-15
 	mir = 1,1,1
@@ -19337,10 +19337,10 @@ PART
 	part = KzProcFairingSide1.TU_4287081424
 	partName = Part
 	persistentId = 750368868
-	pos = -2.54056478,7.28516388,-1.21900797
+	pos = -2.54056478,7.28516197,-1.21900797
 	attPos = 0,0,0
 	attPos0 = -0.900000095,-0.45331341,-8.34468992E-08
-	rot = 0.707106948,-5.33819815E-15,-0.707106709,5.338282E-15
+	rot = 0.707106948,-5.3382117E-15,-0.707106709,5.3382549E-15
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.88415601E-14,0.382683843,-6.81660511E-16,0.923879325
 	mir = 1,1,1
@@ -19422,7 +19422,7 @@ PART
 		topRad = 1.09710014
 		inlineHeight = 3.0999999
 		sideThickness = 0.121900015
-		meshPos = (-1.2190001, 0.434174001, 0)
+		meshPos = (-1.21900022, 0.434174001, 0)
 		meshRot = (0, 0, 0, 1)
 		density = 0.0500000007
 		usePreset = True
@@ -19653,10 +19653,10 @@ PART
 	part = KzProcFairingSide1.TU_4282702558
 	partName = Part
 	persistentId = 2579731833
-	pos = -2.54056525,7.28516388,1.21899283
+	pos = -2.54056525,7.28516197,1.21899295
 	attPos = 0,0,0
 	attPos0 = 0.899999857,-0.45331341,-3.57621772E-08
-	rot = 0.707106709,5.33826845E-15,0.707106948,5.33819815E-15
+	rot = 0.707106709,5.33826845E-15,0.707106948,5.3382117E-15
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.3255766E-15,0.923879325,2.62123087E-14,-0.382683873
 	mir = 1,1,1
@@ -20395,9 +20395,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2325.8501
-		initialFlightData = 4325.8501
-		missionStartTime = 237451453.44178113
+		currentFlightData = 3280.69409
+		initialFlightData = 5280.69434
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20784,7 +20784,7 @@ PART
 	pos = 2.54053307,12.750967,-9.07560843E-06
 	attPos = -0.545682907,2.57832909,-3.38444943E-06
 	attPos0 = -0.78417623,-0.00963020325,-8.81000233E-08
-	rot = -9.48676901E-20,0.707106709,1.08420217E-19,-0.707106829
+	rot = -1.08420217E-19,0.707106709,1.21972744E-19,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = -1.24239228E-13,0.707106709,1.24239188E-13,0.707106829
 	mir = 1,1,1
@@ -21480,10 +21480,10 @@ PART
 	part = KzProcFairingSide1.TU_4285673946
 	partName = Part
 	persistentId = 2913973962
-	pos = 2.54053283,7.28516388,1.21899045
+	pos = 2.54053283,7.28516197,1.21899056
 	attPos = 0,0,0
 	attPos0 = -0.900000095,-0.45331341,-8.34468992E-08
-	rot = 0.70710665,-5.33831334E-15,0.707106888,-5.338354E-15
+	rot = 0.70710665,-5.33832689E-15,0.707106888,-5.338354E-15
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.88415601E-14,0.382683843,-6.81660511E-16,0.923879325
 	mir = 1,1,1
@@ -21796,10 +21796,10 @@ PART
 	part = KzProcFairingSide1.TU_4285673808
 	partName = Part
 	persistentId = 494914527
-	pos = 2.5405333,7.28516388,-1.21900892
+	pos = 2.5405333,7.28516197,-1.21900892
 	attPos = 0,0,0
 	attPos0 = 0.899999857,-0.45331341,-3.57621772E-08
-	rot = 0.707106888,5.33834045E-15,-0.70710665,-5.33829979E-15
+	rot = 0.707106888,5.338354E-15,-0.70710665,-5.33834045E-15
 	attRot = -0.99999994,0,0,0
 	attRot0 = -1.3255766E-15,0.923879325,2.62123087E-14,-0.382683873
 	mir = 1,1,1
@@ -22115,7 +22115,7 @@ PART
 	pos = 2.54053307,5.29663658,-9.08970924E-06
 	attPos = -1.69406791E-21,0.295845032,8.07793567E-28
 	attPos0 = -2.34692687E-14,1.55435181,-2.93395373E-20
-	rot = 1.75700952E-13,0.99999994,-3.31387268E-19,1.35962978E-06
+	rot = 1.75700952E-13,0.99999994,-3.65268586E-19,1.35962978E-06
 	attRot = 0,0,0,1
 	attRot0 = 0.707107663,-1.18900658E-13,0.707105875,-1.29577759E-13
 	mir = 1,1,1
@@ -22530,9 +22530,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2325.8501
-		initialFlightData = 4325.8501
-		missionStartTime = 237451453.44178113
+		currentFlightData = 3280.69409
+		initialFlightData = 5280.69434
+		missionStartTime = 241979886.45089012
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22740,7 +22740,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 4
-	sidx = 0
+	sidx = 1
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -23038,7 +23038,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 4
-	sidx = 0
+	sidx = 1
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -23336,7 +23336,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 4
-	sidx = 0
+	sidx = 1
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -23634,7 +23634,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 4
-	sidx = 0
+	sidx = 1
 	sqor = 2
 	sepI = 1
 	attm = 1
