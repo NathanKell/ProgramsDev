@@ -18,7 +18,6 @@ GAME
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -popupwindow - 
 	versionFull = 1.12.3.3173 (WindowsPlayer x64)
 	versionCreated = 1.12.3.3173 (WindowsPlayer x64)
-	persistentTimestamp = 2022-07-26T09:58:03.1806462Z
 	CometNames
 	{
 	}
@@ -18802,7 +18801,7 @@ GAME
 	SCENARIO
 	{
 		name = CommNetScenario
-		scene = 4
+		scene = 7, 8, 5, 6
 	}
 	SCENARIO
 	{
@@ -73664,7 +73663,7 @@ GAME
 			objectivesCompletedUT = 0
 			completedUT = 0
 			lastPaymentUT = 241979938.47091803
-			totalFunding = 1000000
+			totalFunding = 800000
 			fundsPaidOut = 197467.89188215148
 			repPenaltyAssessed = 0
 			speed = Normal
@@ -75883,6 +75882,11 @@ GAME
 			tech = materialsScienceHuman
 			funds = 25830.261631171434
 		}
+	}
+	SCENARIO
+	{
+		name = ScenarioDiscoverableObjects
+		scene = 7, 8, 5
 	}
 	FLIGHTSTATE
 	{
@@ -81479,9 +81483,5 @@ GAME
 				0 = Nationality,USA
 			}
 		}
-	}
-	MESSAGESYSTEM
-	{
-		flash = False
 	}
 }
