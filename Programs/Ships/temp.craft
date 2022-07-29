@@ -2,9 +2,9 @@ ship = Starstreak
 version = 1.12.3
 description = 
 type = None
-size = 7.72654533,3.97493267,16.5495338
+size = 7.71397018,4.01246929,16.5495338
 steamPublishedFileId = 0
-persistentId = 2414180940
+persistentId = 1653202058
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -17,7 +17,7 @@ PART
 	part = Mark1Cockpit_4274034282
 	partName = Part
 	persistentId = 683018196
-	pos = 0,5.97493362,0
+	pos = 0,6.01245117,0
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -36,7 +36,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 10.3000002
-	modMass = 0.00827200059
+	modMass = 0.00827199966
 	modSize = 0,0,0
 	link = SmallGearBay_4279762838
 	link = conformaldecals-generic_4290346536
@@ -63,14 +63,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -84,6 +76,14 @@ PART
 			actionGroup = None
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 		}
@@ -315,7 +315,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
-			amount = 41.86369028194369
+			amount = 42.055714413664077
 			maxAmount = 0
 		}
 		TANK
@@ -429,7 +429,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 12123.648267281018
+			amount = 12102.081502652683
 			maxAmount = 14400
 		}
 		UPGRADESAPPLIED
@@ -1155,17 +1155,17 @@ PART
 			}
 			MechJebModuleFlightRecorder
 			{
-				markUT = 241978348.56759229
-				deltaVExpended = 3350.5317207491807
-				dragLosses = 4457.0983072154004
-				gravityLosses = 763.67966404470155
-				steeringLosses = 512.73334528964256
-				markLAN = 29.523650765053731
-				markLatitude = 19.843175656603528
-				markLongitude = -78.196031266882713
-				markAltitude = 13749.675109495409
+				markUT = 245362356.50409308
+				deltaVExpended = 3350.77040989237
+				dragLosses = 4438.1572247526456
+				gravityLosses = 730.56227747833384
+				steeringLosses = 532.46910710827126
+				markLAN = 128.51835392672706
+				markLatitude = 19.843246504564203
+				markLongitude = -78.196154127913161
+				markAltitude = 13749.430337253678
 				markBodyIndex = 1
-				maxDragGees = 4.9712879642698322
+				maxDragGees = 4.5359301912801264
 				unlockParts = 
 				unlockTechs = 
 			}
@@ -1686,7 +1686,7 @@ PART
 	RESOURCE
 	{
 		name = _EVAScrubber
-		amount = 1.0454537186226893
+		amount = 1.0449626305518009
 		maxAmount = 1.1000000000000001
 		flowState = True
 		isTweakable = False
@@ -1711,7 +1711,7 @@ PART
 	part = SmallGearBay_4279762838
 	partName = Part
 	persistentId = 2800993965
-	pos = 0,5.62331009,0.300292969
+	pos = 0,5.66082764,0.300292969
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,0,1
@@ -1750,16 +1750,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -1775,6 +1765,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -2037,7 +2037,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,-0.0204407
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -2210,7 +2210,7 @@ PART
 	part = conformaldecals-generic_4290346536
 	partName = Part
 	persistentId = 1301445122
-	pos = 0.480712891,6.41908646,0.176025331
+	pos = 0.480712891,6.456604,0.176025331
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.24966976,0.735503137,-0.202455997,-0.596415758
@@ -2249,16 +2249,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -2275,6 +2265,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -2387,7 +2387,7 @@ PART
 	part = conformaldecals-text_4272547488
 	partName = Part
 	persistentId = 2468898730
-	pos = -0.381835938,5.92888451,1.50073218
+	pos = -0.381835938,5.96640015,1.50073218
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0513342917,-0.783209205,-0.0405263901,-0.618308783
@@ -2427,16 +2427,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -2453,6 +2443,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -2544,7 +2544,7 @@ PART
 	part = conformaldecals-text_4272463066
 	partName = Part
 	persistentId = 583617356
-	pos = 0.381835938,5.92888451,1.50073218
+	pos = 0.381835938,5.96640015,1.50073218
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0513345897,-0.783209324,-0.0405263901,0.618308663
@@ -2584,16 +2584,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -2610,6 +2600,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -2701,7 +2701,7 @@ PART
 	part = conformaldecals-flag_4289577604
 	partName = Part
 	persistentId = 3363857025
-	pos = -0.675048828,5.97493362,0.283447206
+	pos = -0.675048828,6.01245117,0.283447206
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.784889936,0,0.619635284
@@ -2741,16 +2741,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -2767,6 +2757,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -2849,7 +2849,7 @@ PART
 	part = conformaldecals-flag_4289577326
 	partName = Part
 	persistentId = 3858711370
-	pos = 0.675048828,5.97493362,0.283447206
+	pos = 0.675048828,6.01245117,0.283447206
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.784889936,0,0.619635284
@@ -2889,16 +2889,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -2915,6 +2905,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -2997,7 +2997,7 @@ PART
 	part = RO-RFTank-Seperate_4282509732
 	partName = Part
 	persistentId = 2915737537
-	pos = 0,5.97493172,-5.16650391
+	pos = 0,6.01245117,-5.16650391
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -3049,14 +3049,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -3070,6 +3062,14 @@ PART
 			actionGroup = None
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 		}
@@ -3404,7 +3404,7 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 21.325717117510798
+			amount = 21.455160633976611
 			maxAmount = 5251.5727323681649
 		}
 		TANK
@@ -3423,7 +3423,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 10.978554420713341
+			amount = 13.671670830353303
 			maxAmount = 111.7831559420314
 		}
 		TANK
@@ -3442,7 +3442,7 @@ PART
 			temperature = 351.649994
 			fillable = True
 			techRequired = 
-			amount = 41.391307077219764
+			amount = 41.53276460170693
 			maxAmount = 5926.7431116898042
 		}
 		UPGRADESAPPLIED
@@ -3521,7 +3521,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4282188786
 	partName = Part
 	persistentId = 4053134909
-	pos = -0.309570313,5.56474495,-4.66430664
+	pos = -0.309570313,5.6022644,-4.66430664
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.000488081714,-0.707106531,-0.70710665,-0.000487976416
@@ -3567,16 +3567,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -3592,6 +3582,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -3829,7 +3829,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4281835390
 	partName = Part
 	persistentId = 1833365984
-	pos = -2.03051758,5.56886292,-7.32348633
+	pos = -2.03051758,5.60638428,-7.32348633
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.693681479,0.13713491,-0.137135565,-0.693681359
@@ -3869,16 +3869,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -3894,6 +3884,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -4120,7 +4120,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4291047172
 	partName = Part
 	persistentId = 1183469466
-	pos = -2.12872314,5.62257385,-6.73266602
+	pos = -2.12872314,5.66009521,-6.73266602
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.685655832,-0.172785491,0.194137797,0.67994988
@@ -4160,16 +4160,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -4185,6 +4175,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -4411,7 +4411,7 @@ PART
 	part = vernierEngine_4280894474
 	partName = Part
 	persistentId = 1777256486
-	pos = -2.85705471,5.56889343,-6.29711914
+	pos = -2.85705471,5.60641479,-6.29711914
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,0.49999997,0.500000179,-0.499999762
@@ -4451,16 +4451,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -4477,6 +4467,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -4680,7 +4680,7 @@ PART
 	part = conformaldecals-generic_4288136326
 	partName = Part
 	persistentId = 3140275041
-	pos = -0.839538395,5.72807503,-3.58325195
+	pos = -0.839538395,5.76559448,-3.58325195
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.30107525,-0.639790893,0.63009578,-0.320936799
@@ -4720,16 +4720,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -4746,6 +4736,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -4858,10 +4858,10 @@ PART
 	part = conformaldecals-flag_4288199122
 	partName = Part
 	persistentId = 1287646103
-	pos = -2.08056593,5.73988533,-5.60693359
+	pos = -2.08056593,5.77740479,-5.60693359
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.645234942,0.289224446,-0.309261113,-0.635907769
+	rot = -0.645234942,0.289224476,-0.309261143,-0.635907769
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -4897,16 +4897,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -4923,6 +4913,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -5005,10 +5005,10 @@ PART
 	part = conformaldecals-text_4289972778
 	partName = Part
 	persistentId = 708488438
-	pos = -2.07440138,5.38658333,-5.56665039
+	pos = -2.07440138,5.42410278,-5.56665039
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.289224386,0.645234525,0.635908008,0.309261411
+	rot = -0.289224505,0.645234406,0.635907948,0.309261471
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5044,16 +5044,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -5070,6 +5060,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -5161,7 +5161,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4291859926
 	partName = Part
 	persistentId = 3461379221
-	pos = 0.309570313,5.56474495,-4.66430664
+	pos = 0.309570313,5.6022644,-4.66430664
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.707106769,-0.000488007237,0.000488050893,-0.707106411
@@ -5207,16 +5207,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -5232,6 +5222,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -5469,7 +5469,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4291329660
 	partName = Part
 	persistentId = 2932575155
-	pos = 2.03051758,5.56886292,-7.32348633
+	pos = 2.03051758,5.60638428,-7.32348633
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.693681479,0.137134895,-0.137135521,0.693681359
@@ -5509,16 +5509,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -5534,6 +5524,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -5760,7 +5760,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4270421002
 	partName = Part
 	persistentId = 3830530194
-	pos = 2.12872314,5.62257385,-6.73266602
+	pos = 2.12872314,5.66009521,-6.73266602
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.685655951,0.17278555,-0.194137737,0.67994976
@@ -5800,16 +5800,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -5825,6 +5815,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -6051,7 +6051,7 @@ PART
 	part = vernierEngine_4280718006
 	partName = Part
 	persistentId = 2030629588
-	pos = 2.85705566,5.56889343,-6.29711914
+	pos = 2.85705566,5.60641479,-6.29711914
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000179,0.499999791,0.499999911,-0.49999997
@@ -6091,16 +6091,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -6117,6 +6107,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -6320,7 +6320,7 @@ PART
 	part = conformaldecals-generic_4273633782
 	partName = Part
 	persistentId = 1534608660
-	pos = 0.839599669,5.72807503,-3.58325195
+	pos = 0.839599669,5.76559448,-3.58325195
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.30107528,0.639791012,-0.630095899,-0.32093665
@@ -6360,16 +6360,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -6386,6 +6376,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -6498,7 +6498,7 @@ PART
 	part = conformaldecals-text_4288193296
 	partName = Part
 	persistentId = 2989205698
-	pos = 2.1270752,5.73790169,-5.71142578
+	pos = 2.1270752,5.77542114,-5.71142578
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.645234942,-0.289224118,0.309261113,-0.635908008
@@ -6537,16 +6537,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -6563,6 +6553,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -6654,7 +6654,7 @@ PART
 	part = conformaldecals-flag_4289759528
 	partName = Part
 	persistentId = 1121121310
-	pos = 2.08337402,5.38771248,-5.6965332
+	pos = 2.08337402,5.42523193,-5.6965332
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.289224029,0.645234525,0.635908306,-0.309261382
@@ -6693,16 +6693,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -6719,6 +6709,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -6801,7 +6801,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4280439804
 	partName = Part
 	persistentId = 2927364737
-	pos = 0,6.00291443,-11.2363281
+	pos = 0,6.04043579,-11.2363281
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,-0.5,-0.5,-0.5
@@ -6848,16 +6848,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -6873,6 +6863,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -7110,7 +7110,7 @@ PART
 	part = RO-B9ProcAMWing-Supersonic_4288401530
 	partName = Part
 	persistentId = 425778260
-	pos = -0.0720214844,7.02723312,-12.2316895
+	pos = -0.0720214844,7.0647583,-12.2316895
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0202993937,-0.706815362,-0.706815362,-0.0202993117
@@ -7150,16 +7150,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -7175,6 +7165,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -7418,7 +7418,7 @@ PART
 	part = RO-B9ProcAMWing-Supersonic_4288390248
 	partName = Part
 	persistentId = 4004489421
-	pos = 0.0720214844,7.02723312,-12.2316895
+	pos = 0.0720214844,7.0647583,-12.2316895
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.70681566,-0.0202993192,-0.0202993862,-0.706815064
@@ -7458,16 +7458,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -7483,6 +7473,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -7726,7 +7726,7 @@ PART
 	part = vernierEngine_4280762802
 	partName = Part
 	persistentId = 631162441
-	pos = -0.0509033203,6.75580978,-12.3764648
+	pos = -0.0509033203,6.79333496,-12.3764648
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,-1.1920929E-07,-1
@@ -7766,16 +7766,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -7792,6 +7782,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -7995,7 +7995,7 @@ PART
 	part = vernierEngine_4280762496
 	partName = Part
 	persistentId = 2716157430
-	pos = 0.0509033203,6.75580978,-12.3764648
+	pos = 0.0509033203,6.79333496,-12.3764648
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 2.98023224E-08,1,2.98023224E-08,-2.98023224E-08
@@ -8035,16 +8035,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -8061,6 +8051,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -8264,7 +8264,7 @@ PART
 	part = conformaldecals-text_4272548846
 	partName = Part
 	persistentId = 2707775879
-	pos = -0.199462891,6.61366272,-11.7753906
+	pos = -0.199462891,6.65118408,-11.7753906
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0148322284,-0.706951499,0.0148322852,-0.706950903
@@ -8304,16 +8304,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -8330,6 +8320,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -8421,7 +8421,7 @@ PART
 	part = conformaldecals-text_4272340828
 	partName = Part
 	persistentId = 2142992986
-	pos = 0.199462891,6.61366272,-11.7753906
+	pos = 0.199462891,6.65118408,-11.7753906
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0148323746,-0.706951499,0.0148322582,0.706951022
@@ -8461,16 +8461,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -8487,6 +8477,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -8578,7 +8578,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4289074134
 	partName = Part
 	persistentId = 3022785109
-	pos = 0,6.58054733,-12.8112793
+	pos = 0,6.61807251,-12.8112793
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500113845,-0.499886215,-0.50020808,-0.49979189
@@ -8617,16 +8617,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -8642,6 +8632,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -8868,7 +8868,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4288486818
 	partName = Part
 	persistentId = 2686960983
-	pos = 0,7.13465881,-11.875
+	pos = 0,7.17218018,-11.875
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499999791,0.500000238,0.5,0.5
@@ -8911,16 +8911,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -8936,6 +8926,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -9173,7 +9173,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4289404094
 	partName = Part
 	persistentId = 1863022613
-	pos = 0,7.45692444,-11.9953613
+	pos = 0,7.4944458,-11.9953613
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499999672,0.500000298,0.500000179,0.499999881
@@ -9215,16 +9215,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -9240,6 +9230,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -9477,7 +9477,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4288543040
 	partName = Part
 	persistentId = 1278735163
-	pos = 0,7.95338392,-12.8068848
+	pos = 0,7.99090576,-12.8068848
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000179,0.499999821,0.499999762,-0.500000298
@@ -9516,16 +9516,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -9541,6 +9531,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -9767,7 +9767,7 @@ PART
 	part = conformaldecals-text_4290010882
 	partName = Part
 	persistentId = 3135082849
-	pos = -0.139770508,7.68507338,-12.5
+	pos = -0.139770508,7.72259521,-12.5
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.012368381,-0.706998587,0.0123683745,-0.706998587
@@ -9807,16 +9807,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -9833,6 +9823,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -9924,7 +9924,7 @@ PART
 	part = conformaldecals-text_4288216166
 	partName = Part
 	persistentId = 3765556528
-	pos = 0.139770508,7.68507338,-12.5
+	pos = 0.139770508,7.72259521,-12.5
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0123683307,-0.706998825,0.0123683214,0.706998408
@@ -9964,16 +9964,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -9990,6 +9980,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -10081,7 +10081,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4288674548
 	partName = Part
 	persistentId = 3777698195
-	pos = 0,7.29444408,-12.809082
+	pos = 0,7.33197021,-12.809082
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499991238,0.500008762,0.499991715,0.500008345
@@ -10120,16 +10120,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -10145,6 +10135,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -10371,7 +10371,7 @@ PART
 	part = conformaldecals-text_4289908304
 	partName = Part
 	persistentId = 3290049663
-	pos = -0.165405273,7.27439499,-12.3479004
+	pos = -0.165405273,7.31192017,-12.3479004
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0108569562,-0.707023501,0.0108570866,-0.707023382
@@ -10411,16 +10411,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -10437,6 +10427,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -10528,7 +10528,7 @@ PART
 	part = conformaldecals-text_4288267908
 	partName = Part
 	persistentId = 1181900014
-	pos = 0.165405273,7.27439499,-12.3481445
+	pos = 0.165405273,7.31192017,-12.3481445
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0108569805,-0.707023501,0.0108573139,0.707023263
@@ -10568,16 +10568,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -10594,6 +10584,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -10685,7 +10685,7 @@ PART
 	part = RO-RFTank-Seperate_4282473858
 	partName = Part
 	persistentId = 753037243
-	pos = 0,5.97489643,-11.6665039
+	pos = 0,6.01242065,-11.6665039
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -10727,14 +10727,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -10748,6 +10740,14 @@ PART
 			actionGroup = None
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 		}
@@ -11082,7 +11082,7 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 1.680160201480547
+			amount = 1.6949158062573095
 			maxAmount = 830.06742451153025
 		}
 		TANK
@@ -11101,7 +11101,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1.7352783360865129
+			amount = 2.1609542842231937
 			maxAmount = 17.668527331760064
 		}
 		TANK
@@ -11120,7 +11120,7 @@ PART
 			temperature = 351.649994
 			fillable = True
 			techRequired = 
-			amount = 6.5423402499960659
+			amount = 6.5646991297094344
 			maxAmount = 936.78534815671185
 		}
 		UPGRADESAPPLIED
@@ -11199,7 +11199,7 @@ PART
 	part = RO-RFTank-Seperate_4292430594
 	partName = Part
 	persistentId = 1062527049
-	pos = -0.527954102,5.93458271,-10.6975098
+	pos = -0.527954102,5.97210693,-10.6975098
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.5,0.5,0.5,0.5
@@ -11243,14 +11243,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -11264,6 +11256,14 @@ PART
 			actionGroup = None
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 		}
@@ -11598,7 +11598,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 2.3242416183278731
+			amount = 2.8943943909440319
 			maxAmount = 23.665325443786983
 		}
 		TANK
@@ -11617,7 +11617,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 92.536223911455707
+			amount = 116.47769601403307
 			maxAmount = 266.23491124260357
 		}
 		UPGRADESAPPLIED
@@ -11685,7 +11685,7 @@ PART
 	part = SSTUHollowRing.Boattail_4282467114
 	partName = Part
 	persistentId = 134325250
-	pos = -0.527954102,5.9345789,-12.2019043
+	pos = -0.527954102,5.97210693,-12.2019043
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -8.42970422E-08,-0.707106829,0.707106829,8.42903489E-08
@@ -11732,16 +11732,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -11757,6 +11747,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -11905,10 +11905,10 @@ PART
 	part = ROE-XLR11_4292339898
 	partName = Part
 	persistentId = 3038111046
-	pos = -0.48046875,5.9307642,-12.0458984
+	pos = -0.48046875,5.96829224,-12.0458984
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 0.500000417,0.499999613,0.500000179,0.499999791
+	rot = 0.500000417,0.499999672,0.500000238,0.499999791
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -11946,16 +11946,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -11971,6 +11961,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -12295,10 +12295,10 @@ PART
 		name = TestFlightCore
 		isEnabled = True
 		operatingTime = 0
-		lastMET = 1450.9032511711121
+		lastMET = 1464.5829983353615
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 241978350.00759307
+		missionStartTime = 245362357.78409377
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12315,7 +12315,7 @@ PART
 	{
 		name = FlightDataRecorder_Engine
 		isEnabled = True
-		lastRecordedMet = 371.80307
+		lastRecordedMet = 371.793152
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12384,8 +12384,8 @@ PART
 	{
 		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		numIgnitions = 33
-		previousTime = 241979800.91084424
+		numIgnitions = 34
+		previousTime = 245363822.3670921
 		failed = False
 		stagingEnabled = True
 		EVENTS
@@ -12398,7 +12398,7 @@ PART
 		{
 			id = 0
 			hasBeenRun = True
-			timeSinceLastShutdown = 1079.06482
+			timeSinceLastShutdown = 1092.77502
 		}
 		UPGRADESAPPLIED
 		{
@@ -12488,7 +12488,7 @@ PART
 	part = KzProcFairingSide1.TU_4291511488
 	partName = Part
 	persistentId = 3174388571
-	pos = -0.973937988,5.93458271,-11.7258301
+	pos = -0.973937988,5.97210693,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -7.37566324E-07,0.707106829,-0.707106709,7.37573146E-07
@@ -12528,16 +12528,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -12553,6 +12543,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -12801,7 +12801,7 @@ PART
 	part = KzProcFairingSide1.TU_4291396148
 	partName = Part
 	persistentId = 2763658766
-	pos = -0.0819702148,5.93458271,-11.7258301
+	pos = -0.0819702148,5.97210693,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.707106709,7.37566381E-07,-7.37573089E-07,0.707106829
@@ -12841,16 +12841,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -12866,6 +12856,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -13114,7 +13114,7 @@ PART
 	part = vernierEngine_4280817910
 	partName = Part
 	persistentId = 1779327255
-	pos = -0.527954102,6.22843933,-11.3842773
+	pos = -0.527954102,6.26596069,-11.3842773
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,0.49999994,0.49999994,-0.50000006
@@ -13154,16 +13154,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -13180,6 +13170,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -13383,7 +13383,7 @@ PART
 	part = RO-RFTank-Seperate_4292292616
 	partName = Part
 	persistentId = 4153244358
-	pos = 0.527954102,5.93458271,-10.6975098
+	pos = 0.527954102,5.97210693,-10.6975098
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.500000119,-0.5,-0.5,0.499999881
@@ -13427,14 +13427,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -13448,6 +13440,14 @@ PART
 			actionGroup = None
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 		}
@@ -13782,7 +13782,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 2.3242416183278731
+			amount = 2.8943943909440319
 			maxAmount = 23.665325443786983
 		}
 		TANK
@@ -13801,7 +13801,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 92.536223911455707
+			amount = 116.47769601403307
 			maxAmount = 266.23491124260357
 		}
 		UPGRADESAPPLIED
@@ -13869,7 +13869,7 @@ PART
 	part = SSTUHollowRing.Boattail_4292292522
 	partName = Part
 	persistentId = 2947378085
-	pos = 0.527954102,5.9345789,-12.2019043
+	pos = 0.527954102,5.97210693,-12.2019043
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -8.42971559E-08,0.707106888,-0.70710665,8.42902637E-08
@@ -13916,16 +13916,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -13941,6 +13931,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -14089,7 +14089,7 @@ PART
 	part = ROE-XLR11_4292290834
 	partName = Part
 	persistentId = 73483403
-	pos = 0.48046875,5.9307642,-12.0458984
+	pos = 0.48046875,5.96829224,-12.0458984
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.500000596,-0.499999583,-0.500000298,0.499999642
@@ -14130,16 +14130,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -14155,6 +14145,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -14479,10 +14479,10 @@ PART
 		name = TestFlightCore
 		isEnabled = True
 		operatingTime = 0
-		lastMET = 1450.9032511711121
+		lastMET = 1464.5829983353615
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 241978350.00759307
+		missionStartTime = 245362357.78409377
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14499,7 +14499,7 @@ PART
 	{
 		name = FlightDataRecorder_Engine
 		isEnabled = True
-		lastRecordedMet = 371.80307
+		lastRecordedMet = 371.793152
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14568,8 +14568,8 @@ PART
 	{
 		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		numIgnitions = 32
-		previousTime = 241979800.91084424
+		numIgnitions = 33
+		previousTime = 245363822.3670921
 		failed = False
 		stagingEnabled = True
 		EVENTS
@@ -14582,7 +14582,7 @@ PART
 		{
 			id = 0
 			hasBeenRun = True
-			timeSinceLastShutdown = 1079.06482
+			timeSinceLastShutdown = 1092.77502
 		}
 		UPGRADESAPPLIED
 		{
@@ -14672,7 +14672,7 @@ PART
 	part = KzProcFairingSide1.TU_4291420056
 	partName = Part
 	persistentId = 581901653
-	pos = 0.973937988,5.93458271,-11.7258301
+	pos = 0.973937988,5.97210693,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.70710659,5.90059358E-07,-5.90052196E-07,0.707106948
@@ -14712,16 +14712,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -14737,6 +14727,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -14985,7 +14985,7 @@ PART
 	part = KzProcFairingSide1.TU_4291411454
 	partName = Part
 	persistentId = 1013088963
-	pos = 0.0819702148,5.93458271,-11.7258301
+	pos = 0.0819702148,5.97210693,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -5.90059187E-07,0.707106948,-0.70710659,5.9005248E-07
@@ -15025,16 +15025,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -15050,6 +15040,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -15298,7 +15298,7 @@ PART
 	part = vernierEngine_4280817808
 	partName = Part
 	persistentId = 2930652201
-	pos = 0.527954102,6.22843933,-11.3842773
+	pos = 0.527954102,6.26596069,-11.3842773
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,0.500000119,0.500000119,-0.499999762
@@ -15338,16 +15338,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -15364,6 +15354,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -15567,7 +15567,7 @@ PART
 	part = SmallGearBay_4266288946
 	partName = Part
 	persistentId = 44743399
-	pos = -1.29296875,5.52458191,-6.328125
+	pos = -1.29296875,5.56210327,-6.328125
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,2.9802333E-08,-4.21468549E-08,1
@@ -15607,16 +15607,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -15632,6 +15622,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -15894,7 +15894,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,-0.02270178
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -16067,7 +16067,7 @@ PART
 	part = SmallGearBay_4266288408
 	partName = Part
 	persistentId = 2070516550
-	pos = 1.29296875,5.52458191,-6.328125
+	pos = 1.29296875,5.56210327,-6.328125
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-2.9802333E-08,4.21468549E-08,1
@@ -16107,16 +16107,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -16132,6 +16122,16 @@ PART
 		AutostrutGrandparent
 		{
 			actionGroup = None
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
 		}
 	}
 	PARTDATA
@@ -16382,7 +16382,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,-0.01530227
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -16555,7 +16555,7 @@ PART
 	part = conformaldecals-flag_4290682750
 	partName = Part
 	persistentId = 2373840338
-	pos = -0.721069336,5.97492695,-9.05322266
+	pos = -0.721069336,6.01245117,-9.05322266
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.706618428,1.49011612E-07,0.707594752
@@ -16595,16 +16595,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -16621,6 +16611,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -16703,7 +16703,7 @@ PART
 	part = conformaldecals-flag_4271944418
 	partName = Part
 	persistentId = 3821872636
-	pos = 0.721069336,5.97492695,-9.05322266
+	pos = 0.721069336,6.01245117,-9.05322266
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.706618428,-1.49011612E-07,0.707594752
@@ -16743,16 +16743,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -16769,6 +16759,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -16851,7 +16851,7 @@ PART
 	part = conformaldecals-text_4290248434
 	partName = Part
 	persistentId = 2398347284
-	pos = -0.69543457,6.16526985,-4.97387695
+	pos = -0.69543457,6.20278931,-4.97387695
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.069260776,-0.703216076,0.0693563521,-0.704187393
@@ -16891,16 +16891,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -16917,6 +16907,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -17008,7 +17008,7 @@ PART
 	part = conformaldecals-text_4271825208
 	partName = Part
 	persistentId = 2078160594
-	pos = 0.69543457,6.16526985,-4.97387695
+	pos = 0.69543457,6.20278931,-4.97387695
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.069260776,-0.703216016,0.0693564415,0.704187334
@@ -17048,16 +17048,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -17074,6 +17064,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -17165,7 +17165,7 @@ PART
 	part = vernierEngine_4281051666
 	partName = Part
 	persistentId = 37987485
-	pos = -0.0651855469,6.51286697,-0.195069313
+	pos = -0.0651855469,6.55038452,-0.195069313
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.49999997,-0.49999997,-0.49999997,0.49999997
@@ -17205,16 +17205,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -17231,6 +17221,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
@@ -17434,7 +17434,7 @@ PART
 	part = vernierEngine_4289082190
 	partName = Part
 	persistentId = 3540598084
-	pos = 0.0651855469,6.51286697,-0.195069313
+	pos = 0.0651855469,6.55038452,-0.195069313
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000298,0.49999994,0.49999994,-0.50000006
@@ -17474,16 +17474,6 @@ PART
 		{
 			actionGroup = None
 		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-		}
 		AutostrutOff
 		{
 			actionGroup = None
@@ -17500,6 +17490,16 @@ PART
 			active = False
 		}
 		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+		}
+		ResourcesDisableFlow
 		{
 			actionGroup = None
 			active = False
