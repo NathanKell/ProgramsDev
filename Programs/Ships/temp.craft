@@ -2,9 +2,9 @@ ship = Starstreak
 version = 1.12.3
 description = 
 type = None
-size = 7.72654629,4.02434063,16.5495338
+size = 7.72654629,4.0268364,16.5495338
 steamPublishedFileId = 0
-persistentId = 1104529924
+persistentId = 3918315412
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -17,7 +17,7 @@ PART
 	part = Mark1Cockpit_4274034282
 	partName = Part
 	persistentId = 683018196
-	pos = 0,6.02434158,0
+	pos = 0,6.0268364,0
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -315,7 +315,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = crewSurvivability
-			amount = 41.80488668337663
+			amount = 41.206068514871113
 			maxAmount = 0
 		}
 		TANK
@@ -429,7 +429,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 12223.695118538944
+			amount = 12140.904269239072
 			maxAmount = 14400
 		}
 		UPGRADESAPPLIED
@@ -1155,17 +1155,17 @@ PART
 			}
 			MechJebModuleFlightRecorder
 			{
-				markUT = 251668509.22330332
-				deltaVExpended = 3350.5434085731026
-				dragLosses = 4323.4821957064278
-				gravityLosses = 669.34749836632386
-				steeringLosses = 447.89057267230464
-				markLAN = 190.66218327744301
-				markLatitude = 19.558653993274774
-				markLongitude = -80.660510176970973
-				markAltitude = 13749.312383474968
+				markUT = 254500655.56964195
+				deltaVExpended = 3350.0031222405328
+				dragLosses = 4580.6457603609215
+				gravityLosses = 661.0313312882829
+				steeringLosses = 303.95500581831425
+				markLAN = 34.472868790640064
+				markLatitude = 37.202304537229828
+				markLongitude = -83.571272886463532
+				markAltitude = 13749.443169980124
 				markBodyIndex = 1
-				maxDragGees = 5.5015815393560139
+				maxDragGees = 4.955498879860877
 				unlockParts = 
 				unlockTechs = 
 			}
@@ -1686,7 +1686,7 @@ PART
 	RESOURCE
 	{
 		name = _EVAScrubber
-		amount = 1.0476878049610712
+		amount = 1.0457291593496971
 		maxAmount = 1.1000000000000001
 		flowState = True
 		isTweakable = False
@@ -1711,7 +1711,7 @@ PART
 	part = SmallGearBay_4279762838
 	partName = Part
 	persistentId = 2800993965
-	pos = 0,5.67271805,0.300292969
+	pos = 0,5.67521286,0.300292969
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,0,1
@@ -2210,7 +2210,7 @@ PART
 	part = conformaldecals-generic_4290346536
 	partName = Part
 	persistentId = 1301445122
-	pos = 0.480712891,6.46849442,0.176025331
+	pos = 0.480712891,6.47098923,0.176025331
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.24966976,0.735503137,-0.202455997,-0.596415758
@@ -2387,7 +2387,7 @@ PART
 	part = conformaldecals-text_4272547488
 	partName = Part
 	persistentId = 2468898730
-	pos = -0.381835938,5.97829151,1.50073218
+	pos = -0.381835938,5.98078728,1.50073218
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0513342917,-0.783209205,-0.0405263901,-0.618308783
@@ -2544,7 +2544,7 @@ PART
 	part = conformaldecals-text_4272463066
 	partName = Part
 	persistentId = 583617356
-	pos = 0.381835938,5.97829151,1.50073218
+	pos = 0.381835938,5.98078728,1.50073218
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0513345897,-0.783209324,-0.0405263901,0.618308663
@@ -2701,7 +2701,7 @@ PART
 	part = conformaldecals-flag_4289577604
 	partName = Part
 	persistentId = 3363857025
-	pos = -0.675048828,6.02434158,0.283447206
+	pos = -0.675048828,6.0268364,0.283447206
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.784889936,0,0.619635284
@@ -2849,7 +2849,7 @@ PART
 	part = conformaldecals-flag_4289577326
 	partName = Part
 	persistentId = 3858711370
-	pos = 0.675048828,6.02434158,0.283447206
+	pos = 0.675048828,6.0268364,0.283447206
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.784889936,0,0.619635284
@@ -2997,7 +2997,7 @@ PART
 	part = RO-RFTank-Seperate_4282509732
 	partName = Part
 	persistentId = 2915737537
-	pos = 0,6.02434063,-5.16650391
+	pos = 0,6.02683449,-5.16650391
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -3404,7 +3404,7 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 23.315932996750984
+			amount = 22.364214561864276
 			maxAmount = 5251.5727323681649
 		}
 		TANK
@@ -3423,7 +3423,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0.57608333684257418
+			amount = 17.109655675099589
 			maxAmount = 111.7831559420314
 		}
 		TANK
@@ -3442,7 +3442,7 @@ PART
 			temperature = 351.649994
 			fillable = True
 			techRequired = 
-			amount = 41.412435449037432
+			amount = 41.466917078859581
 			maxAmount = 5926.7431116898042
 		}
 		UPGRADESAPPLIED
@@ -3521,7 +3521,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4282188786
 	partName = Part
 	persistentId = 4053134909
-	pos = -0.309570313,5.61415386,-4.66430664
+	pos = -0.309570313,5.61664772,-4.66430664
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.000488081714,-0.707106531,-0.70710665,-0.000487976416
@@ -3829,7 +3829,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4281835390
 	partName = Part
 	persistentId = 1833365984
-	pos = -2.03051758,5.61827278,-7.32348633
+	pos = -2.03051758,5.62076569,-7.32348633
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.693681479,0.13713491,-0.137135565,-0.693681359
@@ -4120,7 +4120,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4291047172
 	partName = Part
 	persistentId = 1183469466
-	pos = -2.12872314,5.67198372,-6.73266602
+	pos = -2.12872314,5.67447662,-6.73266602
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.685655832,-0.172785491,0.194137797,0.67994988
@@ -4411,7 +4411,7 @@ PART
 	part = vernierEngine_4280894474
 	partName = Part
 	persistentId = 1777256486
-	pos = -2.85705471,5.6183033,-6.29711914
+	pos = -2.85705471,5.6207962,-6.29711914
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,0.49999997,0.500000179,-0.499999762
@@ -4680,7 +4680,7 @@ PART
 	part = conformaldecals-generic_4288136326
 	partName = Part
 	persistentId = 3140275041
-	pos = -0.839538395,5.77748394,-3.58325195
+	pos = -0.839538395,5.7799778,-3.58325195
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.30107525,-0.639790893,0.63009578,-0.320936799
@@ -4858,10 +4858,10 @@ PART
 	part = conformaldecals-flag_4288199122
 	partName = Part
 	persistentId = 1287646103
-	pos = -2.08056593,5.78929424,-5.60693359
+	pos = -2.08056593,5.7917881,-5.60693359
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.645234764,0.289224535,-0.309261233,-0.635907769
+	rot = -0.645234764,0.289224625,-0.309261292,-0.635907769
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5005,10 +5005,10 @@ PART
 	part = conformaldecals-text_4289972778
 	partName = Part
 	persistentId = 708488438
-	pos = -2.07440138,5.43599224,-5.56665039
+	pos = -2.07440138,5.4384861,-5.56665039
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.289224565,0.645234406,0.635907948,0.30926165
+	rot = -0.289224595,0.645234346,0.635907888,0.30926168
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5161,7 +5161,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4291859926
 	partName = Part
 	persistentId = 3461379221
-	pos = 0.309570313,5.61415386,-4.66430664
+	pos = 0.309570313,5.61664772,-4.66430664
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.707106769,-0.000488007237,0.000488050893,-0.707106411
@@ -5469,7 +5469,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4291329660
 	partName = Part
 	persistentId = 2932575155
-	pos = 2.03051758,5.61827278,-7.32348633
+	pos = 2.03051758,5.62076569,-7.32348633
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.693681479,0.137134895,-0.137135521,0.693681359
@@ -5760,7 +5760,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4270421002
 	partName = Part
 	persistentId = 3830530194
-	pos = 2.12872314,5.67198372,-6.73266602
+	pos = 2.12872314,5.67447662,-6.73266602
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.685655951,0.17278555,-0.194137737,0.67994976
@@ -6051,7 +6051,7 @@ PART
 	part = vernierEngine_4280718006
 	partName = Part
 	persistentId = 2030629588
-	pos = 2.85705566,5.6183033,-6.29711914
+	pos = 2.85705566,5.6207962,-6.29711914
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000179,0.499999791,0.499999911,-0.49999997
@@ -6320,7 +6320,7 @@ PART
 	part = conformaldecals-generic_4273633782
 	partName = Part
 	persistentId = 1534608660
-	pos = 0.839599669,5.77748394,-3.58325195
+	pos = 0.839599669,5.7799778,-3.58325195
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.30107528,0.639791012,-0.630095899,-0.32093665
@@ -6498,7 +6498,7 @@ PART
 	part = conformaldecals-text_4288193296
 	partName = Part
 	persistentId = 2989205698
-	pos = 2.1270752,5.7873106,-5.71142578
+	pos = 2.1270752,5.78980446,-5.71142578
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.645234942,-0.289224118,0.309261113,-0.635908008
@@ -6654,7 +6654,7 @@ PART
 	part = conformaldecals-flag_4289759528
 	partName = Part
 	persistentId = 1121121310
-	pos = 2.08337402,5.43712139,-5.6965332
+	pos = 2.08337402,5.43961525,-5.6965332
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.289224029,0.645234525,0.635908306,-0.309261382
@@ -6801,7 +6801,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4280439804
 	partName = Part
 	persistentId = 2927364737
-	pos = 0,6.05232382,-11.2363281
+	pos = 0,6.0548172,-11.2363281
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,-0.5,-0.5,-0.5
@@ -7110,7 +7110,7 @@ PART
 	part = RO-B9ProcAMWing-Supersonic_4288401530
 	partName = Part
 	persistentId = 425778260
-	pos = -0.0720214844,7.07664442,-12.2316895
+	pos = -0.0720214844,7.0791378,-12.2316895
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0202993937,-0.706815362,-0.706815362,-0.0202993117
@@ -7418,7 +7418,7 @@ PART
 	part = RO-B9ProcAMWing-Supersonic_4288390248
 	partName = Part
 	persistentId = 4004489421
-	pos = 0.0720214844,7.07664442,-12.2316895
+	pos = 0.0720214844,7.0791378,-12.2316895
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.70681566,-0.0202993192,-0.0202993862,-0.706815064
@@ -7726,7 +7726,7 @@ PART
 	part = vernierEngine_4280762802
 	partName = Part
 	persistentId = 631162441
-	pos = -0.0509033203,6.80522108,-12.3764648
+	pos = -0.0509033203,6.80771446,-12.3764648
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,-1.1920929E-07,-1
@@ -7995,7 +7995,7 @@ PART
 	part = vernierEngine_4280762496
 	partName = Part
 	persistentId = 2716157430
-	pos = 0.0509033203,6.80522108,-12.3764648
+	pos = 0.0509033203,6.80771446,-12.3764648
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 2.98023224E-08,1,2.98023224E-08,-2.98023224E-08
@@ -8264,7 +8264,7 @@ PART
 	part = conformaldecals-text_4272548846
 	partName = Part
 	persistentId = 2707775879
-	pos = -0.199462891,6.66307211,-11.7753906
+	pos = -0.199462891,6.66556549,-11.7753906
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0148322284,-0.706951499,0.0148322852,-0.706950903
@@ -8421,7 +8421,7 @@ PART
 	part = conformaldecals-text_4272340828
 	partName = Part
 	persistentId = 2142992986
-	pos = 0.199462891,6.66307211,-11.7753906
+	pos = 0.199462891,6.66556549,-11.7753906
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0148323746,-0.706951499,0.0148322582,0.706951022
@@ -8578,7 +8578,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4289074134
 	partName = Part
 	persistentId = 3022785109
-	pos = 0,6.62995863,-12.8112793
+	pos = 0,6.63245201,-12.8112793
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500113845,-0.499886215,-0.50020808,-0.49979189
@@ -8868,7 +8868,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4288486818
 	partName = Part
 	persistentId = 2686960983
-	pos = 0,7.1840682,-11.875
+	pos = 0,7.18656158,-11.875
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499999791,0.500000238,0.5,0.5
@@ -9173,7 +9173,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4289404094
 	partName = Part
 	persistentId = 1863022613
-	pos = 0,7.50633383,-11.9953613
+	pos = 0,7.50882721,-11.9953613
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499999672,0.500000298,0.500000179,0.499999881
@@ -9477,7 +9477,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4288543040
 	partName = Part
 	persistentId = 1278735163
-	pos = 0,8.00279427,-12.8068848
+	pos = 0,8.00528717,-12.8068848
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000179,0.499999821,0.499999762,-0.500000298
@@ -9767,7 +9767,7 @@ PART
 	part = conformaldecals-text_4290010882
 	partName = Part
 	persistentId = 3135082849
-	pos = -0.139770508,7.73448324,-12.5
+	pos = -0.139770508,7.73697662,-12.5
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.012368381,-0.706998587,0.0123683745,-0.706998587
@@ -9924,7 +9924,7 @@ PART
 	part = conformaldecals-text_4288216166
 	partName = Part
 	persistentId = 3765556528
-	pos = 0.139770508,7.73448324,-12.5
+	pos = 0.139770508,7.73697662,-12.5
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0123683307,-0.706998825,0.0123683214,0.706998408
@@ -10081,7 +10081,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4288674548
 	partName = Part
 	persistentId = 3777698195
-	pos = 0,7.34385633,-12.809082
+	pos = 0,7.34634972,-12.809082
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.499991238,0.500008762,0.499991715,0.500008345
@@ -10371,7 +10371,7 @@ PART
 	part = conformaldecals-text_4289908304
 	partName = Part
 	persistentId = 3290049663
-	pos = -0.165405273,7.32380629,-12.3479004
+	pos = -0.165405273,7.32629967,-12.3479004
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.0108569562,-0.707023501,0.0108570866,-0.707023382
@@ -10528,7 +10528,7 @@ PART
 	part = conformaldecals-text_4288267908
 	partName = Part
 	persistentId = 1181900014
-	pos = 0.165405273,7.32380629,-12.3481445
+	pos = 0.165405273,7.32629967,-12.3481445
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.0108569805,-0.707023501,0.0108573139,0.707023263
@@ -10685,7 +10685,7 @@ PART
 	part = RO-RFTank-Seperate_4282473858
 	partName = Part
 	persistentId = 753037243
-	pos = 0,6.02430773,-11.6665039
+	pos = 0,6.02680016,-11.6665039
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106769,0,0,0.707106769
@@ -11082,7 +11082,7 @@ PART
 			temperature = 90.1500015
 			fillable = True
 			techRequired = 
-			amount = 2.1952827975996363
+			amount = 1.9535640588021346
 			maxAmount = 830.06742451153025
 		}
 		TANK
@@ -11101,7 +11101,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0.091056153287108713
+			amount = 2.7043646816455906
 			maxAmount = 17.668527331760064
 		}
 		TANK
@@ -11120,7 +11120,7 @@ PART
 			temperature = 351.649994
 			fillable = True
 			techRequired = 
-			amount = 6.5456798158883984
+			amount = 6.554291222119228
 			maxAmount = 936.78534815671185
 		}
 		UPGRADESAPPLIED
@@ -11199,7 +11199,7 @@ PART
 	part = RO-RFTank-Seperate_4292430594
 	partName = Part
 	persistentId = 1062527049
-	pos = -0.527954102,5.98399401,-10.6975098
+	pos = -0.527954102,5.98648643,-10.6975098
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.5,0.5,0.5,0.5
@@ -11598,7 +11598,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0.12196112673892411
+			amount = 3.6222413508557088
 			maxAmount = 23.665325443786983
 		}
 		TANK
@@ -11617,7 +11617,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0
+			amount = 147.06590092000684
 			maxAmount = 266.23491124260357
 		}
 		UPGRADESAPPLIED
@@ -11685,7 +11685,7 @@ PART
 	part = SSTUHollowRing.Boattail_4282467114
 	partName = Part
 	persistentId = 134325250
-	pos = -0.527954102,5.9839921,-12.2019043
+	pos = -0.527954102,5.98648453,-12.2019043
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -8.42970422E-08,-0.707106829,0.707106829,8.42903489E-08
@@ -11905,10 +11905,10 @@ PART
 	part = ROE-XLR11_4292339898
 	partName = Part
 	persistentId = 3038111046
-	pos = -0.48046875,5.9801774,-12.0458984
+	pos = -0.48046875,5.98266983,-12.0458984
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 0.500000417,0.499999672,0.500000238,0.499999791
+	rot = 0.500000417,0.499999613,0.500000179,0.499999791
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -12027,7 +12027,7 @@ PART
 		name = ModuleEnginesRF
 		isEnabled = True
 		autoCutoff = True
-		ignited = False
+		ignited = True
 		ignitions = 3
 		partSeed = 1126239464
 		calculatedResiduals = 0.0070000000000000001
@@ -12295,10 +12295,10 @@ PART
 		name = TestFlightCore
 		isEnabled = True
 		operatingTime = 0
-		lastMET = 1390.1257857978344
+		lastMET = 1443.9919109642506
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 251668509.78330362
+		missionStartTime = 254500656.24964231
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12315,7 +12315,7 @@ PART
 	{
 		name = FlightDataRecorder_Engine
 		isEnabled = True
-		lastRecordedMet = 371.815002
+		lastRecordedMet = 371.809265
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12384,8 +12384,8 @@ PART
 	{
 		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		numIgnitions = 36
-		previousTime = 251669899.90908942
+		numIgnitions = 37
+		previousTime = 254502100.24155328
 		failed = False
 		stagingEnabled = True
 		EVENTS
@@ -12398,7 +12398,7 @@ PART
 		{
 			id = 0
 			hasBeenRun = True
-			timeSinceLastShutdown = 1018.21442
+			timeSinceLastShutdown = 1072.13306
 		}
 		UPGRADESAPPLIED
 		{
@@ -12488,7 +12488,7 @@ PART
 	part = KzProcFairingSide1.TU_4291511488
 	partName = Part
 	persistentId = 3174388571
-	pos = -0.973937988,5.98399401,-11.7258301
+	pos = -0.973937988,5.98648643,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -7.37566324E-07,0.707106829,-0.707106709,7.37573146E-07
@@ -12801,7 +12801,7 @@ PART
 	part = KzProcFairingSide1.TU_4291396148
 	partName = Part
 	persistentId = 2763658766
-	pos = -0.0819702148,5.98399401,-11.7258301
+	pos = -0.0819702148,5.98648643,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.707106709,7.37566381E-07,-7.37573089E-07,0.707106829
@@ -13114,7 +13114,7 @@ PART
 	part = vernierEngine_4280817910
 	partName = Part
 	persistentId = 1779327255
-	pos = -0.527954102,6.27784872,-11.3842773
+	pos = -0.527954102,6.2803421,-11.3842773
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,0.49999994,0.49999994,-0.50000006
@@ -13383,7 +13383,7 @@ PART
 	part = RO-RFTank-Seperate_4292292616
 	partName = Part
 	persistentId = 4153244358
-	pos = 0.527954102,5.98399401,-10.6975098
+	pos = 0.527954102,5.98648643,-10.6975098
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.500000119,-0.5,-0.5,0.499999881
@@ -13782,7 +13782,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0.12196112673892411
+			amount = 3.6222413508557088
 			maxAmount = 23.665325443786983
 		}
 		TANK
@@ -13801,7 +13801,7 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 0
+			amount = 147.06590092000684
 			maxAmount = 266.23491124260357
 		}
 		UPGRADESAPPLIED
@@ -13869,7 +13869,7 @@ PART
 	part = SSTUHollowRing.Boattail_4292292522
 	partName = Part
 	persistentId = 2947378085
-	pos = 0.527954102,5.9839921,-12.2019043
+	pos = 0.527954102,5.98648453,-12.2019043
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -8.42971559E-08,0.707106888,-0.70710665,8.42902637E-08
@@ -14089,7 +14089,7 @@ PART
 	part = ROE-XLR11_4292290834
 	partName = Part
 	persistentId = 73483403
-	pos = 0.48046875,5.9801774,-12.0458984
+	pos = 0.48046875,5.98266983,-12.0458984
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.500000596,-0.499999583,-0.500000298,0.499999642
@@ -14479,10 +14479,10 @@ PART
 		name = TestFlightCore
 		isEnabled = True
 		operatingTime = 0
-		lastMET = 1390.1257857978344
+		lastMET = 1443.9919109642506
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 251668509.78330362
+		missionStartTime = 254500656.24964231
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14499,7 +14499,7 @@ PART
 	{
 		name = FlightDataRecorder_Engine
 		isEnabled = True
-		lastRecordedMet = 371.815002
+		lastRecordedMet = 371.809265
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14568,8 +14568,8 @@ PART
 	{
 		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		numIgnitions = 35
-		previousTime = 251669899.90908942
+		numIgnitions = 36
+		previousTime = 254502100.24155328
 		failed = False
 		stagingEnabled = True
 		EVENTS
@@ -14582,7 +14582,7 @@ PART
 		{
 			id = 0
 			hasBeenRun = True
-			timeSinceLastShutdown = 1018.21442
+			timeSinceLastShutdown = 1072.13306
 		}
 		UPGRADESAPPLIED
 		{
@@ -14672,7 +14672,7 @@ PART
 	part = KzProcFairingSide1.TU_4291420056
 	partName = Part
 	persistentId = 581901653
-	pos = 0.973937988,5.98399401,-11.7258301
+	pos = 0.973937988,5.98648643,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.70710659,5.90059358E-07,-5.90052196E-07,0.707106948
@@ -14985,7 +14985,7 @@ PART
 	part = KzProcFairingSide1.TU_4291411454
 	partName = Part
 	persistentId = 1013088963
-	pos = 0.0819702148,5.98399401,-11.7258301
+	pos = 0.0819702148,5.98648643,-11.7258301
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -5.90059187E-07,0.707106948,-0.70710659,5.9005248E-07
@@ -15298,7 +15298,7 @@ PART
 	part = vernierEngine_4280817808
 	partName = Part
 	persistentId = 2930652201
-	pos = 0.527954102,6.27784872,-11.3842773
+	pos = 0.527954102,6.2803421,-11.3842773
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.5,0.500000119,0.500000119,-0.499999762
@@ -15567,7 +15567,7 @@ PART
 	part = SmallGearBay_4266288946
 	partName = Part
 	persistentId = 44743399
-	pos = -1.29296875,5.57399178,-6.328125
+	pos = -1.29296875,5.57648468,-6.328125
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,2.9802333E-08,-4.21468549E-08,1
@@ -16067,7 +16067,7 @@ PART
 	part = SmallGearBay_4266288408
 	partName = Part
 	persistentId = 2070516550
-	pos = 1.29296875,5.57399178,-6.328125
+	pos = 1.29296875,5.57648468,-6.328125
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-2.9802333E-08,4.21468549E-08,1
@@ -16555,7 +16555,7 @@ PART
 	part = conformaldecals-flag_4290682750
 	partName = Part
 	persistentId = 2373840338
-	pos = -0.721069336,6.02433825,-9.05322266
+	pos = -0.721069336,6.02683067,-9.05322266
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.706618428,1.49011612E-07,0.707594752
@@ -16703,7 +16703,7 @@ PART
 	part = conformaldecals-flag_4271944418
 	partName = Part
 	persistentId = 3821872636
-	pos = 0.721069336,6.02433825,-9.05322266
+	pos = 0.721069336,6.02683067,-9.05322266
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.706618428,-1.49011612E-07,0.707594752
@@ -16851,7 +16851,7 @@ PART
 	part = conformaldecals-text_4290248434
 	partName = Part
 	persistentId = 2398347284
-	pos = -0.69543457,6.21467829,-4.97387695
+	pos = -0.69543457,6.21717262,-4.97387695
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.069260776,-0.703216076,0.0693563521,-0.704187393
@@ -17008,7 +17008,7 @@ PART
 	part = conformaldecals-text_4271825208
 	partName = Part
 	persistentId = 2078160594
-	pos = 0.69543457,6.21467829,-4.97387695
+	pos = 0.69543457,6.21717262,-4.97387695
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.069260776,-0.703216016,0.0693564415,0.704187334
@@ -17165,7 +17165,7 @@ PART
 	part = vernierEngine_4281051666
 	partName = Part
 	persistentId = 37987485
-	pos = -0.0651855469,6.56227493,-0.195069313
+	pos = -0.0651855469,6.56476974,-0.195069313
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.49999997,-0.49999997,-0.49999997,0.49999997
@@ -17434,7 +17434,7 @@ PART
 	part = vernierEngine_4289082190
 	partName = Part
 	persistentId = 3540598084
-	pos = 0.0651855469,6.56227493,-0.195069313
+	pos = 0.0651855469,6.56476974,-0.195069313
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.500000298,0.49999994,0.49999994,-0.50000006
