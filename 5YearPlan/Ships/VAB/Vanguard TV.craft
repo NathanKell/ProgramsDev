@@ -1,8 +1,8 @@
-ship = Vanguard TV2
+ship = Vanguard TV
 version = 1.12.3
 description = 
 type = VAB
-size = 8.68830872,29.1789398,8.68831062
+size = 66.6338501,29.5278091,66.6338882
 steamPublishedFileId = 0
 persistentId = 806011409
 rot = 0,0,0,0
@@ -7175,9 +7175,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 600.748413
-		initialFlightData = 600.748413
-		missionStartTime = 184383277.86801118
+		currentFlightData = 541.867004
+		initialFlightData = 541.867004
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7621,9 +7621,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 600.748413
-		initialFlightData = 600.748413
-		missionStartTime = 184383277.86801118
+		currentFlightData = 541.867004
+		initialFlightData = 541.867004
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8067,9 +8067,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 600.748413
-		initialFlightData = 600.748413
-		missionStartTime = 184383277.86801118
+		currentFlightData = 541.867004
+		initialFlightData = 541.867004
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8513,9 +8513,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 600.748413
-		initialFlightData = 600.748413
-		missionStartTime = 184383277.86801118
+		currentFlightData = 541.867004
+		initialFlightData = 541.867004
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8681,7 +8681,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 149.280075
+	modCost = 1838.79565
 	modMass = 0.18795009
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4291171428
@@ -8944,7 +8944,7 @@ PART
 	{
 		name = ModuleToolingPFSide
 		isEnabled = True
-		addedCost = 0
+		addedCost = 1689.51563
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8995,7 +8995,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 149.280075
+	modCost = 1838.79565
 	modMass = 0.18795009
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4291171818
@@ -9258,7 +9258,7 @@ PART
 	{
 		name = ModuleToolingPFSide
 		isEnabled = True
-		addedCost = 0
+		addedCost = 1689.51563
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9309,7 +9309,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 931.399719
+	modCost = 4518.90137
 	modMass = 0.0888784975
 	modSize = 0,0,0
 	link = ROT-GenericTank-Separate_4291399096
@@ -11514,9 +11514,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 664.345581
-		initialFlightData = 1593.93481
-		missionStartTime = 184383277.86801118
+		currentFlightData = 0
+		initialFlightData = 868.398071
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11784,7 +11784,7 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.78936195
+		scaleFactor = 1.78936076
 		height = 5.11757278
 		stagingEnabled = True
 		towerRot = 0,0,0,1
@@ -14386,7 +14386,7 @@ PART
 	pos = -0.00421884144,6.5342598,-2.94797635
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995351188,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.00995350815,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -14717,9 +14717,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1023.08301
-		initialFlightData = 1952.67236
-		missionStartTime = 184383277.86801118
+		currentFlightData = 0
+		initialFlightData = 868.398071
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15264,7 +15264,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 3583204185
-	pos = -2.96331525,6.5342598,0.0111187883
+	pos = -2.96331525,6.5342598,0.0111186877
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -15598,9 +15598,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1023.08301
-		initialFlightData = 1952.67236
-		missionStartTime = 184383277.86801118
+		currentFlightData = 0
+		initialFlightData = 868.398071
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16479,9 +16479,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1023.08301
-		initialFlightData = 1952.67236
-		missionStartTime = 184383277.86801118
+		currentFlightData = 0
+		initialFlightData = 868.398071
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17026,7 +17026,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 1596392695
-	pos = 2.95487571,6.5342598,0.0111203361
+	pos = 2.95487571,6.5342598,0.0111203175
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -17360,9 +17360,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1023.08301
-		initialFlightData = 1952.67236
-		missionStartTime = 184383277.86801118
+		currentFlightData = 0
+		initialFlightData = 868.398071
+		missionStartTime = 161964955.3283807
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
