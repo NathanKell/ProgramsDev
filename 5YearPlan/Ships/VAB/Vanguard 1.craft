@@ -2,7 +2,7 @@ ship = Vanguard 1
 version = 1.12.3
 description = 
 type = VAB
-size = 8.68830872,29.1789398,8.68831158
+size = 24.0717163,29.1789398,24.0717201
 steamPublishedFileId = 0
 persistentId = 855984037
 rot = 0,0,0,0
@@ -2681,7 +2681,7 @@ PART
 		lastMET = 0
 		currentFlightData = 659.630005
 		initialFlightData = 659.630005
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3127,7 +3127,7 @@ PART
 		lastMET = 0
 		currentFlightData = 659.630005
 		initialFlightData = 659.630005
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3573,7 +3573,7 @@ PART
 		lastMET = 0
 		currentFlightData = 659.630005
 		initialFlightData = 659.630005
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4019,7 +4019,7 @@ PART
 		lastMET = 0
 		currentFlightData = 659.630005
 		initialFlightData = 659.630005
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7024,7 +7024,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1329.40405
 		initialFlightData = 2258.99341
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9271,7 +9271,7 @@ PART
 	pos = 2.50465364E-05,4.89238739,-2.95910597
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995351654,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.0099535156,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -9604,7 +9604,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2043.63098
 		initialFlightData = 2973.22021
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10149,7 +10149,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 3624655937
-	pos = -2.9590714,4.89238739,-1.07992728E-05
+	pos = -2.9590714,4.89238739,-1.08243385E-05
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -10485,7 +10485,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2043.63098
 		initialFlightData = 2973.22021
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11366,7 +11366,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2043.63098
 		initialFlightData = 2973.22021
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11911,7 +11911,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 3559178875
-	pos = 2.95911956,4.89238739,-9.35241769E-06
+	pos = 2.95911956,4.89238739,-9.35715434E-06
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -12247,7 +12247,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2043.63098
 		initialFlightData = 2973.22021
-		missionStartTime = 209838032.8804217
+		missionStartTime = 209838337.8322908
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
