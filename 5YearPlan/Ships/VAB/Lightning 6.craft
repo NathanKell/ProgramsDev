@@ -3868,9 +3868,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4314,9 +4314,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4760,9 +4760,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5206,9 +5206,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8196,9 +8196,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1984.54004
-		initialFlightData = 1984.54004
-		missionStartTime = 315326150.6870417
+		currentFlightData = 2117.10205
+		initialFlightData = 2117.10205
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11528,9 +11528,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1984.54004
-		initialFlightData = 1984.54004
-		missionStartTime = 315326150.6870417
+		currentFlightData = 2117.10205
+		initialFlightData = 2117.10205
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17817,7 +17817,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 315326150.6870417
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19013,9 +19013,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1315.84802
-		initialFlightData = 3315.84814
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1975.90405
+		initialFlightData = 3975.90405
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21262,7 +21262,7 @@ PART
 	pos = -5.72143335E-07,3.5631218,-2.95908689
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995355286,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.00995355751,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -21593,9 +21593,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2038.64795
-		initialFlightData = 4038.64795
-		missionStartTime = 315326150.6870417
+		currentFlightData = 3058.72705
+		initialFlightData = 5058.72705
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22140,7 +22140,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 649385918
-	pos = -2.95909715,3.5631218,9.43137456E-06
+	pos = -2.95909715,3.5631218,9.55670293E-06
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -22474,9 +22474,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2038.64795
-		initialFlightData = 4038.64795
-		missionStartTime = 315326150.6870417
+		currentFlightData = 3058.72705
+		initialFlightData = 5058.72705
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -23355,9 +23355,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2038.64795
-		initialFlightData = 4038.64795
-		missionStartTime = 315326150.6870417
+		currentFlightData = 3058.72705
+		initialFlightData = 5058.72705
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -23902,7 +23902,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 3580735913
-	pos = 2.95909381,3.5631218,1.00854104E-05
+	pos = 2.95909381,3.5631218,1.01090936E-05
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -24236,9 +24236,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2038.64795
-		initialFlightData = 4038.64795
-		missionStartTime = 315326150.6870417
+		currentFlightData = 3058.72705
+		initialFlightData = 5058.72705
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25948,9 +25948,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26392,9 +26392,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1773.18994
-		initialFlightData = 1773.18994
-		missionStartTime = 315326150.6870417
+		currentFlightData = 1891.797
+		initialFlightData = 1891.797
+		missionStartTime = 325395233.87325335
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
