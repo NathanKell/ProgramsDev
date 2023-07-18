@@ -34049,11 +34049,11 @@ GAME
 						id = SpaceCenter/ResearchAndDevelopment
 						uid = 0d6951e6-3b06-4f06-803e-af5f49ee9277
 						sFacilityType = ResearchAndDevelopment
-						progress = 100.34573121297673
-						BP = 221.767
+						progress = 0
+						BP = 121.767
 						cost = 250000
-						spentCost = 50172.546856792287
-						spentRushCost = 63682.056567286294
+						spentCost = 0
+						spentRushCost = 0
 						name = ResearchAndDevelopment
 						upgradeProcessed = False
 						workRate = 1.5
