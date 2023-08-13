@@ -1,9 +1,9 @@
 vesselCount = 6
-UT = 421508971.66607618
+UT = 421509193.34586477
 gameMode = CAREER
 gameNull = False
 kspVersion = 1.12.3
-funds = 9630.3012488661207
+funds = 9632.1764904845877
 science = 28
 reputationPercent = 4473
 ongoingContracts = 1
@@ -13,4 +13,4 @@ missionIsEnded = False
 missionHistoryId = 00000000-0000-0000-0000-000000000000
 missionExpansionVersion = 
 saveMD5 = 
-lastWriteTime = 638272532408158776
+lastWriteTime = 638275166671485395
