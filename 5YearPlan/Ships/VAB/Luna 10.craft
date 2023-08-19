@@ -2,7 +2,7 @@ ship = Luna 10
 version = 1.12.3
 description = 
 type = VAB
-size = 24.0717163,39.3601456,24.0717201
+size = 24.0717163,39.3780975,24.0717201
 steamPublishedFileId = 0
 persistentId = 1667980704
 rot = 0,0,0,0
@@ -12,7 +12,7 @@ OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
 OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
-_modVersions = Scale_Redist=2.4.7|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|B9PartSwitch=2.20.0|B9-PWings-Fork=0.44.0|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.6.1|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DebugStuff=1.6.0|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|EarlyBird=0.2.1|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|KerbalChangelog=1.4.2|KerbalismBootstrap=3.17.0|KerbalJointReinforcement=3.7.1|Renamer=1.7.0|HyperEdit=1.5.8|Kopernicus.Parser=1.0.0|Kopernicus=1.12.181|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.30.0|KSPWheel=0.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.3.2|MechJeb2=2.14.3|System.Buffers=4.6.28619|MouseAimFlight=0.0.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|NearFutureExploration=0.4.0|NearFutureSolar=0.4.0|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|principia.ksp_plugin_adapter=1.0.0|ProceduralFairings=6.3.0|ProceduralParts=2.5.4|RCSBuildAid=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|RealFuels=15.6.3|System.Core=4.6.57|RealHeat=5.1.0|RealismOverhaul=14.99.0|ROInstallChecker=1.0.0|RealSolarSystem=20.0.0|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.0.0|ROHeatshields=1.1.0|ROLib=1.7.2|System=4.6.57|ROLoadingImages=1.0.0|RP0=2.8.1|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|Shabby=0.3.0|SmokeScreen=2.8.14|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|TransferWindowPlanner=1.9.1|Waterfall=0.0.0|Kerbalism=3.17.0
+_modVersions = Scale_Redist=2.4.7|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|B9PartSwitch=2.20.0|B9-PWings-Fork=0.44.0|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.6.1|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DebugStuff=1.6.0|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|EarlyBird=0.2.1|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|KerbalChangelog=1.4.2|KerbalismBootstrap=3.17.0|KerbalJointReinforcement=3.7.1|Renamer=1.7.0|HyperEdit=1.5.8|Kopernicus.Parser=1.0.0|Kopernicus=1.12.181|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.30.0|KSPWheel=0.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.3.2|MechJeb2=2.14.3|System.Buffers=4.6.28619|MouseAimFlight=0.0.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|NearFutureExploration=0.4.0|NearFutureSolar=0.4.0|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|principia.ksp_plugin_adapter=1.0.0|ProceduralFairings=6.4.1|ProceduralParts=2.5.4|RCSBuildAid=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|RealFuels=15.6.3|System.Core=4.6.57|RealHeat=5.1.0|RealismOverhaul=14.99.0|ROInstallChecker=1.0.0|RealSolarSystem=20.0.0|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.0.0|ROHeatshields=1.1.0|ROLib=1.7.2|System=4.6.57|ROLoadingImages=1.0.0|RP0=2.8.1|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|Shabby=0.3.0|SmokeScreen=2.8.14|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|TransferWindowPlanner=1.9.1|Waterfall=0.0.0|Kerbalism=3.17.0
 PART
 {
 	part = ROT-ProbeCore_4292873922
@@ -7313,7 +7313,7 @@ PART
 	part = RCSBlockSmall.28_4291369088
 	partName = Part
 	persistentId = 3605411979
-	pos = -1.67628896E-05,41.2623634,-0.835582376
+	pos = -1.67628896E-05,41.2623634,-0.835582614
 	attPos = -9.3066177E-10,0.00416910648,0.0289726295
 	attPos0 = -2.98198488E-09,0.600000203,-0.034099523
 	rot = 0.707106829,0,0.707106829,0
@@ -7909,7 +7909,7 @@ PART
 	part = RCSBlockSmall.28_4292027546
 	partName = Part
 	persistentId = 4086349475
-	pos = -1.66022674E-05,41.2623634,0.835581779
+	pos = -1.66022674E-05,41.2623634,0.835582018
 	attPos = -9.29986754E-10,0.00416922569,0.0289726295
 	attPos0 = -2.98248937E-09,0.600000322,-0.0340996422
 	rot = 0.707106769,0,-0.707106948,0
@@ -11919,7 +11919,7 @@ PART
 		lastMET = 0
 		currentFlightData = 528.692078
 		initialFlightData = 528.692078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12421,7 +12421,7 @@ PART
 		lastMET = 0
 		currentFlightData = 528.692078
 		initialFlightData = 528.692078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12690,6 +12690,7 @@ PART
 		manualMaxSize = 2.25
 		manualCylStart = 0
 		manualCylEnd = 2.60000014
+		maxFairingSize = 2.25
 		decouplerEnabled = True
 		autoDecoupleTopNode = False
 		showInterstageNodes = False
@@ -13193,7 +13194,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -13639,7 +13640,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14085,7 +14086,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14531,7 +14532,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19046,7 +19047,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2800.81104
 		initialFlightData = 2800.81104
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19226,8 +19227,8 @@ PART
 	part = ROT-OpenInterstage_4292343840
 	partName = Part
 	persistentId = 4254436812
-	pos = -1.68383121E-05,36.5833054,1.49011612E-08
-	attPos = 0,0.392126918,0
+	pos = -1.68383121E-05,36.565361,1.49011612E-08
+	attPos = 0,-0.01795578,0
 	attPos0 = 0,-1.8796196,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
@@ -19502,7 +19503,7 @@ PART
 	part = proceduralAvionics_4291398508
 	partName = Part
 	persistentId = 950681176
-	pos = -1.68383121E-05,35.3051872,1.49011612E-08
+	pos = -1.68383121E-05,35.2872429,1.49011612E-08
 	attPos = 0,0,0
 	attPos0 = 0,-1.27811813,0
 	rot = 0,0,0,1
@@ -20993,7 +20994,7 @@ PART
 	part = ROT-GenericTank-Separate_4290917968
 	partName = Part
 	persistentId = 1911132202
-	pos = -1.68383121E-05,32.8781776,1.49011612E-08
+	pos = -1.68383121E-05,32.8602333,1.49011612E-08
 	attPos = 0,0,0
 	attPos0 = 0,-2.45800066,0
 	rot = 0,0,0,1
@@ -21360,7 +21361,7 @@ PART
 	part = ROE-RD0110_4290752166
 	partName = Part
 	persistentId = 59564566
-	pos = -1.68383121E-05,29.806942,1.49011612E-08
+	pos = -1.68383121E-05,29.7889977,1.49011612E-08
 	attPos = 0,0.3842659,0
 	attPos0 = 0,-3.45550013,0
 	rot = 0,0,0,1
@@ -21702,7 +21703,7 @@ PART
 		lastMET = 0
 		currentFlightData = 6161.79004
 		initialFlightData = 6161.79004
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21882,7 +21883,7 @@ PART
 	part = ROT-OpenInterstage_4291125110
 	partName = Part
 	persistentId = 2943845072
-	pos = -1.68383121E-05,28.8589058,1.49011612E-08
+	pos = -1.68383121E-05,28.8409615,1.49011612E-08
 	attPos = 0,0.392126918,0
 	attPos0 = 0,-1.34016109,0
 	rot = 0,0,0,1
@@ -22158,7 +22159,7 @@ PART
 	part = ROT-GenericTank-Separate_4291399096
 	partName = Part
 	persistentId = 2925377538
-	pos = -1.68383121E-05,17.8607635,1.49011612E-08
+	pos = -1.68383121E-05,17.8428192,1.49011612E-08
 	attPos = 0,0,0
 	attPos0 = 0,-10.9981441,0
 	rot = 0,0,0,1
@@ -22564,7 +22565,7 @@ PART
 	part = ROE-RD108_4291331522
 	partName = Part
 	persistentId = 1998639903
-	pos = -1.68383121E-05,5.35266113,1.49011612E-08
+	pos = -1.68383121E-05,5.3347168,1.49011612E-08
 	attPos = 0,-0.409630775,0
 	attPos0 = 0,-12.0984697,0
 	rot = 0,0,0,1
@@ -22906,7 +22907,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -23086,7 +23087,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBase_4290983366
 	partName = Part
 	persistentId = 1803060373
-	pos = -1.68383121E-05,1.0070343,1.49011612E-08
+	pos = -1.68383121E-05,0.989089966,1.49011612E-08
 	attPos = 0,2.89703178,0
 	attPos0 = 0,-7.24266434,0
 	rot = 0,0,0,1
@@ -23173,8 +23174,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.35210979
-		height = 3.86703491
+		scaleFactor = 1.34583557
+		height = 3.84909058
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -23384,7 +23385,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBaseClampArm_4290929136
 	partName = Part
 	persistentId = 2320526971
-	pos = 10.1529131,6.90578461,6.22125299E-07
+	pos = 10.1529131,6.88784027,6.22125299E-07
 	attPos = -0.314194679,0,-1.5970727E-08
 	attPos0 = 10.4671249,5.89875221,6.23891538E-07
 	rot = 0,-1,0,0
@@ -23663,7 +23664,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBaseClampArm_4290920594
 	partName = Part
 	persistentId = 1629109399
-	pos = -1.56238675E-05,6.90578461,-10.1529312
+	pos = -1.56238675E-05,6.88784027,-10.1529312
 	attPos = -3.47354217E-08,0,0.314192772
 	attPos0 = 1.24778308E-06,5.89875221,-10.467124
 	rot = 0,0.707106829,0,-0.707106829
@@ -23934,7 +23935,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBaseClampArm_4290920438
 	partName = Part
 	persistentId = 1021925972
-	pos = -10.1529474,6.90578461,-1.8030405E-06
+	pos = -10.1529474,6.88784027,-1.8030405E-06
 	attPos = 0.314194679,0,-2.10935104E-06
 	attPos0 = -10.4671249,5.89875221,2.91176548E-07
 	rot = 0,0,0,-1
@@ -24205,7 +24206,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBaseClampArm_4290920282
 	partName = Part
 	persistentId = 3508579093
-	pos = -1.71624124E-05,6.90578461,10.1529312
+	pos = -1.71624124E-05,6.88784027,10.1529312
 	attPos = -3.2549724E-07,0,-0.314192772
 	attPos0 = 0,5.89875221,10.467124
 	rot = 0,-0.707106888,0,-0.707106769
@@ -24476,7 +24477,7 @@ PART
 	part = AM.MLP.SoyuzLaunchBaseArmSM_4290914552
 	partName = Part
 	persistentId = 335611651
-	pos = 5.91839123,5.04677582,-5.91840839
+	pos = 5.91839123,5.02883148,-5.91840839
 	attPos = -0.553056717,0,0.55305624
 	attPos0 = 6.47146463,4.03974915,-6.47146463
 	rot = 0,0.923879564,0,-0.382683396
@@ -24785,7 +24786,7 @@ PART
 	part = ROT-BoosterTank-Separate_4291285256
 	partName = Part
 	persistentId = 3635871650
-	pos = -1.58846378E-05,14.1526299,-2.70933747
+	pos = -1.58846378E-05,14.1346855,-2.70933747
 	attPos = 0,0.177225113,0.0200765133
 	attPos0 = 8.94069672E-07,-3.88536072,-2.72941399
 	rot = 3.29272254E-09,-0.999900937,-0.014076368,-2.5288108E-07
@@ -25154,10 +25155,10 @@ PART
 	part = ROE-RD107_4291250204
 	partName = Part
 	persistentId = 2496173501
-	pos = -1.57654285E-05,5.28371429,-2.95909572
+	pos = -1.57654285E-05,5.26576996,-2.95909572
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995359011,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.00995359197,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -25490,7 +25491,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25670,7 +25671,7 @@ PART
 	part = ROT-BoosterTank-Separate_4291229828
 	partName = Part
 	persistentId = 1858207086
-	pos = -2.70935392,14.1526299,-1.05798244E-06
+	pos = -2.70935392,14.1346855,-1.05798244E-06
 	attPos = 0.0200765133,0.177225113,1.76951289E-08
 	attPos0 = -2.72941375,-3.88536072,-1.07288361E-06
 	rot = -0.00995349232,-0.707036912,-0.00995349698,0.707036555
@@ -26039,7 +26040,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 1393336697
-	pos = -2.95911217,5.28371429,1.53985911E-06
+	pos = -2.95911217,5.26576996,1.58998955E-06
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -26375,7 +26376,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26555,7 +26556,7 @@ PART
 	part = ROT-BoosterTank-Separate_4291228906
 	partName = Part
 	persistentId = 2062894290
-	pos = -1.75535679E-05,14.1526299,2.70933771
+	pos = -1.75535679E-05,14.1346855,2.70933771
 	attPos = -1.39698386E-09,0.177225113,-0.0200765133
 	attPos0 = -6.55651093E-07,-3.88536072,2.72941399
 	rot = -0.014076368,-2.09174019E-07,-2.67742495E-09,0.999900937
@@ -26924,7 +26925,7 @@ PART
 	part = ROE-RD107_4291228762
 	partName = Part
 	persistentId = 3552557479
-	pos = -1.76504254E-05,5.28371429,2.95909595
+	pos = -1.76504254E-05,5.26576996,2.95909595
 	attPos = 2.89636404E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0099534886,-0.707037985,0.00995350908,0.707035542
@@ -27260,7 +27261,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -27440,7 +27441,7 @@ PART
 	part = ROT-BoosterTank-Separate_4291227984
 	partName = Part
 	persistentId = 3169703344
-	pos = 2.70932055,14.1526299,7.30156898E-07
+	pos = 2.70932055,14.1346855,7.30156898E-07
 	attPos = -0.0200765133,0.177225113,-4.19095159E-08
 	attPos0 = 2.72941375,-3.88536072,7.74860382E-07
 	rot = -0.00995349698,0.707036555,0.00995349232,0.707036912
@@ -27809,7 +27810,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 68228389
-	pos = 2.95907879,5.28371429,1.38076484E-06
+	pos = 2.95907879,5.26576996,1.39023905E-06
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -28145,7 +28146,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -28325,7 +28326,7 @@ PART
 	part = conformaldecals-flag_4292217158
 	partName = Part
 	persistentId = 2817448886
-	pos = -0.925552964,27.8031197,-0.925536156
+	pos = -0.925552964,27.7851753,-0.925536156
 	attPos = 0,0,0
 	attPos0 = -0.925536215,9.94235611,-0.925536156
 	rot = -1.37669005E-08,-0.382683456,5.70243763E-09,-0.923879504
@@ -28475,7 +28476,7 @@ PART
 	part = conformaldecals-flag_4292214682
 	partName = Part
 	persistentId = 2299700329
-	pos = -0.925552964,27.8031197,0.925536156
+	pos = -0.925552964,27.7851753,0.925536156
 	attPos = 0,0,0
 	attPos0 = -0.925536156,9.94235611,0.925536096
 	rot = -5.70243675E-09,-0.923879564,1.37669014E-08,-0.382683426
@@ -28625,7 +28626,7 @@ PART
 	part = conformaldecals-flag_4292214606
 	partName = Part
 	persistentId = 1311112349
-	pos = 0.925519466,27.8031197,0.925536156
+	pos = 0.925519466,27.7851753,0.925536156
 	attPos = 0,0,0
 	attPos0 = 0.925536275,9.94235611,0.925536096
 	rot = 5.70243808E-09,-0.923879504,1.37669005E-08,0.382683486
@@ -28775,7 +28776,7 @@ PART
 	part = conformaldecals-flag_4292214530
 	partName = Part
 	persistentId = 1130252224
-	pos = 0.925519228,27.8031197,-0.925536156
+	pos = 0.925519228,27.7851753,-0.925536156
 	attPos = 0,0,0
 	attPos0 = 0.925536036,9.94235611,-0.925536215
 	rot = 1.37669014E-08,-0.382683426,5.70243675E-09,0.923879564
@@ -28925,7 +28926,7 @@ PART
 	part = conformaldecals-text_4292214106
 	partName = Part
 	persistentId = 4247548888
-	pos = -0.943442345,23.3702354,-0.943425417
+	pos = -0.943442345,23.3522911,-0.943425417
 	attPos = 0,0,0
 	attPos0 = -0.943425536,5.50947189,-0.943425477
 	rot = -1.37669005E-08,-0.382683456,5.70243763E-09,-0.923879504
@@ -29084,7 +29085,7 @@ PART
 	part = conformaldecals-text_4292208720
 	partName = Part
 	persistentId = 555607900
-	pos = -0.943442225,23.3702354,0.943425417
+	pos = -0.943442225,23.3522911,0.943425417
 	attPos = 0,0,0
 	attPos0 = -0.943425477,5.50947189,0.943425417
 	rot = -5.70243675E-09,-0.923879564,1.37669014E-08,-0.382683426
@@ -29243,7 +29244,7 @@ PART
 	part = conformaldecals-text_4292208636
 	partName = Part
 	persistentId = 1640099774
-	pos = 0.943408847,23.3702354,0.943425417
+	pos = 0.943408847,23.3522911,0.943425417
 	attPos = 0,0,0
 	attPos0 = 0.943425596,5.50947189,0.943425417
 	rot = 5.70243808E-09,-0.923879504,1.37669005E-08,0.382683486
@@ -29402,7 +29403,7 @@ PART
 	part = conformaldecals-text_4292208552
 	partName = Part
 	persistentId = 423583193
-	pos = 0.943408608,23.3702354,-0.943425536
+	pos = 0.943408608,23.3522911,-0.943425536
 	attPos = 0,0,0
 	attPos0 = 0.943425357,5.50947189,-0.943425536
 	rot = 1.37669014E-08,-0.382683426,5.70243675E-09,0.923879564
@@ -29561,7 +29562,7 @@ PART
 	part = ROSmallSpinMotor_4285945586
 	partName = Part
 	persistentId = 1788302414
-	pos = -1.23871779,30.4440956,8.87339411E-08
+	pos = -1.23871779,30.4261513,8.87339411E-08
 	attPos = 0,-0.0992450714,0.00814116001
 	attPos0 = -1.23870099,-2.43408203,7.38327799E-08
 	rot = -0.707106829,1.05366937E-07,0.707106829,1.05366944E-07
@@ -29857,7 +29858,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -30005,7 +30006,7 @@ PART
 	part = ROSmallSpinMotor_4285945298
 	partName = Part
 	persistentId = 1260810331
-	pos = 1.23868418,30.4440956,-1.67222424E-07
+	pos = 1.23868418,30.4261513,-1.67222424E-07
 	attPos = 0,-0.0992450714,0.00814116001
 	attPos0 = 1.23870099,-2.43408203,-1.82123586E-07
 	rot = 0.707106888,1.05366937E-07,0.707106769,-1.05366944E-07
@@ -30301,7 +30302,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4374.55078
 		initialFlightData = 4374.55078
-		missionStartTime = 427598335.67559171
+		missionStartTime = 427713157.61536098
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -30467,7 +30468,7 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 211.726456
+	modCost = 238.317261
 	modMass = 0.266008049
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4286046206
@@ -30534,6 +30535,7 @@ PART
 		sideThickness = 0.125
 		meshPos = (-1.25, 0.162499994, 0)
 		meshRot = (0, 0, 0, 1)
+		hingeOffset = (-0.125, 0.162499994, 0)
 		density = 0.143000007
 		usePreset = True
 		shapePreset = Egg
@@ -30549,6 +30551,7 @@ PART
 		noseConeSegments = 11
 		noseHeightRatio = 2
 		shapeLock = False
+		hingeEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -30579,6 +30582,45 @@ PART
 			ActionJettison
 			{
 				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 50
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -30782,7 +30824,7 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 211.726456
+	modCost = 238.317261
 	modMass = 0.266008049
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4289609348
@@ -30849,6 +30891,7 @@ PART
 		sideThickness = 0.125
 		meshPos = (-1.25, 0.162499994, 0)
 		meshRot = (0, 0, 0, 1)
+		hingeOffset = (-0.125, 0.162499994, 0)
 		density = 0.143000007
 		usePreset = True
 		shapePreset = Egg
@@ -30864,6 +30907,7 @@ PART
 		noseConeSegments = 11
 		noseHeightRatio = 2
 		shapeLock = False
+		hingeEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -30894,6 +30938,45 @@ PART
 			ActionJettison
 			{
 				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 50
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
