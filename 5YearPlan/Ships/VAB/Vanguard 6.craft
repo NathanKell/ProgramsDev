@@ -2,9 +2,9 @@ ship = Vanguard 6
 version = 1.12.3
 description = 
 type = VAB
-size = 24.0717163,39.4024658,24.0717201
+size = 24.0717163,39.4024811,24.0717201
 steamPublishedFileId = 0
-persistentId = 3967100280
+persistentId = 882300629
 rot = 0,0,0,0
 missionFlag = PapFlags/Flags/Soviet Union
 vesselType = Debris
@@ -12,12 +12,12 @@ OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
 OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
-_modVersions = Scale_Redist=2.4.7|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|B9PartSwitch=2.20.0|B9-PWings-Fork=0.44.0|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.6.1|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DebugStuff=1.6.0|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|EarlyBird=0.2.1|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|KerbalChangelog=1.4.2|KerbalismBootstrap=3.17.0|KerbalJointReinforcement=3.7.1|Renamer=1.7.0|HyperEdit=1.5.8|Kopernicus.Parser=1.0.0|Kopernicus=1.12.181|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.30.0|KSPWheel=0.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.3.2|MechJeb2=2.14.3|System.Buffers=4.6.28619|MouseAimFlight=0.0.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|NearFutureExploration=0.4.0|NearFutureSolar=0.4.0|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|principia.ksp_plugin_adapter=1.0.0|ProceduralFairings=6.3.0|ProceduralParts=2.5.4|RCSBuildAid=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|RealFuels=15.6.3|System.Core=4.6.57|RealHeat=5.1.0|RealismOverhaul=14.99.0|ROInstallChecker=1.0.0|RealSolarSystem=20.0.0|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.0.0|ROHeatshields=1.1.0|ROLib=1.7.2|System=4.6.57|ROLoadingImages=1.0.0|RP0=2.8.1|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|Shabby=0.3.0|SmokeScreen=2.8.14|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|TransferWindowPlanner=1.9.1|Waterfall=0.0.0|Kerbalism=3.17.0
+_modVersions = Scale_Redist=2.4.7|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|B9PartSwitch=2.20.0|B9-PWings-Fork=0.44.0|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.6.1|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DebugStuff=1.6.0|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|EarlyBird=0.2.1|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|KerbalChangelog=1.4.2|KerbalismBootstrap=3.17.0|KerbalJointReinforcement=3.7.1|Renamer=1.7.0|HyperEdit=1.5.8|Kopernicus.Parser=1.0.0|Kopernicus=1.12.181|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.30.0|KSPWheel=0.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.3.2|MechJeb2=2.14.3|System.Buffers=4.6.28619|MouseAimFlight=0.0.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|NearFutureExploration=0.4.0|NearFutureSolar=0.4.0|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|principia.ksp_plugin_adapter=1.0.0|ProceduralFairings=6.4.1|ProceduralParts=2.5.4|RCSBuildAid=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|RealFuels=15.6.3|System.Core=4.6.57|RealHeat=5.1.0|RealismOverhaul=14.99.0|ROInstallChecker=1.0.0|RealSolarSystem=20.0.0|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.0.0|ROHeatshields=1.1.0|ROLib=1.7.2|System=4.6.57|ROLoadingImages=1.0.0|RP0=2.8.1|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|Shabby=0.3.0|SmokeScreen=2.8.14|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|TransferWindowPlanner=1.9.1|Waterfall=0.0.0|Kerbalism=3.17.0
 PART
 {
 	part = ROT-ProbeCore_4292873922
 	partName = Part
-	persistentId = 4282483535
+	persistentId = 3403272111
 	pos = -1.75227742E-05,41.4378128,4.27919304E-06
 	attPos = 0,0,0
 	attPos0 = -1.75227742E-05,41.4378128,4.27919304E-06
@@ -1938,6 +1938,7 @@ PART
 			upgrade = commsTL1
 			upgrade = commsTL2
 			upgrade = commsTL3
+			upgrade = commsTL4
 		}
 	}
 	MODULE
@@ -1990,7 +1991,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4289988536
 	partName = Part
-	persistentId = 4294677014
+	persistentId = 3751287582
 	pos = 0.425424337,41.277298,-0.42543751
 	attPos = 0,0,0
 	attPos0 = 0.253031313,-0.15114823,-0.353031248
@@ -2122,6 +2123,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -2218,7 +2221,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4289984674
 	partName = Part
-	persistentId = 296323925
+	persistentId = 3590203115
 	pos = -0.425459266,41.277298,-0.42543757
 	attPos = 0,0,0
 	attPos0 = -0.453031212,-0.15114823,-0.353031307
@@ -2350,6 +2353,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -2446,7 +2451,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4289984520
 	partName = Part
-	persistentId = 907247215
+	persistentId = 3055324817
 	pos = -0.425459355,41.277298,0.425446093
 	attPos = 0,0,0
 	attPos0 = -0.453031272,-0.15114823,0.353031278
@@ -2578,6 +2583,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -2674,7 +2681,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4289984366
 	partName = Part
-	persistentId = 3510824848
+	persistentId = 267456790
 	pos = 0.425424248,41.277298,0.425446093
 	attPos = 0,0,0
 	attPos0 = 0.253031254,-0.15114823,0.353031278
@@ -2806,6 +2813,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -2902,7 +2911,7 @@ PART
 {
 	part = RO-RFTank-Integral_4290164062
 	partName = Part
-	persistentId = 1869831269
+	persistentId = 537261529
 	pos = -1.75227742E-05,40.95401,4.27919304E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.466308594,0
@@ -3409,7 +3418,7 @@ PART
 {
 	part = ROE-generic-full_4291388052
 	partName = Part
-	persistentId = 3603023615
+	persistentId = 2517161892
 	pos = -1.75227742E-05,41.0135117,4.27919304E-06
 	attPos = 0,0.496997833,0
 	attPos0 = 0,-0.470001221,0
@@ -3750,7 +3759,7 @@ PART
 {
 	part = proceduralStructural_4292071536
 	partName = Part
-	persistentId = 1781471797
+	persistentId = 1643734468
 	pos = -1.75626701E-05,41.2830734,-0.634186506
 	attPos = 0,0.33890152,-0.184661031
 	attPos0 = -3.98958946E-08,-0.00983810425,-0.449529767
@@ -4166,7 +4175,7 @@ PART
 {
 	part = proceduralStructural_4292069674
 	partName = Part
-	persistentId = 2812179306
+	persistentId = 2976067884
 	pos = -0.634208322,41.2830734,4.28128806E-06
 	attPos = -0.184661061,0.33890152,-1.10066765E-08
 	attPos0 = -0.449529737,-0.00983810425,1.31018396E-08
@@ -4582,7 +4591,7 @@ PART
 {
 	part = proceduralStructural_4292069564
 	partName = Part
-	persistentId = 3203871199
+	persistentId = 4013675711
 	pos = -1.74274355E-05,41.2830734,0.634195089
 	attPos = 1.6143531E-08,0.33890152,0.184661031
 	attPos0 = 7.91951607E-08,-0.00983810425,0.449529767
@@ -4998,7 +5007,7 @@ PART
 {
 	part = proceduralStructural_4292069454
 	partName = Part
-	persistentId = 1359818078
+	persistentId = 1885836049
 	pos = 0.634173155,41.2830734,4.20149627E-06
 	attPos = 0.184660941,0.33890152,-1.1006648E-08
 	attPos0 = 0.449529737,-0.00983810425,-6.66899496E-08
@@ -5414,8 +5423,8 @@ PART
 {
 	part = RCSBlockSmall.28_4291369088
 	partName = Part
-	persistentId = 899445286
-	pos = -1.75665609E-05,41.2779465,-0.835578322
+	persistentId = 1664012571
+	pos = -1.75665609E-05,41.2779465,-0.835578442
 	attPos = -9.3066177E-10,0.00416910648,0.0289726295
 	attPos0 = -2.98198488E-09,0.600000203,-0.034099523
 	rot = 0.707106829,0,0.707106829,0
@@ -5712,7 +5721,7 @@ PART
 {
 	part = RCSBlockSmall.28_4292028066
 	partName = Part
-	persistentId = 2543821277
+	persistentId = 493844488
 	pos = -0.835598111,41.2779465,4.28501335E-06
 	attPos = -4.470348E-08,0.00416904688,0.0289726332
 	attPos0 = 4.09781897E-08,0.600000322,-0.0340995863
@@ -6010,8 +6019,8 @@ PART
 {
 	part = RCSBlockSmall.28_4292027546
 	partName = Part
-	persistentId = 722012759
-	pos = -1.74059387E-05,41.2779465,0.835587025
+	persistentId = 1819135101
+	pos = -1.74059387E-05,41.2779465,0.835587144
 	attPos = -9.29986754E-10,0.00416922569,0.0289726295
 	attPos0 = -2.98248937E-09,0.600000322,-0.0340996422
 	rot = 0.707106769,0,-0.707106948,0
@@ -6308,7 +6317,7 @@ PART
 {
 	part = RCSBlockSmall.28_4292027026
 	partName = Part
-	persistentId = 76790744
+	persistentId = 27648794
 	pos = 0.835562944,41.2779465,4.19777098E-06
 	attPos = 6.70552396E-08,0.00416904688,0.0289726332
 	attPos0 = -7.07805299E-08,0.600000322,-0.0340995863
@@ -6882,7 +6891,7 @@ PART
 {
 	part = RO-HeliumMagnet_4291893110
 	partName = Part
-	persistentId = 948384979
+	persistentId = 2373917336
 	pos = -1.75227742E-05,41.6378136,4.27919304E-06
 	attPos = 0,-0.0474472046,-0.0476065315
 	attPos0 = 0,0.247447968,0.0476065315
@@ -7118,7 +7127,7 @@ PART
 {
 	part = ROT-ProbeCore_4292328092
 	partName = Part
-	persistentId = 4124321772
+	persistentId = 855113120
 	pos = -1.75227742E-05,40.1199265,4.27919304E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.437908173,0
@@ -8453,6 +8462,7 @@ PART
 			upgrade = commsTL1
 			upgrade = commsTL2
 			upgrade = commsTL3
+			upgrade = commsTL4
 		}
 	}
 	MODULE
@@ -8505,7 +8515,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4292327898
 	partName = Part
-	persistentId = 1837893255
+	persistentId = 2664082621
 	pos = 0.425424337,39.9594116,-0.42543751
 	attPos = 0,0,0
 	attPos0 = 0.253031313,-0.15114823,-0.353031248
@@ -8637,6 +8647,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -8733,7 +8745,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4292327762
 	partName = Part
-	persistentId = 3121713178
+	persistentId = 620549513
 	pos = -0.425459266,39.9594116,-0.42543757
 	attPos = 0,0,0
 	attPos0 = -0.453031212,-0.15114823,-0.353031307
@@ -8865,6 +8877,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -8961,7 +8975,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4292327626
 	partName = Part
-	persistentId = 862789689
+	persistentId = 1731936301
 	pos = -0.425459355,39.9594116,0.425446093
 	attPos = 0,0,0
 	attPos0 = -0.453031272,-0.15114823,0.353031278
@@ -9093,6 +9107,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -9189,7 +9205,7 @@ PART
 {
 	part = ROS-HingedSolarPanel_4292327490
 	partName = Part
-	persistentId = 2120507597
+	persistentId = 1866419068
 	pos = 0.425424248,39.9594116,0.425446093
 	attPos = 0,0,0
 	attPos0 = 0.253031254,-0.15114823,0.353031278
@@ -9321,6 +9337,8 @@ PART
 		{
 			upgrade = solarTL1
 			upgrade = solarTL2
+			upgrade = solarTL3
+			upgrade = solarTL4
 		}
 	}
 	MODULE
@@ -9417,7 +9435,7 @@ PART
 {
 	part = RO-RFTank-Integral_4292327354
 	partName = Part
-	persistentId = 2610625342
+	persistentId = 2921521935
 	pos = -1.75227742E-05,39.6361237,4.27919304E-06
 	attPos = 0,0,0
 	attPos0 = 0,-0.466308594,0
@@ -9924,7 +9942,7 @@ PART
 {
 	part = ROE-generic-full_4292327118
 	partName = Part
-	persistentId = 4008919420
+	persistentId = 885619978
 	pos = -1.75227742E-05,39.6956253,4.27919304E-06
 	attPos = 0,0.496997833,0
 	attPos0 = 0,-0.470001221,0
@@ -10257,7 +10275,7 @@ PART
 {
 	part = proceduralStructural_4292326854
 	partName = Part
-	persistentId = 3472668224
+	persistentId = 1002670225
 	pos = -1.75626701E-05,39.9651871,-0.634186506
 	attPos = 0,0.33890152,-0.184661031
 	attPos0 = -3.98958946E-08,-0.00983810425,-0.449529767
@@ -10673,8 +10691,8 @@ PART
 {
 	part = RCSBlockSmall.28_4292326752
 	partName = Part
-	persistentId = 373767912
-	pos = -1.75665609E-05,39.9600601,-0.835578442
+	persistentId = 692106234
+	pos = -1.75665609E-05,39.9600601,-0.835578561
 	attPos = -9.3066177E-10,0.00416910648,0.0289726295
 	attPos0 = -2.98198488E-09,0.600000203,-0.034099523
 	rot = 0.707106829,0,0.707106829,0
@@ -10971,7 +10989,7 @@ PART
 {
 	part = proceduralStructural_4292326296
 	partName = Part
-	persistentId = 2765363814
+	persistentId = 1675573824
 	pos = -0.634208322,39.9651871,4.28128806E-06
 	attPos = -0.184661061,0.33890152,-1.10066765E-08
 	attPos0 = -0.449529737,-0.00983810425,1.31018396E-08
@@ -11387,7 +11405,7 @@ PART
 {
 	part = RCSBlockSmall.28_4292326194
 	partName = Part
-	persistentId = 31192621
+	persistentId = 2907086166
 	pos = -0.835598111,39.9600601,4.28501335E-06
 	attPos = -4.470348E-08,0.00416904688,0.0289726332
 	attPos0 = 4.09781897E-08,0.600000322,-0.0340995863
@@ -11685,7 +11703,7 @@ PART
 {
 	part = proceduralStructural_4292325738
 	partName = Part
-	persistentId = 3292650210
+	persistentId = 1181996066
 	pos = -1.74274355E-05,39.9651871,0.634195089
 	attPos = 1.6143531E-08,0.33890152,0.184661031
 	attPos0 = 7.91951607E-08,-0.00983810425,0.449529767
@@ -12101,8 +12119,8 @@ PART
 {
 	part = RCSBlockSmall.28_4292325636
 	partName = Part
-	persistentId = 308558216
-	pos = -1.74059387E-05,39.9600601,0.835587144
+	persistentId = 2251211446
+	pos = -1.74059387E-05,39.9600601,0.835587263
 	attPos = -9.29986754E-10,0.00416922569,0.0289726295
 	attPos0 = -2.98248937E-09,0.600000322,-0.0340996422
 	rot = 0.707106769,0,-0.707106948,0
@@ -12399,7 +12417,7 @@ PART
 {
 	part = proceduralStructural_4292325180
 	partName = Part
-	persistentId = 2944518078
+	persistentId = 3395044433
 	pos = 0.634173155,39.9651871,4.20149627E-06
 	attPos = 0.184660941,0.33890152,-1.1006648E-08
 	attPos0 = 0.449529737,-0.00983810425,-6.66899496E-08
@@ -12815,7 +12833,7 @@ PART
 {
 	part = RCSBlockSmall.28_4292325078
 	partName = Part
-	persistentId = 1690873052
+	persistentId = 3899002500
 	pos = 0.835562944,39.9600601,4.19777098E-06
 	attPos = 6.70552396E-08,0.00416904688,0.0289726332
 	attPos0 = -7.07805299E-08,0.600000322,-0.0340995863
@@ -13214,6 +13232,7 @@ PART
 		manualMaxSize = 2.25
 		manualCylStart = 0
 		manualCylEnd = 2.60000014
+		maxFairingSize = 2.25
 		decouplerEnabled = True
 		autoDecoupleTopNode = False
 		showInterstageNodes = False
@@ -13715,9 +13734,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14161,9 +14180,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14607,9 +14626,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15053,9 +15072,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16641,6 +16660,7 @@ PART
 			upgrade = commsTL1
 			upgrade = commsTL2
 			upgrade = commsTL3
+			upgrade = commsTL4
 		}
 	}
 	MODULE
@@ -19568,9 +19588,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2255.19312
-		initialFlightData = 2255.19312
-		missionStartTime = 426268886.85274041
+		currentFlightData = 3394.89209
+		initialFlightData = 3394.89209
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21464,6 +21484,7 @@ PART
 			upgrade = commsTL1
 			upgrade = commsTL2
 			upgrade = commsTL3
+			upgrade = commsTL4
 		}
 	}
 	MODULE
@@ -22224,9 +22245,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 5543.1499
-		initialFlightData = 5543.1499
-		missionStartTime = 426268886.85274041
+		currentFlightData = 7161.79004
+		initialFlightData = 7161.79004
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -23430,7 +23451,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 426268886.85274041
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25407,7 +25428,7 @@ PART
 	{
 		name = ModuleROTank
 		isEnabled = True
-		korolevCross = False
+		korolevCross = True
 		isFinished = False
 		currentDiameter = 2.5
 		currentLength = 1
@@ -25681,7 +25702,7 @@ PART
 	pos = -1.65690999E-05,5.06457138,-2.95909095
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995359477,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.0099535957,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -26014,7 +26035,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 426268886.85274041
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26292,7 +26313,7 @@ PART
 	{
 		name = ModuleROTank
 		isEnabled = True
-		korolevCross = False
+		korolevCross = True
 		isFinished = False
 		currentDiameter = 2.5
 		currentLength = 1.25
@@ -26563,7 +26584,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 1393336697
-	pos = -2.95911288,5.06457138,6.31690727E-06
+	pos = -2.95911288,5.06457138,6.34197249E-06
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -26899,7 +26920,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 426268886.85274041
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -27177,7 +27198,7 @@ PART
 	{
 		name = ModuleROTank
 		isEnabled = True
-		korolevCross = False
+		korolevCross = True
 		isFinished = False
 		currentDiameter = 2.5
 		currentLength = 1.25
@@ -27784,7 +27805,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 426268886.85274041
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -28062,7 +28083,7 @@ PART
 	{
 		name = ModuleROTank
 		isEnabled = True
-		korolevCross = False
+		korolevCross = True
 		isFinished = False
 		currentDiameter = 2.5
 		currentLength = 1.25
@@ -28333,7 +28354,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 68228389
-	pos = 2.95907807,5.06457138,6.05617242E-06
+	pos = 2.95907807,5.06457138,6.06090953E-06
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -28669,7 +28690,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 426268886.85274041
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -30379,9 +30400,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -30823,9 +30844,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4299.44189
-		initialFlightData = 4299.44189
-		missionStartTime = 426268886.85274041
+		currentFlightData = 4450.08691
+		initialFlightData = 4450.08691
+		missionStartTime = 431214550.29124296
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -30991,7 +31012,7 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 211.726456
+	modCost = 238.317261
 	modMass = 0.266008049
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4286046206
@@ -31058,6 +31079,7 @@ PART
 		sideThickness = 0.125
 		meshPos = (-1.25, 0.162499994, 0)
 		meshRot = (0, 0, 0, 1)
+		hingeOffset = (-0.125, 0.162499994, 0)
 		density = 0.143000007
 		usePreset = True
 		shapePreset = Egg
@@ -31073,6 +31095,7 @@ PART
 		noseConeSegments = 11
 		noseHeightRatio = 2
 		shapeLock = False
+		hingeEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -31103,6 +31126,45 @@ PART
 			ActionJettison
 			{
 				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 50
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
@@ -31306,7 +31368,7 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 211.726456
+	modCost = 238.317261
 	modMass = 0.266008049
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4289609348
@@ -31373,6 +31435,7 @@ PART
 		sideThickness = 0.125
 		meshPos = (-1.25, 0.162499994, 0)
 		meshRot = (0, 0, 0, 1)
+		hingeOffset = (-0.125, 0.162499994, 0)
 		density = 0.143000007
 		usePreset = True
 		shapePreset = Egg
@@ -31388,6 +31451,7 @@ PART
 		noseConeSegments = 11
 		noseHeightRatio = 2
 		shapeLock = False
+		hingeEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -31418,6 +31482,45 @@ PART
 			ActionJettison
 			{
 				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 50
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
 			}
 		}
 		UPGRADESAPPLIED
