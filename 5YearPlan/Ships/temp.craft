@@ -2133,7 +2133,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 8.7663784
-	modMass = 0.00800000038
+	modMass = 0.00700000022
 	modSize = 0,0,0
 	link = SSTUBase.Interstage_4291789500
 	attN = top,SSTUBase.Interstage_4291789500_0|1.53348005|0_0|1|0_0|1.53348005|0_0|1|0
@@ -2836,6 +2836,105 @@ PART
 	MODULE
 	{
 		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
 		isEnabled = True
 		issue = 
 		situationId = 0
@@ -2880,105 +2979,6 @@ PART
 		prodFactor = 0
 		expState = Running
 		status = Waiting
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3233,8 +3233,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = #3Orbital Maneuvering-Visual Acuity/Food Evaluation
-		prev_cfg = #3Orbital Maneuvering-Visual Acuity/Food Evaluation
+		cfg = #5Power Tool Evaluation:Simple Organism Egg Growth/Food Evaluation
+		prev_cfg = #5Power Tool Evaluation:Simple Organism Egg Growth/Food Evaluation
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6145,7 +6145,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6579,7 +6579,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7013,7 +7013,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7447,7 +7447,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7881,7 +7881,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8315,7 +8315,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8749,7 +8749,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9183,7 +9183,7 @@ PART
 		lastMET = 0
 		currentFlightData = 1000
 		initialFlightData = 1000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -10497,10 +10497,8 @@ PART
 	}
 	MODULE
 	{
-		name = KopernicusSolarPanel
+		name = ModuleDeployableSolarPanel
 		isEnabled = True
-		trackingBodyName = 
-		_manualTracking = False
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0.707106829, 9.41569667E-08, 0.707106829, -9.41569667E-08)
@@ -10519,7 +10517,7 @@ PART
 			}
 			ExtendAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 			}
 			RetractAction
 			{
@@ -10580,16 +10578,35 @@ PART
 		name = SolarPanelFixer
 		isEnabled = False
 		editorEnabled = True
-		nominalRate = 10
+		nominalRate = 0.65000000000000002
 		persistentFactor = 1
-		state = Unknown
+		state = Retracted
 		trackedSunIndex = 0
 		manualTracking = False
 		launchUT = -1
 		stagingEnabled = True
 		timeEfficCurve
 		{
+			key = 0 1 -4.857183E-05 -4.857183E-05
+			key = 2880 0.8 -6.909225E-06 -6.909225E-06
+			key = 87600 0.4 -8.063763E-07 -8.063763E-07
+			key = 876000 0.01 -4.946729E-07 -4.946729E-07
 		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleROSolarPanel
+		isEnabled = True
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -10692,10 +10709,8 @@ PART
 	}
 	MODULE
 	{
-		name = KopernicusSolarPanel
+		name = ModuleDeployableSolarPanel
 		isEnabled = True
-		trackingBodyName = 
-		_manualTracking = False
 		efficiencyMult = 1
 		launchUT = -1
 		currentRotation = (0, -0.707106829, 0, 0.707106829)
@@ -10714,7 +10729,7 @@ PART
 			}
 			ExtendAction
 			{
-				actionGroup = Custom01
+				actionGroup = None
 			}
 			RetractAction
 			{
@@ -10775,16 +10790,35 @@ PART
 		name = SolarPanelFixer
 		isEnabled = False
 		editorEnabled = True
-		nominalRate = 10
+		nominalRate = 0.65000000000000002
 		persistentFactor = 1
-		state = Unknown
+		state = Retracted
 		trackedSunIndex = 0
 		manualTracking = False
 		launchUT = -1
 		stagingEnabled = True
 		timeEfficCurve
 		{
+			key = 0 1 -4.857183E-05 -4.857183E-05
+			key = 2880 0.8 -6.909225E-06 -6.909225E-06
+			key = 87600 0.4 -8.063763E-07 -8.063763E-07
+			key = 876000 0.01 -4.946729E-07 -4.946729E-07
 		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleROSolarPanel
+		isEnabled = True
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -11178,7 +11212,7 @@ PART
 		type = Tank-Iso-Al-HP
 		utilization = 93
 		volume = 496.34989999999999
-		mass = 0.052978836
+		mass = 0.0529788397
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -13781,7 +13815,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14985,7 +15019,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17236,7 +17270,7 @@ PART
 	pos = -6.55651093E-06,6.4666214,-2.95909476
 	attPos = 2.37919551E-09,0.151404381,4.47034623E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
-	rot = -0.00995350908,-0.707035542,-0.00995360408,-0.707038045
+	rot = -0.00995350908,-0.707035542,-0.00995360501,-0.707038045
 	attRot = 0,0,0,1
 	attRot0 = 3.72717048E-13,-0.707107842,-3.72718322E-13,0.707105696
 	mir = 1,1,1
@@ -17569,7 +17603,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -18118,7 +18152,7 @@ PART
 	part = ROE-RD107_4291229684
 	partName = Part
 	persistentId = 2729574756
-	pos = -2.95910311,6.4666214,2.85461056E-06
+	pos = -2.95910311,6.4666214,2.87967578E-06
 	attPos = 2.79396914E-08,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = -0.0140763745,-0.999901056,1.62981451E-08,-1.84774399E-06
@@ -18454,7 +18488,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19339,7 +19373,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -19888,7 +19922,7 @@ PART
 	part = ROE-RD107_4291227840
 	partName = Part
 	persistentId = 3114293722
-	pos = 2.95908785,6.4666214,2.39059455E-06
+	pos = 2.95908785,6.4666214,2.39533165E-06
 	attPos = -1.86263094E-09,0.151404381,7.45057847E-08
 	attPos0 = -1.42107565E-14,-9.02383041,-1.19209268E-07
 	rot = 1.35041773E-08,-1.78813934E-06,0.0140763726,0.999900997
@@ -20224,7 +20258,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21936,7 +21970,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4919.09277
 		initialFlightData = 4919.09277
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22380,7 +22414,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4919.09277
 		initialFlightData = 4919.09277
-		missionStartTime = 462016789.15257782
+		missionStartTime = 468971137.89917594
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
